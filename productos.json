@@ -1,0 +1,191 @@
+[
+    {
+        "id": "1",
+        "nombre": "WEB ECONOMICO",
+        "descripcion": "Web Economico, diseñado para gente que quiere tener presencia en linea, pero con bajo presupuesto, CR WEB DESIGN te brinda la el apoyo que necesites para inciar.",
+        "img": "./imagenes/pg-r5700g.jpeg",
+        "precio": 85370
+    },
+    {
+        "id": "2",
+        "nombre": "WEB PROFESIONAL",
+        "descripcion": "Web Profesional diseñada con estructura HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio profesional requiere.",
+        "img": "./imagenes/Mouse3.png",
+        "precio": 17553
+    },
+    {
+        "id": "3",
+        "nombre": "WEB LANDING PAGE",
+        "descripcion": "Web Landing Page sitios especialemente diseñados para la exposicion de productos, o eventos, codigos promocionales o visitas que redirijan a sitios de interes, se usa mucho en eventos para promocionar una marca, producto, etc..",
+        "img": "./images/LandingPage.svg",
+        "precio": 79350
+    },
+    {
+        "id": "4",
+        "nombre": "WEB PORTFOLIO",
+        "descripcion": "Web Portfolio, servicio orientado a emprendedores o profesionales que deseen dar su presencia en linea y exponer sus habilidades, experiencias y servicios, en un portfolio unico para cada especialidad.",
+        "img": "./images/PortfolioWeb.svg",
+        "precio": 334253
+    },
+    {
+        "id": "5",
+        "nombre": "WEN ECOMMERCE INCIAL",
+        "descripcion": "Web Ecommerce Inicial, en esta etapa de proyecto, se dara incio a su actividad en linea, se podran agregar 5 productos, y agregar 5 secciones, 10 imagenes y 2 cuentas de correo electronico.",
+        "img": "./imagenes/DiscoExterno.jpeg",
+        "precio": 64253
+    },
+    {
+        "id": "6",
+        "nombre": "WEB ECOMMERCE INTERMEDIO",
+        "descripcion": "Web Ecommerce Intermedio, manteniendo la misma estructura que Ecommerce Inicial, el Intermedio adiciona 15 productos, 20 imagenes, pasarela de pago, formulario de contacto.",
+        "img": "./imagenes/Coolers.jpeg",
+        "precio": 134253
+    },
+    {
+        "id": "7",
+        "nombre": "WEB ECOMMERCE AVANZADO",
+        "descripcion": "Web Ecommerce Avanzado, siguiendo el mismo orden de ideas que Ecommerce Intermedio, en esta etapa de proyecto se agregaran 25 productos, 30 images, correos ilimitados, dominio .com.ar, pasarelas de pago, correo electronico, hosting incluido por 6 meses, certificado SSL.",
+        "img": "./images/Ecommerce.svg",
+        "precio": 21322
+    },
+    {
+        "id": "8",
+        "nombre": "WEB ECOMMERCE EMPRESARIAL",
+        "descripcion": "Web Ecommerce Empresarial, siguiendo el mismo orden de ideas que Ecommerce Avanzado, en esta etapa de proyecto se agregaran 50 productos, 70 images, correos ilimitados, dominio .com.ar, configuracion de pasarelas de pago, configuracion de correo electronico, hosting incluido por 6 meses, certificado SSL, mantenimiento gratuito por 45 dias, curso de uso: Incluido en el Paquete.",
+        "img": "./images/Ecommerce.svg",
+        "precio": 355403
+    },
+    {
+        "id": "9",
+        "nombre": "WEB ECOMMERCE INFORMATICA",
+        "descripcion": "Web Ecommerce Informatica, si tu idea es un Ecommerce de Informatica, este paquete es para vos! Ecommerce Completo: 100++ Productos, 100++ Imagenes, correos ilimitados, Seccion de 'ARMA TU PC', Tienda de Productos, Pagina de Producto, CheckOut personalizado, Actualizacion de Precios Masiva, dominio .com.ar, configuracion de pasarelas de pago, configuracion de correo electronico, hosting incluido por 6 meses, certificado SSL, mantenimiento gratuito por 45 dias, curso de uso: Incluido en el Paquete. ",
+        "img": "./images/Ecommerce.svg",
+        "precio": 25403
+    },
+    {
+        "id": "10",
+        "nombre": "WEB EMPRESA INSTITUCIONAL",
+        "descripcion": "Web Empresa Institucional, diseño elegante y atractivo, diseñado con estructura HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio necesita.",
+        "img": "./images/Business.svg",
+        "precio": 125403
+    },
+    {
+        "id": "11",
+        "nombre": "WEB COMERCIO GASTRONOMICO",
+        "descripcion": "Web Comercio Gastronomico, ofrecemos un amplio servicio, desde la toma de imagenes profesionales de sus productos, como videos de presentacion, en armonia con un sitio atrativo y 100% funcional, muestra de catalogo de productos, ubicacion en tiempo real, chat online, y pasarelas de pago.",
+        "img": "./images/ComercioGastronomico.svg",
+        "precio": 28403
+    },
+    {
+        "id": "12",
+        "nombre": "WEB RUBRO GASISTA",
+        "descripcion": "Web para Profesionales con Oficios, diseño de presentacion de negocio, y conexion con los principales buscadores, redes sociales y configuracion de WhatsApp Business, correo electronico empresarial, diseño intuitivo, y acorde a las necesades del cliente.",
+        "img": "./imagenes/MSI-MAGFORCE2.png",
+        "precio": 35403
+    },
+    {
+        "id": "13",
+        "nombre": "WEB RUBRO ALBAÑILERIA",
+        "descripcion": "Web para Profesionales con Oficios, diseño de presentacion de negocio, y conexion con los principales buscadores, redes sociales y configuracion de WhatsApp Business, correo electronico empresarial, diseño intuitivo, y acorde a las necesades del cliente.",
+        "img": "./imagenes/nvme-wd.png",
+        "precio": 55403
+    },
+    {
+        "id": "14",
+        "nombre": "WEB RUBRO HERRERIA",
+        "descripcion": "Web para Profesionales con Oficios, diseño de presentacion de negocio, y conexion con los principales buscadores, redes sociales y configuracion de WhatsApp Business, correo electronico empresarial, diseño intuitivo, y acorde a las necesades del cliente.",
+        "img": "./imagenes/SSD240GB-KINGSTON-SA400S.png",
+        "precio": 21403
+    },
+    {
+        "id": "15",
+        "nombre": "WEB RUBRO ELECTRICISTA",
+        "descripcion": "Web para Profesionales con Oficios, diseño de presentacion de negocio, y conexion con los principales buscadores, redes sociales y configuracion de WhatsApp Business, correo electronico empresarial, diseño intuitivo, y acorde a las necesades del cliente.",
+        "img": "./imagenes/TT-RYZEN-V200.png",
+        "precio": 35403
+    },
+    {
+        "id": "16",
+        "nombre": "WEB RUBRO PLOMERO",
+        "descripcion": "Web para Profesionales con Oficios, diseño de presentacion de negocio, y conexion con los principales buscadores, redes sociales y configuracion de WhatsApp Business, correo electronico empresarial, diseño intuitivo, y acorde a las necesades del cliente.",
+        "img": "./imagenes/MONITOR-SAMSUNG.jpg",
+        "precio": 355403
+    },
+    {
+        "id": "17",
+        "nombre": "WEB RUBRO CARPINTERIA",
+        "descripcion": "Web para Profesionales con Oficios, diseño de presentacion de negocio, y conexion con los principales buscadores, redes sociales y configuracion de WhatsApp Business, correo electronico empresarial, diseño intuitivo, y acorde a las necesades del cliente.",
+        "img": "./imagenes/INTEL222.jpg",
+        "precio": 175403
+    },
+    {
+        "id": "18",
+        "nombre": "WEB RUBO PSICOLOGIA",
+        "descripcion": "Web Profesional diseñada con estructura HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio necesita.",
+        "img": "./imagenes/Mouse-Pad.jpeg",
+        "precio": 21403
+    },
+    {
+        "id": "19",
+        "nombre": "WEB RUBRO ABOGACIA",
+        "descripcion": "Web Profesional diseñada con estructura HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio necesita.",
+        "img": "./imagenes/PG-SSD.jpeg",
+        "precio": 49563
+    },
+    {
+        "id": "20",
+        "nombre": "WEB RUBRO VETERINARIO",
+        "descripcion": "Web orientada a la salud animal, diseño Profesional con servicios de gestion de turnos, slider de imagenes con informacion de la clinica, seccion de especialidades, personal medico, imagenes y servicios.",
+        "img": "./imagenes/Mouse.png",
+        "precio": 35403
+    },
+    {
+        "id": "21",
+        "nombre": "WEB RUBRO LOCAL COMERCIAL",
+        "descripcion": "Web Rubro Local Comercial se centra en la presencia en linea de un local comercial, desde la presencia en redes sociales, como la configuracion de Whatsapp Business, y el alta de bucadores, alta de empresa en google business, configurando Google Analitycs",
+        "img": "./images/Shop.svg",
+        "precio": 295403
+    },
+    {
+        "id": "22",
+        "nombre": "WEB RUBRO ARTISTAS GENERALES",
+        "descripcion": "Web Rubro Artistas, si sos artista y te gustaria dar a conocer tus conocimientos, o ofrecer tus servicios para que la gente contrate tus servicios, te presento un proyecto para que pueda cumplir tus metas y atraer clientes, diseño de sitio segun tus gustos y habilidades, servicio 100% personalizado.",
+        "img": "./images/artist.svg",
+        "precio": 535403
+    },
+    {
+        "id": "23",
+        "nombre": "WEB PERSONALIZADA",
+        "descripcion": "Web Profesional diseñada con estructura HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio necesita.",
+        "img": "./images/custom.svg",
+        "precio": 235403
+    },
+    {
+        "id": "24",
+        "nombre": "WEB PERSONALIZADA FULL TIME",
+        "descripcion": "Web Profesional diseñada con estructura HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio necesita.",
+        "img": "./images/custom.svg",
+        "precio": 412803
+    },
+    {
+        "id": "25",
+        "nombre": "WEB AUTOADMINISTRABLE",
+        "descripcion": "Web Profesional diseñada con CMS, sistema de gestion de contenidos, se emplea el uso de WordPress y se le da da dinamismo al sitio segun necesidad del cliente, sitios autogestionables y de escalabilidad constante, ideal para sitios de ecommerce.",
+        "img": "./images/Wordpress.svg",
+        "precio": 655403
+    },
+    {
+        "id": "26",
+        "nombre": "WEB EMPRESA PYME",
+        "descripcion": "Web Profesional diseñada con estructura HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio necesita, contanos que tipo de Pyme es, y como te gustaria que sea tu sitio, te ofrecemos un presupuestoa acorde a tus necesidades. .",
+        "img": "./images/custom.svg",
+        "precio": 655403
+    },
+    {
+        "id": "27",
+        "nombre": "WEB AUTONOMO",
+        "descripcion": "Web Autonomo, sos monotributista, tenes un emprendimiento con tu negocio y queres dar presencia en linea? Sitio 100% personalizado, totalmente diseñado con tecnologia HTML5, CSS3, JavaScript, ReactJS, pensada y enfocada a lo que tu negocio necesita.",
+        "img": "./images/custom.svg",
+        "precio": 655403
+    }
+]
