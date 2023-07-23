@@ -76,7 +76,7 @@ html {
 
 #inicio .contenido .presentacion {
     background: rgba(5, 5, 5, .5);
-    background-image: url(/images/FondoBlur.png);
+    background-image: url(./images/FondoBlur.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -471,7 +471,6 @@ button:active {
     box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
     cursor:pointer;
 }
-//SweetAlerts
 
 body.swal2-shown > [aria-hidden="true"] {
     transition: 0.05s filter;
