@@ -1,0 +1,48 @@
+@mixin shadow($radius , $eje) {
+    border-radius: $radius;
+    background: linear-gradient(225deg, #ffffff, #c0c0c0);
+  box-shadow: $eje $eje (
+        $eje*2) #777777,
+        (-$eje) (-$eje) ($eje*2) #ffffff;
+}
+
+.cajaShadow-1 {
+    @include shadow(15px, 12px);
+    background-color: white;
+    margin-top: 50px;
+    color: black;
+}
+
+.esfera {
+    color: black;
+    background-color: white;
+    @include shadow(205px, 20px)
+}
+
+/* Map + @EACH */
+
+$fcajas: (
+    caja1: #161616,
+    caja2: #303030,
+    caja3: #7a7a7a,
+    caja4: #ffffff
+);
+
+@each $clave, $valor in $fcajas {
+
+    .fondo-#{$clave} {
+        background-color: $valor;
+    }
+}
+/* Map Get */
+
+$estilos: (
+    centro: center,
+    
+);
+
+.div1 {
+    text-align: map-get($estilos, center);
+
+}
+

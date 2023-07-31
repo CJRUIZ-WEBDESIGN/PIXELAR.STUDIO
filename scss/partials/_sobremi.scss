@@ -1,0 +1,76 @@
+/* Sobre Mi */
+
+#sobremi {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #184ae0;
+    display: flex;
+}
+
+#sobremi .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img {
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#sobremi .sobremi {
+    margin: 0 40px;
+}
+
+#sobremi .sobremi h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span {
+    color: grey;
+}
+
+#sobremi .sobremi h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p {
+    font-size: 14px;
+    line-height: 25px;
+    color: grey;
+    margin-bottom: 12px;
+}
+
+#sobremi .sobremi a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#sobremi .sobremi a:hover {
+    background-color: #404040;
+    color: azure;
+}
+
+#sobremi .sobremi .titulo-section {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    margin: 0 40px;
+}

@@ -1,0 +1,84 @@
+
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
+
+.fa-square-instagram {
+    font-size: 1.5em;
+}
+
+.fa-facebook {
+    font-size: 1.5em;
+}
+
+.fa-github {
+    font-size: 1.5em;
+}
+
+.fa-linkedin {
+    font-size: 1.5em;
+}
+
+.fa-youtube {
+    font-size: 1.5em;
+}
+
+.fa-behance {
+    font-size: 1.5em;
+}
+
+.container-skill {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em;
+    
+}
+.fa-brands {
+    width: auto;
+
+}
+.fa-html5 {
+    list-style-type: none;
+    text-align: center;
+    font-size: 6em;
+    color: #eff240;
+    
+
+}
+
+.fa-css3 {
+    list-style-type: none;
+    color: #eff240;
+    text-align: center;
+    font-size: 6em;
+
+
+}
+
+.fa-js {
+    text-align: center;
+    font-size: 6em;
+    color: #eff240;
+
+}
+.skill__class {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+}
+
+.fondo_oscuro {
+    background-color: rgba($color: #000000, $alpha: .9);
+    width: 450px;
+    height: 550px;
+    border-radius: 4%;
+    border: 2px solid whitesmoke;
+    color: chartreuse;
+    font-size: 1.2em;
+}
