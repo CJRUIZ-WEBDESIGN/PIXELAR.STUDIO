@@ -2,21 +2,21 @@ const URL = "js/servicios.json"
 const carrito = [];
 const servicios = [];
 
+
 function cargarServicios() {
     container.innerHTML = "";
     servicios.forEach((servicio) => {
         container.innerHTML += cardReturn(servicio);
     });
-  }
-  
+}
+ 
 async function getServiciosAsync() {
     const response = await fetch(URL)
-    const data = await response.json()
+    const data = await response.json() 
     servicios.push(...data)
     cargarServicios()
 }
 getServiciosAsync()
-
 
 function mostrarServiciosCarrito() {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];

@@ -1,10 +1,11 @@
 #inicio {
     width: 100%;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: $scarpa-flow;
 }
 
  #inicio .contenido header {
-    background-color: rgba(0, 0, 0, .8);
+    background-color:$thunder ;
+
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -23,31 +24,33 @@
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: #ffffff;
+    color: $cavern-pink;
 }
 
 #inicio .contenido header .contenido-header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
-
+    justify-content:space-evenly;
 }
 
 #inicio .contenido header .contenido-header nav ul li a {
     text-decoration: none;
-    color: #fff;
-    margin: 0 12px;
+    color: $enlaces-orange;
+    margin: 0 1px;
     font-weight: 400;
     transition: .5s;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 #inicio .contenido header .contenido-header nav ul a:hover {
-    color: #ffffff;
+    color: $cavern-pink;
 }
 
 #inicio .contenido header .contenido-header .social a {
     text-decoration: none;
-    color: #fff;
+    color: $cavern-pink;
     display: inline-block;
     margin-left: 10px;
     transition: .5s;
@@ -67,7 +70,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
     color: #ffffffcc;
     display: flex;
@@ -135,4 +138,23 @@
 
 .img-blur {
     filter: blur(4px);
+}
+
+#elegidosSection {
+    display: inline-block;
+    position: relative;
+    justify-content:start;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+
+    align-items: center;
+}
+
+.mostrar-cms {
+width: 100%;
+}
+
+#mostrar-cms {
+width: 100%;
 }

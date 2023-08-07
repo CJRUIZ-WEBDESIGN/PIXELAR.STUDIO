@@ -133,11 +133,10 @@
     justify-content: space-between;
     width: 400px;
     height: 70em;
-    border-radius: 2px;
     -webkit-perspective: 250rem;
             perspective: 250rem;
     -moz-perspective: 150rem;
-
+    --bs-card-border-width: none;
 }
 
   .card__side {
@@ -148,15 +147,14 @@
     left: 0;
     width: 100%;
     height: 70em;
-
     background-color: transparent;
     -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    border-radius: 2px;
+    backface-visibility: hidden;
+    border-radius: 46px;
     overflow: hidden;
     -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-            box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-            border-radius: 7%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    text-shadow: 4px 5px 6px  rgb(0, 0, 0);
 
   }
   
@@ -167,15 +165,26 @@
   .card__side--front-1 {
     background: linear-gradient(-45deg, #000000, #474747);
     color: white;
-    
+    background-image: url(../images/Cardback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
   .card__side--front-2 {
     background: linear-gradient(-45deg, #474747, #000000);
-  }
+    background-image: url(../images/Cardback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
   
   .card__side--front-3 {
     background: linear-gradient(-45deg, #000000, #474747);
+    background-image: url(../images/Cardback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
   .card__side--back {
@@ -185,14 +194,29 @@
   
   .card__side--back-1 {
     background: linear-gradient(-45deg, #474747, #000000);
+    background-image: url(../images/Cardback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
   }
   
   .card__side--back-2 {
     background: linear-gradient(-45deg, #000000, #474747);
+    background-image: url(../images/Cardback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
   }
   
   .card__side--back-3 {
     background: linear-gradient(-45deg, #474747, #000000);
+    background-image: url(../images/Cardback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
   }
   
   .card:hover .card__side--front-1,
@@ -241,9 +265,10 @@
     font-weight:200;
     text-transform: uppercase;
     text-align: center;
-    color: #b7df14;
+    color: #ffffff;
+    text-shadow: 4px 5px 6px  rgb(0, 0, 0);
     width: 100%;
-    padding: 1em;
+    padding: .1em;
     
   }
   
@@ -255,30 +280,26 @@
   .card__details {
     list-style: none;
     display: flex;
-    padding: 1rem 1rem;
+    padding: .5em .5em;
 }
   
   .card__details ul {
     list-style: none;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-    border: 2px dotted rgba(250, 250, 250, 0.1);
     padding: 2em;
-    border-radius: 5%;
-
+    
   }
   
   .card__details ul li {
     text-align: center;
-    font-size: 1.45em;
-    padding: 0.1rem;
-    margin-bottom: .5em;
+    font-size: 1.39em;
+    padding: 0.2rem;
+    text-shadow: 4px 5px 6px  rgb(0, 0, 0);
+
   }
   
-  .card__details ul li:not(:last-child) {
-    border-bottom: 1px solid #eee;
-  }
-  
+    
   .card__details_mod {
     width: 100%;
     flex-direction: row;
@@ -303,12 +324,15 @@
   .card__price-only {
     font-size: 3rem;
     text-transform: uppercase;
+
   }
   
   .card__price-value {
-    font-size: 3.5em;
+    font-size: 4.5em;
     padding: .8em;
-    color: yellowgreen;
+    color: rgb(170, 255, 0);
+    text-shadow: 4px 5px 6px  rgb(0, 0, 0);
+
   }
   
   .row {
@@ -344,10 +368,13 @@
     position: relative;
     flex-direction: row;
     justify-content: space-between;
-    width: 25%;
-    padding: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
     object-fit: contain;
-    border-radius: 16px;
+    border-radius: 46px;
+    -webkit-box-shadow: 0 1rem 1rem rgba(120, 120, 120, 0.15);
+    box-shadow: 0 1rem 1rem rgba(148, 4, 4, 0.15);
     
 }
 

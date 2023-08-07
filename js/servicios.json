@@ -13,7 +13,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/WebBasica.png",
+        "img": "./images/oficios/cardimagno2.png",
         "html": "./images/html.png",
         "css": "./images/css3.png",
         "precio": 34999
@@ -32,7 +32,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Sitio con Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/WebAvanzada.png",
+        "img": "./images/oficios/cardimagno2.png",
         "html": "./images/WebAvanzada.png",
         "css": "./images/WebAvanzada.png",
         "javascript": "./images/WebAvanzada.png",
@@ -53,7 +53,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/LandingPage.png",
+        "img": "./images/oficios/cardimagno2.png",
         "html": "./images/WebAvanzada.png",
         "css": "./images/WebAvanzada.png",
         "javascript": "./images/WebAvanzada.png",
@@ -73,7 +73,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "formulario": "Formulario de Contacto",
-        "img": "./images/portafolio.png",
+        "img": "./images/oficios/cardimagno2.png",
         "html": "./images/WebAvanzada.png",
         "css": "./images/WebAvanzada.png",
         "javascript": "./images/WebAvanzada.png",
@@ -94,7 +94,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/pequempresa.png",
+        "img": "./images/oficios/cardimagno2.png",
         "precio": 60000
     },
  
@@ -112,7 +112,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/Business.svg",
+        "img": "./images/oficios/cardempinsti.png",
         "precio": 50000
     },
     {
@@ -130,7 +130,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/gas.png",
+        "img": "./images/oficios/cardgasista1.png",
         "precio": 50000
     },
     {
@@ -148,7 +148,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/construccion.png",
+        "img": "./images/oficios/cardconstruc.png",
         "precio": 50000
     },
     {
@@ -166,7 +166,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/herrero.png",
+        "img": "./images/oficios/cardherreria.png",
         "precio": 50000
     },
     {
@@ -184,7 +184,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/electricista.png",
+        "img": "./images/oficios/cardelectri.png",
         "precio": 50000
     },
     {
@@ -202,7 +202,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/Plomeria.png",
+        "img": "./images/oficios/cardplomeria.png",
         "precio": 50000
     },
     {
@@ -220,7 +220,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/Carpintero.png",
+        "img": "./images/oficios/cardcarpinteria.png",
         "precio": 50000
     },
     {
@@ -238,7 +238,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/psyco.png",
+        "img": "./images/oficios/cardpsycho.png",
         "precio": 50000
     },
     {
@@ -256,7 +256,7 @@
         "wsp-b": "Opcional: Configuracion de WhatsApp Business.",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/abogado.png",
+        "img": "./images/oficios/cardderecho.png",
         "precio": 50000
     },
     {
@@ -274,7 +274,7 @@
         "slider": "Slider de Imagenes principales del local",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/veterinaria.png",
+        "img": "./images/oficios/cardvete.png",
         "precio": 60000
     },
     {
@@ -291,7 +291,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/tienda.png",
+        "img": "./images/oficios/cardimagno2.png",
         "precio": 150000
     },
     {
@@ -308,7 +308,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/artista.png",
+        "img": "./images/oficios/cardartistas.png",
         "precio": 35000
     },
     {
@@ -325,7 +325,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/webpersonal.png",
+        "img": "./images/oficios/cardimagno2.png",
         "precio": 35000
     },
     {
@@ -342,7 +342,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "mapa": "Mapa de Ubicacion del Local/Emprendimiento",
         "formulario": "Formulario de Contacto",
-        "img": "./images/webperso.png",
+        "img": "./images/oficios/cardimagno2.png",
         "precio": 65000
     },
     {
@@ -359,7 +359,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/webpersofull.png",
+        "img": "./images/oficios/cardimagno2.png",
         "precio": 350000
     }
 
