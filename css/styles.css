@@ -79,10 +79,10 @@
 }
 
 .fa-html5 {
-  list-style-type: none;
   text-align: center;
   font-size: 6em;
   color: #eff240;
+  list-style-type: none;
 }
 
 .fa-css3 {
@@ -104,6 +104,7 @@
   width: 100%;
   height: 100px;
   flex-direction: row;
+  list-style-type: none;
 }
 
 .fondo_oscuro {
@@ -118,11 +119,10 @@
 
 #inicio {
   width: 100%;
-  background-color: #404042;
 }
 
 #inicio .contenido header {
-  background-color: #3d2f36;
+  background-color: rgb(0, 0, 0);
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -273,6 +273,20 @@
   width: 100%;
 }
 
+.btn-carrito {
+  font-size: 3em;
+  color: black;
+}
+
+#btn-carrito {
+  font-size: 3em;
+  color: black;
+}
+
+.fa-cart-plus {
+  color: white;
+}
+
 /* MIS SERVICIOS */
 .grid-container {
   display: inline-block;
@@ -330,6 +344,7 @@
 
 html {
   scroll-behavior: smooth;
+  width: auto;
 }
 
 /* Sobre Mi */
@@ -350,7 +365,6 @@ html {
   padding: 30px;
   width: 400px;
   border-radius: 20px;
-  background-color: white;
 }
 
 #sobremi .sobremi {
@@ -788,4 +802,373 @@ body {
   list-style-type: none;
   font-size: 1.8em;
   color: white;
+}
+
+@media (max-width: 600px) {
+  #inicio {
+    width: 100%;
+    background-color: #404042;
+  }
+  #inicio .contenido header {
+    background-color: #3d2f36;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+  }
+  #incio .contenido header .contenido-header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  #inicio .contenido header .contenido-header h1 {
+    text-align: center;
+    color: #debfb0;
+  }
+  #inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: orange;
+    margin: 0 0.5px;
+    font-weight: 200;
+    transition: 0.5s;
+    font-size: 0.7em;
+    text-align: center;
+  }
+  #inicio .contenido header .contenido-header nav ul a:hover {
+    color: #debfb0;
+  }
+  #inicio .contenido header .contenido-header .social a {
+    text-decoration: none;
+    color: #debfb0;
+    display: inline-block;
+    margin-left: 5px;
+    transition: 0.5s;
+  }
+  #inicio .contenido header .contenido-header .social a:hover {
+    color: #91ff00;
+  }
+  .presentacion {
+    background: rgb(5, 5, 5);
+  }
+  #inicio .contenido .presentacion {
+    background: rgb(5, 5, 5);
+    background-image: url(../images/FondoBlur.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100vh;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 3px rgb(74, 73, 73);
+    border: 0.5px solid black;
+  }
+  #inicio .contenido .presentacion .bienvenida {
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  #inicio .contenido .presentacion h2 {
+    font-size: 6em;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  #inicio .contenido .presentacion h2 span {
+    font-size: 2em;
+    color: #d6ff0a;
+    font-weight: bold;
+  }
+  #inicio .contenido .presentacion .descripcion {
+    display: inline-block;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 25px;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px 100px/120px;
+    padding: 10px;
+  }
+  #inicio .contenido .presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    border: 3px dotted #000000;
+    border-radius: 50px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    width: 250px;
+    text-align: center;
+    font-size: 2em;
+    background-color: #ffffff;
+  }
+  #inicio .contenido .presentacion a:hover {
+    width: 250px;
+    background-color: #e8e814;
+    text-align: center;
+    font-size: 2em;
+  }
+  .img-blur {
+    filter: blur(4px);
+  }
+  #elegidosSection {
+    display: inline-block;
+    position: relative;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    align-items: center;
+  }
+  .mostrar-cms {
+    width: 100%;
+  }
+  #mostrar-cms {
+    width: 100%;
+  }
+  /* Sobre Mi */
+  #sobremi {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    color: #184ae0;
+    display: inline-block;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+  }
+  #sobremi .contenedor-foto {
+    width: 100%;
+    align-items: center;
+  }
+  #sobremi .contenedor-foto img {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+  #sobremi .sobremi {
+    margin: 0 40px;
+  }
+  #sobremi .sobremi h2 {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+  }
+  #sobremi .sobremi h2 span {
+    color: grey;
+  }
+  #sobremi .sobremi h3 {
+    font-size: 3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  #sobremi .sobremi p {
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 12px;
+  }
+  #sobremi .sobremi a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: 0.5s;
+    font-size: 2.5em;
+  }
+  #sobremi .sobremi a:hover {
+    background-color: #404040;
+    color: azure;
+  }
+  #sobremi .sobremi .titulo-section {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    margin: 0 40px;
+  }
+  /* Proyectos */
+  #proyectos {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ababb1;
+    text-align: center;
+    margin-bottom: 5em;
+    color: #ffffff;
+    display: flex;
+    padding: 1em;
+    background-color: black;
+  }
+  #proyectos .contenedor-foto {
+    display: inline-block;
+    max-width: 100%;
+    margin-right: 80px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  #proyectos .contenedor-foto img {
+    display: none;
+    padding: 30px;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(171, 151, 151);
+  }
+  #proyectos .proyectos {
+    margin: 0 40px;
+  }
+  #proyectos .proyectos h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+  }
+  #proyectos .proyectos h2 span {
+    color: grey;
+  }
+  #proyectos .proyectos h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  #proyectos .proyectos p {
+    font-size: 14px;
+    line-height: 25px;
+    color: grey;
+    margin-bottom: 12px;
+  }
+  #proyectos .proyectos a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: 0.5s;
+  }
+  #proyectos .proyectos a:hover {
+    background-color: #404040;
+    color: azure;
+  }
+  #proyectos .proyectos .titulo-section {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    margin: 0 40px;
+  }
+}
+/* Proyectos */
+#proyectos {
+  display: flex;
+  padding: 3em;
+  max-width: 100%;
+  background-color: #debfb0;
+  height: auto;
+  text-align: center;
+  margin-bottom: 4em;
+  color: #ffffff;
+}
+
+#proyectos .contenedor-foto {
+  max-width: 400px;
+  margin-right: 0px;
+}
+
+#proyectos .contenedor-foto img {
+  width: 100%;
+  padding: 1em;
+  background-color: #ababb1;
+  border-radius: 30px;
+  align-items: center;
+}
+
+#proyectos .proyectos {
+  margin: 0 150px;
+  padding: 5em;
+}
+
+#proyectos .proyectos h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: 2px;
+  text-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+
+#proyectos .proyectos h2 span {
+  color: rgb(0, 0, 0);
+}
+
+#proyectos .proyectos h3 {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: rgb(77, 255, 0);
+  text-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+
+#proyectos .proyectos p {
+  font-size: 2em;
+  line-height: 25px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 12px;
+}
+
+#proyectos .proyectos a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 1em;
+  border: 1px solid #151b02;
+  transition: 0.5s;
+  font-size: 2.2em;
+  font-weight: bold;
+  text-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+
+#proyectos .proyectos a:hover {
+  background-color: #404040;
+  color: azure;
+}
+
+#proyectos .proyectos .titulo-section {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  margin: 0 40px;
 }/*# sourceMappingURL=styles.css.map */

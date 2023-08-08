@@ -1,11 +1,9 @@
 #inicio {
     width: 100%;
-    background-color: $scarpa-flow;
 }
 
  #inicio .contenido header {
-    background-color:$thunder ;
-
+    background-color: rgb(0, 0, 0);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -157,4 +155,19 @@ width: 100%;
 
 #mostrar-cms {
 width: 100%;
+}
+
+.btn-carrito {
+font-size: 3em;
+color: black;
+
+}
+
+#btn-carrito {
+    font-size: 3em;
+    color: black;
+
+}
+.fa-cart-plus{
+    color: white;
 }

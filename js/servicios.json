@@ -13,7 +13,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "../images/oficios/cardimagno2.png",
         "html": "./images/html.png",
         "css": "./images/css3.png",
         "precio": 34999
@@ -274,7 +274,7 @@
         "slider": "Slider de Imagenes principales del local",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardvete.png",
+        "img": "./images/oficios/cardvete1.png",
         "precio": 60000
     },
     {
@@ -296,7 +296,7 @@
     },
     {
         "id": "17",
-        "nombre": "WEB RUBRO ARTISTAS GENERALES",
+        "nombre": "WEB ARTISTAS GENERALES",
         "descripcion": "Web Rubro Artistas, si sos artista y te gustaria dar a conocer tus trabajos o habilidades, u ofrecer tus servicios para que la gente te contrate, te presento un proyecto para que pueda cumplir tus metas y atraer clientes.",
         "correo": "Cuentas de Correo Electronico con la extension de su dominio",
         "dominio": "Sitio con extension de Dominio .com.ar",

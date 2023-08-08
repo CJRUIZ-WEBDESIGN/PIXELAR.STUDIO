@@ -1,0 +1,91 @@
+/* Proyectos */
+
+#proyectos {
+    display: flex;
+    padding: 3em;
+    max-width: 100%;
+    background-color:$cavern-pink;
+    height: auto;
+    text-align: center;
+    margin-bottom: 4em;
+    color: #ffffff;
+
+}
+#proyectos .contenedor-foto {
+    max-width: 400px;
+    margin-right:0px;
+}
+
+#proyectos .contenedor-foto img {
+    width: 100%;
+    padding: 1em;
+    background-color: $spun-pearl;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+#proyectos .proyectos {
+    margin: 0 150px;
+    padding: 5em;
+
+}
+
+#proyectos .proyectos h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+
+}
+
+#proyectos .proyectos h2 span {
+    color: rgb(0, 0, 0);
+}
+
+#proyectos .proyectos h3 {
+    font-size: 2.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: rgb(77, 255, 0);
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+
+}
+
+#proyectos .proyectos p {
+    font-size: 2em;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+
+}
+
+#proyectos .proyectos a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 1em;
+    border: 1px solid #151b02;
+    transition: .5s;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+
+}
+
+#proyectos .proyectos a:hover {
+    background-color: #404040;
+    color: azure;
+}
+
+#proyectos .proyectos .titulo-section {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    margin: 0 40px;
+}
