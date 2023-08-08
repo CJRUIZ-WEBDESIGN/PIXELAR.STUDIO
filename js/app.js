@@ -22,7 +22,7 @@ function mostrarServiciosCarrito() {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     let carritoDetalle = "";
     let total = 0;
-
+    
     if (carrito.length > 0) {
         carrito.forEach((servicio, index) => {
             carritoDetalle += `
@@ -84,19 +84,21 @@ async function eliminarProducto(event) {
     localStorage.setItem("carrito", JSON.stringify(carrito));
     const Toast = Swal.mixin({
         toast: true,
-        position: 'top-right',
-        iconColor: 'white',
-        customClass: {
-          popup: 'colored-toast'
-        },
+        position: 'top-end',
         showConfirmButton: false,
-        timer: 800,
-        timerProgressBar: true
+        timer: 2000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+          toast.addEventListener('mouseenter', Swal.stopTimer)
+          toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
       })
-      await Toast.fire({
+      
+      Toast.fire({
         icon: 'success',
-        text: "Se ha eliminado el producto del carrito",
+        title: 'Se ha eliminado el producto del carrito'
       })
+
     mostrarServiciosCarrito();
 }
 
@@ -143,3 +145,17 @@ async function finalizarCompra() {
 }
 
 cargarServicios()
+
+
+let cartcontainer = document.querySelector(".producto")
+
+//funcion
+
+cargarListeners()
+function cargarListeners() {
+    carritoContainer.addEventListener("click", agregarProducto);
+}
+
+function agregarProducto(e){
+    console.log()
+}

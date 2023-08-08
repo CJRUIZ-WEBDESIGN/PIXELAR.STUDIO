@@ -13,7 +13,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "../images/oficios/cardimagno2.png",
+        "img": "./images/oficios/cardimagno2.png",
         "html": "./images/html.png",
         "css": "./images/css3.png",
         "precio": 34999
