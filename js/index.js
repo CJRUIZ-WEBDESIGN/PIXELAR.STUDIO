@@ -59,7 +59,7 @@ function cardReturn(servicio) {
                     </div>
                 </div>
 
-                    <button class="botonCarrito btn btn--white" data-id="${servicio.id}">agregar</button>
+                    <button class="botonCarrito btn btn--white" data-id="${servicio.id}">COMPRAR</button>
                 </div>
             </div>
         </div>

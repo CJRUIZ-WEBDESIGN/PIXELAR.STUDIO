@@ -12,13 +12,45 @@
 }
 
 #incio .contenido header .contenido-header {
-    max-width: 1100px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     }
+
+    .container-fluid {
+        font-size: 1.5em;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-brand {
+        font-size: 2em;
+        font-weight: bold;
+        font-family: poppins;
+
+    }
+    .navbar-nav {
+        width: 100%;
+height: auto;    }
+    .collapse .navbar-collapse {
+        font-size: 1.4em;
+    }
+
+    #navbarSupportedContent{
+    width: 100%;
+  
+}
+
+.fa-solid .fa-cart-shopping {
+    font-size: 1.4em;
+    color: white;
+}
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
@@ -30,6 +62,7 @@
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+
 }
 
 #inicio .contenido header .contenido-header nav ul li a {
