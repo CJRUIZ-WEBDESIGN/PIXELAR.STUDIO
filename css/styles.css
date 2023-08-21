@@ -376,11 +376,6 @@
   height: 50px;
 }
 
-.boton-whatsapp img {
-  width: 10px !important;
-  height: 10px;
-}
-
 /* etapas*/
 .contenedor-linea {
   display: flex;
@@ -822,7 +817,7 @@ n body {
 #backToTop {
   display: none;
   position: fixed;
-  bottom: 100px;
+  bottom: 90px;
   right: 0;
   border: none;
   background-color: #393646;
