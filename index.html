@@ -20,6 +20,9 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script title="oNlineWebFonts" src="https://db.onlinewebfonts.com/animations/icons/71968.js"
+        type="text/javascript"></script>
     <!-- Vinculacion del CSS al HTML  -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/styles.css.map">
@@ -27,15 +30,24 @@
 </head>
 
 <body>
-    <!-- Seccion INICIO -->
+    <!-- BARRA LATERAL DOTS -->
+    <div class="side-bar">
+        <div class="dot" data-section="inicio"></div>
+        <div class="dot" data-section="trabajo"></div>
+        <div class="dot" data-section="proyectos"></div>
+        <div class="dot" data-section="buscarSection"></div>
+        <div class="dot" data-section="misservicios"></div>
+    </div>
+
+    <!-- INICIO -->
     <section id="inicio">
         <div class="contenido">
             <header>
                 <div class="contenido-header">
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
                         <div class="container-fluid">
-
-                            <a class="navbar-brand" href="#">CR Diseño Web</a>
+                            <a class="navbar-brand" href="#"><img class="imglogo" src="./images/Cdesignremove.png"
+                                    alt=""></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -50,11 +62,19 @@
                                         <a class="nav-link" href="./pages/sobremi.html">Sobre Mi</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/misservicios.html">Mis Servicios</a>
+                                        <a class="nav-link" href="./pages/misservicios.html">Servicios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/misproyectos.html">Proyectos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/miscerti.html">Certificaciones</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                                     </li>
                                     <button id="cart-button"><i class="fa-solid fa-cart-shopping"></i></button>
                                     <li class="nav-item ">
-                                      
                                     </li>
                                 </ul>
                             </div>
@@ -63,79 +83,123 @@
                 </div>
 
             </header>
-
-            <div class="presentacion">
-                <p class="bienvenida">Bienvenidos a</p>
-                <h2><span>C.R </span></h2>
+            <!-- BIENVENIDOS PRESENTACION -->
+            <div class="presentacion ">
+                <p class="bienvenida">Bienvenidos a <span class="span-cr">C.R </span></p>
                 <h2>Diseño & Desarrollo Web</h2>
-                <p class="descripcion">Nos dedicamos a la creacion de Sitios Web a medida, con las mejores tecnologias
-                    del momento: HTML5, CSS3, SASS, JavaScript, y con Frameworks como Bootstrap, Materialize, Font
-                    Awesome, entre otros, Los proyectos son gestionados con repositorios Git y GitHub.</p>
-                <a class="add-proyec" href="#mis-proyectos">Ir a Mis Proyectos</a>
+    
+            </div>
+            <div class="step-number"> </div>
 
-            </div>
-        </div>
-        <!-- SOBRE MI -->
-        <section id="sobremi">
-            <div class="contenedor-foto">
-                <img src="./images/CR-PhotoRoom (3).png" alt="">
-            </div>
-            <div class="sobremi">
-                <p class="titulo-section">Sobre Mi</p>
-                <h2>Hola, soy <span>Cristian Ruiz</span></h2>
-                <h3>Diseñador Web</h3>
-                <p>Me dedico a la creacion de Sitios Web, para ello utilizo las tecnologias del momento: HTML5, CSS3,
-                    SASS, JavaScript, y con Frameworks como Bootstrap, Materialize, Font Awesome, entre otros, Los
-                    proyectos son gestionados con repositorios Git y GitHub.</p>
-                <a href="#">Descargar CV</a>
-            </div>
-        </section>
-
-    </section>
-    <!-- SOBRE MI -->
-    <section id="proyectos">
-        <div class="proyectos">
-            <p class="titulo-section">CR DISEÑO WEB</p>
-            <h2>Aqui algunos de <span>Mis Proyectos</span>. </h2>
-            <h3>Etapas de Desarrollo</h3>
-            <p>La mayoria de los proyectos estan realizados con las tecnologias HTML5, CSS3 y SASS, Bootstrap,
-                FontAwesome, SweetAlert2, JavaScript y ReacJS. </p>
-            <p>En conjunto con el uso de MongoDB, NodeJS</p>
-            <a href="#">Hablemos de tu Proximo proyecto</a>
-        </div>
-        <div class="contenedor-foto">
-            <img src="./images/WebDev.jpg" alt="">
         </div>
     </section>
 
+    <!-- TRABAJOS -->
+    <section class="container fondo" id="trabajo">
+        <h1 class="titulo-section-titulo">¿ Como Trabajo ?</p>
+            <h3 class="titulo-section-titulo__h3">Los proyectos se dividiran en 5 fases. </h3>
+            <div class="stage">
+                <div class="image" style="background-image: url('./images/1analisis.png')"></div>
+                <div class="text">
+                    <h2>Análisis</h2>
+                    <p>Determinar y Definir el propósito de tu Web, que contenido va a tener?, cómo va a llamarse tu
+                        web?
+                        que dominio va a tener .com o .com.ar u otro?, que objetivos y/o funcionalidades tendra? etc..
+                    </p>
+                </div>
+                <div class="step-number"> 1</div>
+            </div>
+            <div class="stage reverse">
+                <div class="text">
+                    <h2>Diseño</h2>
+                    <p>Teniendo ya una base, y basandonos en tus ideas y de cómo se organizará el contenido, la
+                        estructura
+                        de la web y en base a mi conocimiento, se armara un Wireframe (Boceto) del sitio, con diferentes
+                        propuestas de diseño web para que elijas la que más te guste.</p>
+                </div>
+                <div class="image" style="background-image: url('./images/2diseno.png');"></div>
+                <div class="step-number"> 2</div>
+            </div>
+            <div class="stage">
+                <div class="image" style="background-image: url('./images/3desaroollo.png')"></div>
+                <div class="text">
+                    <h2>Desarrollo</h2>
+                    <p>En esta etapa de desarrollo, ya nos ponemos manos al codigo empleando las mejores tecnologías del
+                        momento como ser HTML5, CSS3, SASS, JavaScript, etc..., Podrás ir viendo los avances de tu
+                        proyecto
+                        con Git & GitHub, en esta fase sólo usted podra ver el proyecto.</p>
+                </div>
+                <div class="step-number"> 3</div>
+            </div>
+            <div class="stage reverse">
+                <div class="text">
+                    <h2>Modo Testing</h2>
+                    <p> En esta etapa, el sitio se pondra en modo testing, por 48hs se sometera al testing y una vez
+                        comprobando el correcto funcionamiento del sitio, pasara a su etapa final.</p>
+                </div>
+                <div class="image" style="background-image: url('./images/4test.png')"></div>
+                <div class="step-number"> 4</div>
+            </div>
+            <div class="stage">
+                <div class="image" style="background-image: url('./images/5subida.png')"></div>
+                <div class="text">
+                    <h2>Subida Al Hosting</h2>
+                    <p>En esta etapa final, y una vez pasado el Modo Testing, se subira el proyecto al hosting para
+                        darle la
+                        presencia en linea, entrega del proyecto final y Listo! Tu web ya esta! ;) </p>
+                </div>
+                <div class="step-number"> 5</div>
+            </div>
+    </section>
+
+
+    <!-- BUSCAR SERVICIOS -->
     <section id="buscarSection">
-        <h2 class="productos__h1">BUSQUEDA DE PRODUCTOS</h2>
-        <input type="text" id="busquedaInput"
-            placeholder="Ingresa el Nombre del Servicio: Web basica, ecommerce, portfolio">
-        <button class="botonBuscar" id="buscarBtn">Buscar</button>
-    </section>
 
-
-    <h2 class="titulo-section">MIS SERVICIOS</h2>
-    <section id="misservicios" class="mis-Servicios">
-        <div class="containerSearch" id="container">
+        <div>
+            <h2 class="titulo-servicios">BUSQUEDA DE SERVICIOS</h2>
+            <input type="text" id="busquedaInput"
+                placeholder="Ingresa el servicio: Ej.. Web basico, profesional, rubro, empresa, portfolio">
+            <button class="botonBuscar" id="buscarBtn">Buscar</button>
         </div>
+        <div>
+            <h2 class="titulo-servicioscard">MIS SERVICIOS</h2>
+            <div class="containerSearch" id="container"></div>
+        </div>
+
     </section>
 
+    <!-- MIS SERVICIOS -->
+    <section id="misservicios" class="mis-Servicios">
+    </section>
+
+    <!-- MODAL CARRITO COMPRAS -->
     <div id="cart-modal" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h2>Carrito de Compras</h2>
+            <h1>Carrito de Compras</h1>
+            <h2>LISTA DE PRODUCTOS ELEGIDOS</h2>
             <div class="carritoContainer">
                 <section id="elegidosSection">
-                    <h2 class="productos__h1">LISTA DE PRODUCTOS ELEGIDOS</h2>
                     <div class="carritoContainer" id="carritoContainer"></div>
-                    <button id="vaciarCarritoBtn">Vaciar Carrito</button>
                 </section>
             </div>
-            <button class="finalizar-compra" id="finalizarCompraBtn">Finalizar Compra</button>
+            <div class="botonesModal boton">
+                <button class="finalizar-compra" id="finalizarCompraBtn">Finalizar Compra</button>
+                <button id="vaciarCarritoBtn">Vaciar Carrito</button>
+                <button class="seguirCompraBtn" id="seguirCompraBtn">Seguir Comprando</button>
+            </div>
+
         </div>
+
     </div>
+
+    <!-- BOTON WHATSAPP -->
+    <a class="whatsapp" href="https://wa.me/+5491124025510" target="blank"> <img class="Boton-whatsApp"
+            src="../images/WhatsApp.png" width="55" height="55" alt="contactanos-por-WhatsApp"></a>
+
+    <!-- BOTON BACK TO TOP -->
+    <button id="scrollToTop" class="scroll-to-top"><i class="fa-solid fa-angles-up"></i></button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -143,6 +207,8 @@
     <script defer src="./js/modal.js"></script>
     <script defer src="./js/index.js"></script>
     <script defer src="./js/app.js"></script>
+   
+
 </body>
 
 </html>

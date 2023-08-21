@@ -33,6 +33,7 @@ function mostrarServiciosCarrito() {
         if (event.target === modal) {
             modal.style.display = 'none';
         }
+        
     });
 
     document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
@@ -42,6 +43,65 @@ function mostrarServiciosCarrito() {
 
 mostrarServiciosCarrito()
 
-// No olvides incluir tus funciones eliminarProducto y finalizarCompra
+async function eliminarProducto(event) {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    carrito.splice(event.target.dataset.index, 1);
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'bottom-end',
+        showConfirmButton: false,
+        timer: 2000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+          toast.addEventListener('mouseenter', Swal.stopTimer)
+          toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+      })
+      
+      Toast.fire({
+        icon: 'success',
+        title: 'Se ha eliminado el producto del carrito'
+      })
 
-mostrarServiciosCarrito(); // Si quieres que se muestre inicialmente
+    mostrarServiciosCarrito();
+}
+
+const botonFinalizar = document.querySelector('.finalizar-compra');
+if (botonFinalizar) {
+    botonFinalizar.addEventListener('click', finalizarCompra);
+}
+
+async function finalizarCompra() {
+    const pasos = ['1', '2']
+    const finCompra = Swal.mixin({
+        progressSteps: pasos,
+        showConfirmButton: false,
+        timer: 2500,
+        timerProgressBar: true,
+        showClass: { backdrop: 'swal2-noanimation' },
+        hideClass: { backdrop: 'swal2-noanimation' }
+    })
+    await finCompra.fire({
+        title: '<b>Su compra finalizo con exito!</b> Muchas gracias por visitarnos',
+        currentProgressStep: 0,
+        showClass: { backdrop: 'swal2-noanimation' },
+    })
+    await finCompra.fire({
+        title: '<b>CR Diseño Web</b> Le agradece por su Visita!',
+        currentProgressStep: 2,
+        showConfirmButton: false,
+        timer: 1800,
+        timerProgressBar: true,
+        showClass: { backdrop: 'swal2-noanimation' },
+    })
+    localStorage.removeItem("carrito");
+
+    window.location.href = "index.html"
+
+    mostrarServiciosCarrito();
+}
+
+
+// incluido funciones eliminarProducto y finalizarCompra
+mostrarServiciosCarrito()

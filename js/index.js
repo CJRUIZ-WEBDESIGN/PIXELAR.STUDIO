@@ -38,6 +38,7 @@ function cardReturn(servicio) {
                         <li class="p-det">${servicio.descripcion}</li>
 
                         <p class="card__price-value">$ ${servicio.precio}</p>
+                      </p>
                     </div>
          
                     <li class="p-det">Desarrollado con tecnologia:</li>
@@ -102,3 +103,87 @@ buscarBtn.addEventListener("click", () => {
  
   container.innerHTML = resultados.length > 0 ? resultados.map(servicio => cardReturn(servicio)).join("") : "<b>No se encontraron productos.</b>";
 });
+
+
+/* SCROLLED PAGE */
+
+window.addEventListener('scroll', function() {
+  let header = document.querySelector('.bg-body-tertiary');
+  if (window.scrollY > 50) { // Puedes ajustar este valor
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+  }
+});
+
+window.addEventListener('scroll', function () {
+  const elements = document.querySelectorAll('.hidden');
+  const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+
+  elements.forEach(function (element) {
+    if (windowTop > element.offsetTop) {
+      element.classList.add('visible');
+      element.classList.remove('hidden');
+    }
+  });
+});
+
+
+/* nav lateral */
+document.addEventListener('DOMContentLoaded', () => {
+  const dots = document.querySelectorAll('.dot');
+
+  dots.forEach(dot => {
+      dot.addEventListener('click', (e) => {
+          scrollToSection(e.target.getAttribute('data-section'));
+      });
+  });
+
+  // Evento para actualizar el punto activo al desplazarse
+  window.addEventListener('scroll', () => {
+      updateActiveDot();
+  });
+
+  // Función para actualizar el punto activo inicialmente
+  updateActiveDot();
+});
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+      window.scrollTo({
+          top: section.offsetTop,
+          behavior: 'instant'
+      });
+  }
+}
+
+function updateActiveDot() {
+  const sections = ['inicio', 'trabajo', 'proyectos', 'buscarSection', 'misservicios'];
+  let currentSection = sections[0];
+
+  sections.forEach((sectionId, index) => {
+      const section = document.getElementById(sectionId);
+      if (section && window.scrollY >= section.offsetTop) {
+          currentSection = sectionId;
+      }
+  });
+
+  document.querySelectorAll('.dot').forEach((dot, index) => {
+      if (dot.getAttribute('data-section') === currentSection) {
+          dot.classList.add('dot-active');
+      } else {
+          dot.classList.remove('dot-active');
+      }
+  });
+}
+window.addEventListener('scroll', updateActiveDot);
+
+/* VOLVER ARRIBA */
+document.getElementById('scrollToTop').addEventListener('click', function() {
+  scrollToTop();
+});
+
+function scrollToTop() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}

@@ -13,7 +13,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/webbasico20.png",
         "html": "./images/html.png",
         "css": "./images/css3.png",
         "precio": 34999
@@ -32,7 +32,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Sitio con Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/webprof.png",
         "html": "./images/WebAvanzada.png",
         "css": "./images/WebAvanzada.png",
         "javascript": "./images/WebAvanzada.png",
@@ -53,7 +53,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/landingpage.png",
         "html": "./images/WebAvanzada.png",
         "css": "./images/WebAvanzada.png",
         "javascript": "./images/WebAvanzada.png",
@@ -73,7 +73,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/webportfolio.png",
         "html": "./images/WebAvanzada.png",
         "css": "./images/WebAvanzada.png",
         "javascript": "./images/WebAvanzada.png",
@@ -94,7 +94,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/pymes.png",
         "precio": 60000
     },
  
@@ -291,7 +291,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/local.png",
         "precio": 150000
     },
     {
@@ -325,7 +325,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/autonomos1.png",
         "precio": 35000
     },
     {
@@ -342,7 +342,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "mapa": "Mapa de Ubicacion del Local/Emprendimiento",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/webperson.png",
         "precio": 65000
     },
     {
@@ -359,7 +359,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardimagno2.png",
+        "img": "./images/oficios/webperson.png",
         "precio": 350000
     }
 

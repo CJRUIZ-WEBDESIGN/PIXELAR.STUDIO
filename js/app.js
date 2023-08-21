@@ -32,8 +32,8 @@ function agregarAlCarrito(servicio) {
         title: 'Agregado al Carrito!',
         text: `Agregaste ${servicio.nombre} correctamente.`,
         imageUrl: `${servicio.img}`,
-        imageWidth: 250,
-        imageHeight: 250,
+        imageWidth: 350,
+        imageHeight: 200,
         imageAlt: 'Imagen de Producto',
         showClass: {
             popup: 'fondo_oscuro animate__animated animate__backInDown'
@@ -48,29 +48,7 @@ function agregarAlCarrito(servicio) {
     mostrarServiciosCarrito();
 }
 
-async function eliminarProducto(event) {
-    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-    carrito.splice(event.target.dataset.index, 1);
-    localStorage.setItem("carrito", JSON.stringify(carrito));
-    const Toast = Swal.mixin({
-        toast: true,
-        position: 'top-end',
-        showConfirmButton: false,
-        timer: 2000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-          toast.addEventListener('mouseenter', Swal.stopTimer)
-          toast.addEventListener('mouseleave', Swal.resumeTimer)
-        }
-      })
-      
-      Toast.fire({
-        icon: 'success',
-        title: 'Se ha eliminado el producto del carrito'
-      })
 
-    mostrarServiciosCarrito();
-}
 
 container.addEventListener('click', (event) => {
     if (event.target.classList.contains('botonCarrito')) {
@@ -79,53 +57,3 @@ container.addEventListener('click', (event) => {
         agregarAlCarrito(servicio);
     }
 });
-const botonFinalizar = document.querySelector('.finalizar-compra');
-if (botonFinalizar) {
-    botonFinalizar.addEventListener('click', finalizarCompra);
-}
-
-async function finalizarCompra() {
-    const pasos = ['1', '2']
-    const finCompra = Swal.mixin({
-        progressSteps: pasos,
-        showConfirmButton: false,
-        timer: 2800,
-        timerProgressBar: true,
-        showClass: { backdrop: 'swal2-noanimation' },
-        hideClass: { backdrop: 'swal2-noanimation' }
-    })
-    await finCompra.fire({
-        title: '<b>Su compra finalizo con exito!</b> Muchas gracias por visitarnos',
-        currentProgressStep: 0,
-        showClass: { backdrop: 'swal2-noanimation' },
-    })
-    await finCompra.fire({
-        title: '<b>CR Diseño Web</b> Le agradece por su Visita!',
-        currentProgressStep: 2,
-        showConfirmButton: false,
-        timer: 1800,
-        timerProgressBar: true,
-        showClass: { backdrop: 'swal2-noanimation' },
-    })
-    localStorage.removeItem("carrito");
-
-    window.location.href = "index.html"
-
-    mostrarServiciosCarrito();
-}
-
-cargarServicios()
-
-
-let cartcontainer = document.querySelector(".producto")
-
-//funcion
-
-cargarListeners()
-function cargarListeners() {
-    carritoContainer.addEventListener("click", agregarProducto);
-}
-
-function agregarProducto(e){
-    console.log()
-}

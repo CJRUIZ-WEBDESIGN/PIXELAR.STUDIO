@@ -137,6 +137,9 @@
             perspective: 250rem;
     -moz-perspective: 150rem;
     --bs-card-border-width: none;
+    padding: 20px;
+    text-align: center;
+
 }
 
   .card__side {
@@ -245,6 +248,10 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            background-image: url(./images/oficios/webperson.png);
+            background-repeat: no-repeat;
+            background-position:center ;
+            background-size: cover;
             
   }
   
@@ -373,8 +380,7 @@
     padding: 25px;
     object-fit: contain;
     border-radius: 46px;
-    -webkit-box-shadow: 0 1rem 1rem rgba(120, 120, 120, 0.15);
-    box-shadow: 0 1rem 1rem rgba(148, 4, 4, 0.15);
+
     
 }
 
@@ -395,4 +401,5 @@
     color: white;
 }
 
+/* CARDS DE PASOS */
 

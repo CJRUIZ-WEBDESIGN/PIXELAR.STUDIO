@@ -1,5 +1,6 @@
-@media (max-width: 600px) {
+@media (max-width: 850px) {
     #inicio {
+      grid-template-columns: 1fr;
         width: 100%;
         background-color: $scarpa-flow;
     }
@@ -38,11 +39,28 @@
         width: 100%;
         padding: 0px;
     }
-.navbar .navbar-expand-lg .bg-dark .bg-body-tertiary {
+.navbar {
     width: 100%;
     padding: 0px;
+    background: $thunder;
 }
-    #inicio .contenido header .contenido-header nav ul li a {
+.navbar-expand-lg {
+    width: 100%;
+    padding: 0px;
+    background: $thunder;
+}
+.bg-dark {
+    width: 100%;
+    padding: 0px;
+    background-color: black;
+}
+.bg-body-tertiary {
+    width: 100%;
+    padding: 0px;
+    background-color: black;
+}
+
+  #inicio .contenido header .contenido-header nav ul li a {
         text-decoration: none;
         color: $enlaces-orange;
         margin: 0 .5px;
@@ -103,6 +121,7 @@
         justify-content: center;
         text-shadow: 2px 2px 3px rgb(74, 73, 73);
         border: .5px solid black;
+        padding: 30px;
 
     }
 
@@ -121,10 +140,10 @@
     }
 
     #inicio .contenido .presentacion h2 span {
+        margin: 3em;
         font-size: 2em;
         color: #d6ff0a;
         font-weight: bold;
-        padding: 1px;
     }
 
     #inicio .contenido .presentacion .descripcion {
@@ -486,7 +505,7 @@
 
 /* MIS SERVICIOS */
 .grid-container {
-    display: block;
+    display: inline-block;
     position: relative;
     flex-wrap: wrap;
     gap: 10px; /* Separación entre tarjetas */
@@ -654,6 +673,7 @@
   body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+
   }
   .section-plans {
     background-color: #000;

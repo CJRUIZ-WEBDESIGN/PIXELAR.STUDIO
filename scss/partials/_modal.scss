@@ -6,28 +6,33 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
-    z-index: 1;
+    z-index: 100;
 }
 
 .modal-content {
     background-color: #fff;
     margin: 15% auto;
-    padding: 20px;
+    padding: 35px;
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: 2.3em;
+    color: $scarpa-flow;
 }
 
 .close-button {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 2.2em;
     font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .close-button:hover,
 .close-button:focus {
     color: black;
+    font-size: 2.2em;
     text-decoration: none;
     cursor: pointer;
 }
@@ -42,6 +47,9 @@
     box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
     width:auto;
     height: auto;
+    text-align: center;
+    align-items: center;
+justify-content: center;
 }
 
 .carritoItem {
@@ -67,6 +75,8 @@
     margin: 0px;
     text-decoration: none; 
     text-align: left;
+    color: $scarpa-flow;
+    
 }
 
 #vaciarCarritoBtn {
@@ -85,25 +95,24 @@
 }
 .fa-trash {
     background-color: white;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 .total {
     display: flex;
     flex-direction: row-reverse;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2.2rem;
+    text-align: center;
+    justify-content: center;
 
 }
-.eliminarBtn {
-    margin-top: 10px;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    height: 30px;
-    width: 200px;
-    border-radius: 8px;
-    background: linear-gradient(225deg, #ffffff, #c0c0c0);
-    box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
-    cursor: pointer;
+.eliminar{
+    border: none;
+}
+
+.botonesModal{
+    display: flex;
+    position: relative;
 }
 
 #finalizarCompraBtn {
@@ -117,3 +126,20 @@
     box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
     cursor:pointer;
 }
+
+#seguirCompraBtn {
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    background: linear-gradient(125deg, #ffffff, #c0c0c0);
+    box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
+    cursor:pointer;
+}
+
+.seguirCompraBtn {
+    justify-content: space-between;
+}
+
