@@ -335,11 +335,16 @@
   color: #393646;
   height: auto;
   width: auto;
+  cursor: progress;
   border-radius: 8px;
-  background: linear-gradient(225deg, #d6d6d6, #ababb1);
   box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
   gap: 1em;
   margin-top: 2em;
+}
+
+.botonBuscar:hover {
+  background-color: #393646;
+  color: #d6d6d6;
 }
 
 .containerSearch {
@@ -367,7 +372,13 @@
 }
 
 .boton-whatsapp {
-  width: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.boton-whatsapp img {
+  width: 10px !important;
+  height: 10px;
 }
 
 /* etapas*/

@@ -230,11 +230,15 @@ text-align: center;
     color: $thunder;
     height: auto;
     width: auto;
+    cursor:progress;
     border-radius: 8px;
-    background: linear-gradient(225deg, $soapstone, $spun-pearl);
     box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
     gap: 1em;
     margin-top: 2em;
+}
+.botonBuscar:hover {
+    background-color: $thunder;
+    color: $soapstone;
 }
 .containerSearch {
     display: inline;
@@ -258,10 +262,17 @@ text-align: center;
     bottom: 20px;
     right: 1em;
     padding: 1px;
+
 }
 
 .boton-whatsapp {
-    width: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.boton-whatsapp img {
+    width: 10px!important;
+    height: 10px;
 }
 
 
