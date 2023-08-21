@@ -180,10 +180,17 @@ function updateActiveDot() {
 window.addEventListener('scroll', updateActiveDot);
 
 /* VOLVER ARRIBA */
-document.getElementById('scrollToTop').addEventListener('click', function() {
-  scrollToTop();
-});
 
-function scrollToTop() {
-  window.scrollTo({top: 0, behavior: 'smooth'});
-}
+window.onscroll = scrollFunction;
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("backToTop").style.display = "block";
+    } else {
+      document.getElementById("backToTop").style.display = "none";
+    }
+  }
+
+  document.getElementById("backToTop").addEventListener("click", function() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  });
