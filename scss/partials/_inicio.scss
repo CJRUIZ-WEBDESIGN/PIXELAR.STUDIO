@@ -42,6 +42,7 @@
     position: relative;
     overflow: hidden;
     transition: all 0.5s ease;
+    font-size: 1.3em;
 }
 
 #inicio .contenido header .contenido-header nav ul li a {
@@ -138,20 +139,29 @@
     
 }
 
-#inicio .contenido .presentacion .bienvenida {
-    font-size: 3.5em;
+#inicio .contenido .presentacion .bienvenida_h1 {
+    font-size: 4.5em;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
         color: white;
+        font-weight: bold;
 
+}
+
+.p_presentacion {
+    font-size: 2em;
+    color: $oslo-gray;
 }
 
 #inicio .contenido .presentacion h2 {
     font-size: 3.5em;
     margin-bottom: 25px;
     text-align: center;
+    font-weight:lighter;
+    text-shadow: 0 5px 39px white;
 }
+
 
 #inicio .contenido .presentacion h2 span {
     font-size: 1em;
@@ -194,14 +204,19 @@
 /* BUSCAR */
 
 .titulo-servicios {
-    margin-top: 7em;
+    margin-top: 4em;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: $thunder;
 }
 
 .titulo-servicioscard {
-    padding: .2em;
-    margin-top: 1em;
+    margin-top: 4em;
     width: 100%;
-text-align: center;
+    text-align: center;
+    font-size: 4em;
+    color: $thunder;
 
 }
 #buscarSection {
@@ -269,6 +284,9 @@ text-align: center;
     height: 50px;
 }
 
+.disabled {
+    color: $scarpa-flow!important;
+}
 
 /* etapas*/
 .contenedor-linea {
@@ -515,7 +533,13 @@ height: 300px;
     border-color: #ffa500;
 }
 
-
+#servicios{
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /* puntero */
 
 #custom-cursor {
@@ -528,7 +552,9 @@ height: 300px;
     display: inline;
     width: 150px;
     float: right;
-}n
+    text-shadow: 0 5px 39px white;
+
+}
 
 /* analisis */
 
@@ -565,17 +591,20 @@ body {
 }
 
 /* TITULO SECTION STAGE */
-.titulo-section-titulo {
+.titulo-section-h1 {
     margin-top: 4em;
     width: 100%;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
+    color: $thunder;
 }
-.titulo-section-titulo__h3 {
+.titulo-section-h3 {
     width: 100%;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2.5em;
     color: $scarpa-flow;
+    padding: 60px;
+    
 }
 
 .stage {
@@ -590,7 +619,7 @@ body {
 }
 
 
-.stage .image,
+.stage .image, 
 .stage .text {
     flex: 1;
     padding: 40px;
@@ -599,11 +628,15 @@ body {
 
 .stage .image {
     background-position: center center;
-    background-size: auto;
+    background-size:cover;
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
     background-color: rgba(155, 155, 155, 0.1);
+    width: 10%;
+}
+.stage .image img{
+    width: 30%;
 }
 
 .stage .text {
@@ -612,7 +645,6 @@ body {
     flex-direction: column;
     justify-content: center;
     transition: all 0.3s ease;
-    /* Transición para todos los cambios */
 }
 
 .stage .text:hover {
@@ -621,32 +653,24 @@ body {
     flex-direction: column;
     justify-content: center;
     transition: all 0.3s ease;
-    /* Transición para todos los cambios */
 }
 
 .stage .text h2 {
     margin: 0 0 10px;
     font-size: 3em;
-    /* Tamaño inicial del título */
     transition: font-size 0.3s ease;
-    /* Transición para el tamaño del título */
 }
 
 .stage .text p {
     margin: 0;
     font-size: 1.3em;
-    /* Tamaño inicial de la descripción */
     transition: font-size 0.3s ease;
-    /* Transición para el tamaño de la descripción */
-
 }
 
 .stage .step-number {
     position: absolute;
     font-size: 35rem;
-    /* Aumenta el tamaño de la fuente */
     color: rgba(64, 64, 66, 0.15);
-    /* Ajusta la opacidad */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -664,13 +688,10 @@ body {
 
 .stage:hover .step-number {
     opacity: 0.2;
-    /* Cambia la opacidad en hover */
-
 }
 
 .stage:hover .text h2 {
     font-size: 3.5rem;
-    /* Tamaño del título en hover */
 }
 
 .stage:hover .text p {
@@ -688,7 +709,6 @@ body {
     align-items: center;
     padding: 15px;
     z-index: 100;
-
 }
 
 /* Puntos de la barra lateral */
@@ -723,6 +743,7 @@ body {
       transform: translateY(-5px);
     }
   }
+
   #backToTop {
     display: none;
     position: fixed;
@@ -737,12 +758,13 @@ body {
     font-size: 24px;
     animation: bounce 2s infinite;
   }
+
   #backToTop:hover {
     background-color: $enlaces-orange;
     color: $thunder;
   }
-/* arrow center */
 
+/* arrow center */
 .arrow {
     width: 0;
     height: 0;
@@ -766,4 +788,25 @@ body {
     60% {
         transform: translateX(-50%) translateY(-5px);
     }
+}
+
+
+/* ACORDEON */
+
+.accordion {
+    display: o;
+    width: 100%;
+    font-size: 2em;
+    align-items: center;
+} 
+
+.eleccion{ 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+padding: 1em 20em 1em 20em;
+}
+
+.accordion-button {
+    font-size: 1.5em;
 }
