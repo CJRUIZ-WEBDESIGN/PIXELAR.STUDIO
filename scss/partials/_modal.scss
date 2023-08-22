@@ -143,3 +143,13 @@ justify-content: center;
     justify-content: space-between;
 }
 
+#elegidosSection {
+    display: inline-block;
+    position: relative;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+
+    align-items: center;
+}
