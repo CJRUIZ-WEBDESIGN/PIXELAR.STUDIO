@@ -1,8 +1,8 @@
 /* INICIO - HEADER */
-#inicio {
-    width: 100%;
-    background-color: $thunder;
 
+#inicio {
+    font-family: poppins;
+    width: 100%;
 }
 
 #inicio .contenido header {
@@ -76,7 +76,7 @@ body {
     position: relative;
     overflow: hidden;
     transition: all 0.5s ease;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 #inicio .contenido header .contenido-header nav ul li a {
@@ -105,7 +105,7 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: trans;
+    background-color: transparent;
 }
 
 .navbar-brand {
@@ -245,13 +245,13 @@ body {
 
 
 #busquedaInput {
-    margin-right: 1em;
+    margin-right: .5em;
     width: 80vw;
     font-size: 2em;
     border-radius: 10px;
     padding: .3em;
     color: $spun-pearl;
-    margin-bottom: 5em;
+    
 }
 
 .botonBuscar {
@@ -273,7 +273,14 @@ body {
 }
 
 .containerSearch {
-    display: inline;
+    display: flex;
+    gap: 3em;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    
 }
 
 
@@ -374,10 +381,12 @@ body {
 body {
     font-family: poppins;
     margin: 0;
+    background-color: $soapstone;
+    color: #8b8d92;
     margin: 0;
     padding: 0;
     background-image: url('../images/fondont.png'); 
-    background-attachment: fixed;
+    background-attachment: fixed; 
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -390,8 +399,6 @@ body {
     margin: auto;
     overflow: hidden;
     margin-bottom: 10em;
-
-
 }
 
 .titulo-section {
@@ -580,7 +587,7 @@ body {
     display: none;
     position: fixed;
     bottom: 90px;
-    right: 15px;
+    right: 16px;
     border: none;
     background-color: $thunder;
     color: white;

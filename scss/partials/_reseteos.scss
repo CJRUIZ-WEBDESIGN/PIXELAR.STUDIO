@@ -13,3 +13,46 @@ html {
 }
 
 
+/* SWEET ALERT */
+
+
+.swal2-timer-progress-bar {
+    display: none;
+} 
+
+.swal2-container {
+    font-size: 2em;
+}
+
+.swal2-title {
+    font-size: 2.2em!important;
+}
+
+.swal2-container{
+width: 100%;
+z-index: 30000;
+
+}
+
+
+.swal2-popup{
+    width: 500px;
+    height: 450px;
+}
+
+.swal2-show{
+font-size: .6em;
+}
+
+.swal2-html-container {
+    font-size: 1.5em!important;
+    
+}
+
+.swal2-styled {
+font-size: 1.3em!important;
+padding: 8px;
+
+}
+
+

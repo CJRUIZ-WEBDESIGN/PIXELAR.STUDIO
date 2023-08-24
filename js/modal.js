@@ -81,38 +81,53 @@ async function finalizarCompra() {
     let carrito = JSON.parse(localStorage.getItem("carrito") || "[]");
 
     // Crear tabla con los servicios del carrito
-    let carritoTabla = '<table>';
-    carrito.forEach(item => {
-        carritoTabla += `Nombre del Servicio: ${item.nombre} - Cantidad: ${item.cantidad} - Precio: ${item.precio}`;
+    let carritoTabla = 'Detalles del Carrito:\n';
+    carrito.forEach(servicio => {
+        carritoTabla += `Nombre del Servicio: ${servicio.nombre}\n  Cantidad: ${servicio.cantidad}\n  Precio: ${servicio.precio}\n\n`;
     });
-    carritoTabla += '</table>';
+    
 
     // Crear el contenido del modal
     let modalHTML = `
         <div id="contact-modal-fin" class="modal-fin">
+
             <div class="modal-content-fin">
-                <span class="close-button" id="close-contact-modal">&times;</span>
-                <h1>Finalizando la Compra</h1>
-                <div style="background-color: #f3f3f3; padding: 15px;">
-                    <p>Por favor, complete el siguiente formulario para finalizar la compra:</p>
-                    <form action="https://formsubmit.co/b8de3035ad7d73811be0ce0ae8805a72" method="POST">
+
+                <span class="close-button-fin" id="close-contact-modal-fin">&times;</span>
+
+                <h1 class="h1-fin">Finalizando la Compra</h1>
+
+                <div class="formu">
+
+                    <p class="p-fin">Por favor, complete el siguiente formulario para finalizar la compra:</p>
+
+                    <form class="form-fin" action="https://formsubmit.co/b8de3035ad7d73811be0ce0ae8805a72" method="POST">
+
                     <input type="hidden" name="carrito" value="${carritoTabla}">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://cr-diseñoweb.com.ar">
+
                         <label for="nombre">Nombre y Apellido</label>
                         <input type="text" name="name" required>
+
                         <label for="email">Correo Electronico</label>
                         <input type="email" name="email" required>
+
                         <label for="tel">Numero de Telefono</label>
                         <input type="tel" name="tel" required>
+
                         <label for="payment">Como desea abonar</label>
+
                         <select name="payment" required>
                             <option value="tarjeta-credito">Tarjeta de Crédito</option>
                             <option value="transferencia-bancaria">Transferencia Bancaria</option>
                             <option value="mercado-pago">Mercado Pago</option>
+                            <option value="efectivo">Efectivo</option>
                         </select>
-                        <textarea placeholder="Escriba aqui su mensaje" class="form-control" name="message" rows="15" required></textarea>
-                        <button type="submit">Enviar petición</button>
+
+                        <textarea class="text-area" placeholder="Escriba aqui su mensaje" class="form-control" name="message" rows="15" required></textarea>
+                        
+                        <button class="submit-fin" type="submit">Enviar petición</button>
                     </form>
                 </div>
             </div>
@@ -123,10 +138,10 @@ async function finalizarCompra() {
 
     // Mostrar el modal
     document.querySelector('#contact-modal-fin').style.display = "block";
-    document.querySelector('.modal').style.display = "none";
+    document.querySelector('.modal-fin').style.display = "none";
 
     // Cerrar el modal con el botón de cierre
-    document.querySelector('#close-contact-modal').addEventListener('click', () => {
+    document.querySelector('#close-contact-modal-fin').addEventListener('click', () => {
         document.querySelector('#contact-modal-fin').style.display = "none";
     });
 
@@ -160,7 +175,7 @@ async function finalizarCompra() {
     }
 
     // Evento de clic en el botón de cierre
-    document.querySelector('#close-contact-modal').addEventListener('click', handleClose);
+    document.querySelector('#close-contact-modal-fin').addEventListener('click', handleClose);
 
     // Evento de clic fuera del contenido del modal
     modalFin.addEventListener('click', function (e) {
@@ -177,5 +192,11 @@ async function finalizarCompra() {
     // Eliminar el carrito del almacenamiento local
     localStorage.removeItem("carrito");
     mostrarServiciosCarrito()
+}
+
+document.querySelector(".seguirCompraBtn").addEventListener("click", seguirComprandoAhora());
+
+function seguirComprandoAhora() {
+
 }
 

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 .cajaShadow-1 {
   border-radius: 15px;
@@ -119,8 +118,8 @@
 
 /* INICIO - HEADER */
 #inicio {
+  font-family: poppins;
   width: 100%;
-  background-color: #393646;
 }
 
 #inicio .contenido header {
@@ -192,7 +191,7 @@ body {
   position: relative;
   overflow: hidden;
   transition: all 0.5s ease;
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 
 #inicio .contenido header .contenido-header nav ul li a {
@@ -221,7 +220,7 @@ body {
   position: relative;
   justify-content: center;
   align-items: center;
-  background-color: trans;
+  background-color: transparent;
 }
 
 .navbar-brand {
@@ -353,13 +352,12 @@ body {
 }
 
 #busquedaInput {
-  margin-right: 1em;
+  margin-right: 0.5em;
   width: 80vw;
   font-size: 2em;
   border-radius: 10px;
   padding: 0.3em;
   color: #ababb1;
-  margin-bottom: 5em;
 }
 
 .botonBuscar {
@@ -381,7 +379,13 @@ body {
 }
 
 .containerSearch {
-  display: inline;
+  display: flex;
+  gap: 3em;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 5em;
 }
 
 /* -------CSS de Chat WhatsApp -------*/
@@ -478,6 +482,8 @@ body {
 body {
   font-family: poppins;
   margin: 0;
+  background-color: #d6d6d6;
+  color: #8b8d92;
   margin: 0;
   padding: 0;
   background-image: url("../images/fondont.png");
@@ -671,7 +677,7 @@ body {
   display: none;
   position: fixed;
   bottom: 90px;
-  right: 15px;
+  right: 16px;
   border: none;
   background-color: #393646;
   color: white;
@@ -740,54 +746,6 @@ body {
   font-size: 1.5em;
 }
 
-/* MIS SERVICIOS */
-.grid-container {
-  display: inline-block;
-  position: relative;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px; /* Separación entre tarjetas */
-  padding: 15px;
-}
-
-.mis-Servicios {
-  display: flex;
-  position: absolute;
-  background-color: #ababb1;
-  color: yellow;
-  text-align: center;
-  height: auto;
-  width: 100%;
-}
-
-.titulo-section {
-  font-size: 3.5em;
-  text-align: center;
-}
-
-.color1 {
-  background-color: #ffffff;
-  color: #EAEA30;
-  width: 100%;
-}
-
-.color2 {
-  background-color: #ffffff;
-  color: #EAEA30;
-  width: 100%;
-}
-
-.color3 {
-  background-color: #bdbbbb;
-  color: #EAEA30;
-  width: 100%;
-}
-
-#container {
-  padding: 20px;
-  width: auto;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -800,79 +758,40 @@ html {
   width: auto;
 }
 
-/* Sobre Mi */
-#sobremi {
-  max-width: 1200px;
-  margin: auto;
-  padding: 100px 15px;
-  color: #184ae0;
-  display: flex;
+/* SWEET ALERT */
+.swal2-timer-progress-bar {
+  display: none;
 }
 
-#sobremi .contenedor-foto {
-  max-width: 400px;
-  margin-right: 80px;
+.swal2-container {
+  font-size: 2em;
 }
 
-#sobremi .contenedor-foto img {
-  padding: 30px;
-  width: 400px;
-  border-radius: 20px;
+.swal2-title {
+  font-size: 2.2em !important;
 }
 
-#sobremi .sobremi {
-  margin: 0 40px;
+.swal2-container {
+  width: 100%;
+  z-index: 30000;
 }
 
-#sobremi .sobremi h2 {
-  font-size: 34px;
-  font-weight: bold;
-  margin: 20px 0;
-  letter-spacing: 2px;
+.swal2-popup {
+  width: 500px;
+  height: 450px;
 }
 
-#sobremi .sobremi h2 span {
-  color: grey;
+.swal2-show {
+  font-size: 0.6em;
 }
 
-#sobremi .sobremi h3 {
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
+.swal2-html-container {
+  font-size: 1.5em !important;
 }
 
-#sobremi .sobremi p {
-  font-size: 14px;
-  line-height: 25px;
-  color: grey;
-  margin-bottom: 12px;
-}
-
-#sobremi .sobremi a {
-  display: inline-block;
-  text-decoration: none;
-  color: #000;
-  border-radius: 15px;
-  padding: 10px;
-  border: 1px solid #000;
-  margin-top: 30px;
-  transition: 0.5s;
-}
-
-#sobremi .sobremi a:hover {
-  background-color: #404040;
-  color: azure;
-}
-
-#sobremi .sobremi .titulo-section {
-  font-size: 22px;
-  text-transform: uppercase;
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  margin: 0 40px;
+.swal2-styled {
+  font-size: 1.3em !important;
+  padding: 8px;
 }
 
 .heading-primary {
@@ -1261,6 +1180,7 @@ body {
   color: white;
 }
 
+/* CARDS DE PASOS */
 .modal {
   display: none;
   position: fixed;
@@ -1430,8 +1350,8 @@ body {
   align-items: center;
 }
 
-/* modal cart */
-.modal-fin {
+/* MODAL - CONTACT FINALIZAR COMPRA */
+#contact-modal-fin {
   display: none;
   position: fixed;
   left: 0;
@@ -1439,152 +1359,90 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
+  overflow: auto;
+  z-index: 9999;
 }
 
-.modal-content-fin {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
+.modal-fin .modal-content-fin {
+  background-color: #f4f4f4;
+  margin: 10% auto;
   padding: 20px;
-  max-width: 500px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  color: #999;
-  cursor: pointer;
-}
-
-.close-button:hover {
-  color: #333;
-}
-
-h1 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-form {
-  display: grid;
-  grid-gap: 10px;
-}
-
-label {
-  font-size: 14px;
-  color: #555;
-}
-
-input[type=text],
-input[type=email],
-input[type=tel],
-select,
-textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
-  width: 100%;
-}
-
-button[type=submit] {
-  padding: 10px 15px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-button[type=submit]:hover {
-  background-color: #0056b3;
-}
-
-.form-control {
-  resize: none;
-}
-
-/* Proyectos */
-#proyectos {
-  display: flex;
-  padding: 3em;
-  max-width: 100%;
-  background-color: #cf1481;
-  height: auto;
-  text-align: center;
-  margin-bottom: 4em;
-  color: #ffffff;
-  background: linear-gradient(to top, rgba(57, 54, 70, 0.05), transparent);
-}
-
-#proyectos .contenedor-foto {
-  max-width: auto;
-}
-
-#proyectos .contenedor-foto img {
-  width: 100%;
-  padding: 1em;
-  background-color: #ababb1;
-  border-radius: 30px;
-  align-items: center;
-}
-
-#proyectos .proyectos {
-  margin: 0 150px;
-  padding: 1em;
-}
-
-#proyectos .proyectos h2 {
-  font-size: 34px;
+.close-button-fin {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
   font-weight: bold;
-  letter-spacing: 2px;
+  cursor: pointer;
 }
 
-#proyectos .proyectos h2 span {
-  color: rgb(0, 0, 0);
-}
-
-#proyectos .proyectos p {
-  font-size: 2em;
-  line-height: 25px;
-  color: rgb(0, 0, 0);
-  margin-bottom: 12px;
-}
-
-#proyectos .proyectos a {
-  display: inline-block;
+.close-button-fin:hover,
+.close-button-fin:focus {
+  color: #000;
   text-decoration: none;
-  color: #ffffff;
-  border-radius: 15px;
-  padding: 1em;
-  border: 1px solid #151b02;
-  transition: 0.5s;
-  font-size: 2.2em;
+  cursor: pointer;
+}
+
+.formu .form-fin {
+  display: grid;
+  grid-gap: 15px;
+}
+
+.formu label {
   font-weight: bold;
-  text-shadow: 0px 4px 10px rgb(0, 0, 0);
+  margin-bottom: 5px;
+  font-size: 1.4em;
 }
 
-#proyectos .proyectos a:hover {
-  background-color: #404040;
-  color: azure;
+.formu input[type=text],
+.formu input[type=email],
+.formu input[type=tel],
+.formu select,
+.formu .text-area {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.8em;
 }
 
-#proyectos .proyectos .titulo-section {
-  font-size: 22px;
-  text-transform: uppercase;
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  margin: 0 40px;
+.formu .text-area {
+  resize: none;
+  height: 100px;
+  font-size: 1.3em;
+}
+
+.formu .submit-fin {
+  background-color: #393646;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.formu .submit-fin:hover {
+  background-color: #ffa500;
+  color: #393646;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.p-fin {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.h1-fin {
+  font-size: 2.9em;
 }
 
 .error {
@@ -1598,10 +1456,10 @@ body {
 
 .contact-form {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 50px auto;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 
 .contact-form h1 {
@@ -1643,19 +1501,4 @@ body {
 
 .contacto {
   padding: 3em;
-}
-
-.caja-contacto {
-  width: 250px;
-  height: 250px;
-  background-color: black;
-  color: white;
-}
-
-.container-fluid {
-  width: 100%;
-}
-
-.mt-5 {
-  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

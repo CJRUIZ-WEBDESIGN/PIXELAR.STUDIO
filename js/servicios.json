@@ -325,7 +325,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/autonomos1.png",
+        "img": "./images/oficios/Autonomos1.png",
         "precio": 35000
     },
     {
@@ -342,7 +342,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "mapa": "Mapa de Ubicacion del Local/Emprendimiento",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/webperson.png",
+        "img": "./images/oficios/WebPerson.png",
         "precio": 65000
     },
     {
@@ -359,7 +359,7 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/webperson.png",
+        "img": "./images/oficios/WebPerson.png",
         "precio": 350000
     }
 

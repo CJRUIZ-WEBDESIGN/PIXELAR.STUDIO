@@ -196,12 +196,3 @@ window.onscroll = scrollFunction;
     window.scrollTo({top: 0, behavior: 'smooth'});
   });
 
-
-  //parallax
-
-  window.addEventListener('scroll', function() {
-    const parallaxBackground = document.querySelector('.parallax-background');
-    const scrolled = window.scrollY;
-    
-    parallaxBackground.style.transform = 'translateY(' + (scrolled * -0.5) + 'px)'; // Cambiamos el estilo utilizando transform en lugar de top
-});
