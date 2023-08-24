@@ -70,6 +70,7 @@ function cardReturn(servicio) {
 `;
 }
 
+
 function vaciarCarrito() {
   localStorage.removeItem('carrito');
   mostrarServiciosCarrito();
@@ -159,7 +160,7 @@ function scrollToSection(sectionId) {
 }
 
 function updateActiveDot() {
-  const sections = ['inicio', 'trabajo', "acordion", 'servicios-web'];
+  const sections = ['inicio', 'trabajo', "acordion", 'nosotros', "contacto", "servicios", "contacto"];
   let currentSection = sections[0];
 
   sections.forEach((sectionId, index) => {
@@ -194,3 +195,13 @@ window.onscroll = scrollFunction;
   document.getElementById("backToTop").addEventListener("click", function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
   });
+
+
+  //parallax
+
+  window.addEventListener('scroll', function() {
+    const parallaxBackground = document.querySelector('.parallax-background');
+    const scrolled = window.scrollY;
+    
+    parallaxBackground.style.transform = 'translateY(' + (scrolled * -0.5) + 'px)'; // Cambiamos el estilo utilizando transform en lugar de top
+});

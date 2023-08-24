@@ -24,7 +24,6 @@
         type="text/javascript"></script>
     <!-- Vinculacion del CSS al HTML  -->
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/styles.css.map">
     <title>CR Diseño Web</title>
 </head>
 
@@ -33,8 +32,10 @@
     <div class="side-bar">
         <div class="dot" data-section="inicio"></div>
         <div class="dot" data-section="trabajo"></div>
+        <div class="dot" data-section="nosotros"></div>
         <div class="dot" data-section="acordion"></div>
         <div class="dot" data-section="servicios"></div>
+        <div class="dot" data-section="contacto"></div>
     </div>
 
     <!-- INICIO -->
@@ -54,22 +55,26 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/sobremi.html">Sobre Mi</a>
+                                        <a class="nav-link" href="#trabajo">Como trabajamos?</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/misservicios.html">Servicios</a>
+                                        <a class="nav-link" href="#acordion">Por que Elegirnos?</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/misproyectos.html">Proyectos</a>
+                                        <a class="nav-link" href="#nosotros">Nosotros</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                        <a class="nav-link" href="#servicios">Servicios Web</a>
                                     </li>
-                                    <button id="cart-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contacto">Contacto</a>
+                                    </li>
+                                
                                     <li class="nav-item ">
+                                        <button id="cart-button"><i class="fa-solid fa-cart-shopping"></i></button>
                                     </li>
                                 </ul>
                             </div>
@@ -79,7 +84,7 @@
 
             </header>
             <!-- BIENVENIDOS PRESENTACION -->
-            <div class="presentacion ">
+            <div class="presentacion sombra">
                 <h1 class="bienvenida_h1">Bienvenid#s a <span class="span-cr">C.R </span></h1>
                 <h2>Diseño & Desarrollo Web</h2>
                 <p class="p_presentacion">Sitio en Fase de Construccion, agredemos su visita, cualquier consulta o duda
@@ -89,67 +94,66 @@
 
             </div>
 
-
         </div>
     </section>
 
     <!-- TRABAJOS -->
-    <section class="container fondo" id="trabajo">
-        <h1 class="titulo-section-h1">¿ Como se trabaja en <span class="span-cr">C.R</span> Diseño Web ?</p>
-            <h3 class="titulo-section-h3">Los proyectos se dividiran en 5 fases. </h3>
-            <div class="stage">
-                <img class="image" src="./images/1analisis.png" alt="">
-                <div class="text">
-                    <h2>Análisis</h2>
-                    <p>Debemos determinar y definir el propósito de tu web: ¿Qué contenido tendrá? ¿Cómo se llamará?
-                        ¿Qué dominio utilizarás, .com o .com.ar, otro? Además, necesitaré establecer los objetivos y
-                        funcionalidades que tendrá.</p>
-                </div>
-                <div class="step-number"> 1</div>
+    <section class="container" id="trabajo">
+        <h1 class="titulo-section-h1">¿ Como se trabaja en <span class="span-cr">C.R</span> Diseño Web ?</h1>
+        <h3 class="titulo-section-h3">Los proyectos se dividiran en 5 fases. </h3>
+        <div class="stage">
+            <img class="image" src="./images/1analisis.png" alt="">
+            <div class="text">
+                <h2>Análisis</h2>
+                <p>Debemos determinar y definir el propósito de tu web: ¿Qué contenido tendrá? ¿Cómo se llamará?
+                    ¿Qué dominio utilizarás, .com o .com.ar, otro? Además, necesitaré establecer los objetivos y
+                    funcionalidades que tendrá.</p>
             </div>
-            <div class="stage reverse">
-                <div class="text">
-                    <h2>Diseño</h2>
-                    <p>Una vez que tengamos los datos de tu proyecto, analizaremos tus ideas para organizar el contenido
-                        y la
-                        estructura de la web. Luego, crearemos un Wireframe (boceto) con diferentes propuestas de diseño
-                        para que elijas el que más te guste.</p>
-                </div>
-                <img class="image" src="./images/2diseno.png" alt="">
-                <div class="step-number"> 2</div>
+            <div class="step-number"> 1</div>
+        </div>
+        <div class="stage reverse">
+            <div class="text">
+                <h2>Diseño</h2>
+                <p>Una vez que tengamos los datos de tu proyecto, analizaremos tus ideas para organizar el contenido
+                    y la
+                    estructura de la web. Luego, crearemos un Wireframe (boceto) con diferentes propuestas de diseño
+                    para que elijas el que más te guste.</p>
             </div>
-            <div class="stage">
-                <img class="image" src="./images/3desaroollo.png" alt="">
-                <div class="text">
-                    <h2>Desarrollo</h2>
-                    <p>En la etapa de desarrollo, usaremos tecnologías actuales como HTML5, CSS3, SASS y JavaScript. Con
-                        Git & GitHub, podrás seguir los avances de tu proyecto en tiempo real, siendo la única persona
-                        con acceso en esta fase.</p>
-                </div>
-                <div class="step-number"> 3</div>
+            <img class="image" src="./images/2diseno.png" alt="">
+            <div class="step-number"> 2</div>
+        </div>
+        <div class="stage">
+            <img class="image" src="./images/3desaroollo.png" alt="">
+            <div class="text">
+                <h2>Desarrollo</h2>
+                <p>En la etapa de desarrollo, usaremos tecnologías actuales como HTML5, CSS3, SASS y JavaScript. Con
+                    Git & GitHub, podrás seguir los avances de tu proyecto en tiempo real, siendo la única persona
+                    con acceso en esta fase.</p>
             </div>
-            <div class="stage reverse">
-                <div class="text">
-                    <h2>Modo Testing</h2>
-                    <p> En esta etapa, el sitio entrará en Modo Testing por 48 horas. Realizaremos pruebas,
-                        incluyendo la comprobación de compatibilidad entre navegadores, validación de enlaces,
-                        evaluación de la experiencia del usuario y pruebas de carga. Tras confirmar su correcto
-                        funcionamiento y hacer las correcciones necesarias, el sitio avanzará a la Subida al Hosting.
-                    </p>
-                </div>
-                <img class="image" src="./images/4test.png" alt="">
-                <div class="step-number"> 4</div>
+            <div class="step-number"> 3</div>
+        </div>
+        <div class="stage reverse">
+            <div class="text">
+                <h2>Modo Testing</h2>
+                <p> En esta etapa, el sitio entrará en Modo Testing por 48 horas. Realizaremos pruebas,
+                    incluyendo la comprobación de compatibilidad entre navegadores, validación de enlaces,
+                    evaluación de la experiencia del usuario y pruebas de carga. Tras confirmar su correcto
+                    funcionamiento y hacer las correcciones necesarias, el sitio avanzará a la Subida al Hosting.
+                </p>
             </div>
-            <div class="stage">
-                <img class="image" src="./images/5subida.png" alt="">
-                <div class="text">
-                    <h2>Subida Al Hosting</h2>
-                    <p>En la etapa final, una vez superado el Modo Testing, subiremos el proyecto al hosting. Una vez
-                        finalizado, tu web estará en línea, lista para cumplir sus objetivos. La entrega del proyecto
-                        final marcará el comienzo de tu presencia en línea.</p>
-                </div>
-                <div class="step-number"> 5</div>
+            <img class="image" src="./images/4test.png" alt="">
+            <div class="step-number"> 4</div>
+        </div>
+        <div class="stage">
+            <img class="image" src="./images/5subida.png" alt="">
+            <div class="text">
+                <h2>Subida Al Hosting</h2>
+                <p>En la etapa final, una vez superado el Modo Testing, subiremos el proyecto al hosting. Una vez
+                    finalizado, tu web estará en línea, lista para cumplir sus objetivos. La entrega del proyecto
+                    final marcará el comienzo de tu presencia en línea.</p>
             </div>
+            <div class="step-number"> 5</div>
+        </div>
     </section>
 
     <!-- ACORDION -->
@@ -205,17 +209,60 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
 
+    <!-- NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+
+        <h1 class="titulo-section-h1">Sobre <span class="span-cr">Nosotros</span>.</h1>
+        <h3 class="titulo-section-h3"></h3>
+        <p class="p-descripcion">CR Diseño Web se especializa en ofrecer un servicio de calidad, enfocado en
+            experiencias únicas y personalizadas para cada cliente. Gestionamos cada proyecto a través de Git y GitHub,
+            proporcionando servicio de hosting con seguridad las 24 horas. </p>
+        <p class="p-descripcion-p">Nuestra misión es transformar tus ideas en una realidad digital</p>
+        </div>
+
+    </section>
+
+    <!-- SERVICIOS -->
     <section class="servicios-web" id="servicios">
-        <h2 class="titulo-servicioscard">SERVICIOS WEB</h2>
-        <input type="text" id="busquedaInput" placeholder="Ingresa el servicio: Ej.. Web basico, profesional, rubro, empresa, portfolio">
-        <button class="botonBuscar" id="buscarBtn">Buscar</button>
+        <h1 class="titulo-section-h1">SERVICIOS<span class="span-cr">WEB</span>.</h1>
+        <div>
+
+            <input type="text" id="busquedaInput"
+                placeholder="Ingresa el servicio: Ej.. Web basico, profesional, rubro, empresa, portfolio">
+            <button class="botonBuscar" id="buscarBtn">Buscar</button>
+
+        </div>
         <div class="containerSearch" id="container"></div>
     </section>
+
+    <!-- CONTACTO -->
+    <div class="contacto" id="contacto">
+        <h2 class="titulo-servicioscard">PONETE EN CONTACTO</h2>
+        <h3 class="h3contacto">Envianos tu consulta, dudas o sugerencias al siguiente formulario, le responderemos a la
+            brevedad..</h3>
+
+        <section class="contact-form" id="contacto">
+            <h2 class="h3contacto">Formulario de Contacto</h2>
+            <form action="https://formsubmit.co/b8de3035ad7d73811be0ce0ae8805a72" method="POST" />
+            <input type="hidden" alt="Mensaje enviado" name="_autoresponse" value="Mensaje Enviado con Exito">
+            <input type="hidden" alt="" name="_captcha" value="false">
+            <input type="hidden" alt="_template" name="_template" value="box">
+            <input type="hidden" alt="Devuelve al Inicio" name="_next" value="https://cr-diseñoweb.com.ar">
+            <label for="nombre" alt="titulo nombre">Nombre</label>
+            <input type="text" name="name" required alt="ingrese nombre">
+            <label for="email" alt="titulo correo">Correo Electronico</label>
+            <input type="email" name="email" required alt="ingrese email">
+            <label for="asunto" alt="titulo asunto mensaje">Asunto del Mensaje</label>
+            <input type="hidden" name="_subject" value="Nuevo Asunto" alt="asunto">
+            <textarea placeholder="Escriba aqui su mensaje" class="form-control" name="message" rows="10" required
+                alt="boton de enviar"></textarea>
+            <button type="submit" alt="">Enviar consulta</button>
+            </form>
+        </section>
+    </div>
 
     <!-- MODAL CARRITO COMPRAS -->
     <div id="cart-modal" class="modal">
@@ -233,10 +280,9 @@
                 <button id="vaciarCarritoBtn">Vaciar Carrito</button>
                 <button class="seguirCompraBtn" id="seguirCompraBtn">Seguir Comprando</button>
             </div>
-
         </div>
-
     </div>
+
     <!-- BOTON WHATSAPP -->
     <a class="whatsapp" href="https://wa.me/+5491124025510" target="blank">
         <img class="boton-whatsapp" src="./images/WhatsApp.png" width="55" height="55" alt="contactanos-por-WhatsApp">

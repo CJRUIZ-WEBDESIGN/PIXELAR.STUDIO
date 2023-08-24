@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parallax-container {
+            position: relative;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .parallax-background {
+            position: absolute;
+            background-image: url('./images/fondont.png'); /* Asegúrate de tener una imagen válida aquí */
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 200%;
+            top: -50%;
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 50px;
+        }
+    </style>
+    <title>Efecto Parallax</title>
+</head>
+<body>
+    <div class="parallax-container">
+        <div class="parallax-background"></div>
+        <div class="content">
+            <h1>Mi página con efecto Parallax</h1>
+            <p>Contenido de la página...</p>
+        </div>
+    </div>
+        <!-- BARRA LATERAL DOTS -->
+        <div class="side-bar">
+            <div class="dot" data-section="inicio"></div>
+            <div class="dot" data-section="trabajo"></div>
+            <div class="dot" data-section="acordion"></div>
+            <div class="dot" data-section="nosotros"></div>
+            <div class="dot" data-section="servicios"></div>
+            <div class="dot" data-section="contacto"></div>
+        </div>
+    
+        <!-- INICIO -->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="index.html"><img class="imglogo"
+                                        src="./images/Cdesignremove.png" alt=""></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#sobremi">Sobre Mi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/misservicios.html">Servicios</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/misproyectos.html">Proyectos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <button id="cart-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+    
+                </header>
+                <!-- BIENVENIDOS PRESENTACION -->
+                <div class="presentacion sombra">
+                    <h1 class="bienvenida_h1">Bienvenid#s a <span class="span-cr">C.R </span></h1>
+                    <h2>Diseño & Desarrollo Web</h2>
+                    <p class="p_presentacion">Sitio en Fase de Construccion, agredemos su visita, cualquier consulta o duda
+                    </p>
+                    <p class="p_presentacion">envianos un mensaje por medio del boton de WhatsApp o al numero <span
+                            class="span-cr">+54 11 2402 5510</span></p>
+    
+                </div>
+    
+    
+            </div>
+        </section>
+    
+        <!-- TRABAJOS -->
+        <section class="container" id="trabajo">
+            <h1 class="titulo-section-h1">¿ Como se trabaja en <span class="span-cr">C.R</span> Diseño Web ?</h1>
+                <h3 class="titulo-section-h3">Los proyectos se dividiran en 5 fases. </h3>
+                <div class="stage">
+                    <img class="image" src="./images/1analisis.png" alt="">
+                    <div class="text">
+                        <h2>Análisis</h2>
+                        <p>Debemos determinar y definir el propósito de tu web: ¿Qué contenido tendrá? ¿Cómo se llamará?
+                            ¿Qué dominio utilizarás, .com o .com.ar, otro? Además, necesitaré establecer los objetivos y
+                            funcionalidades que tendrá.</p>
+                    </div>
+                    <div class="step-number"> 1</div>
+                </div>
+                <div class="stage reverse">
+                    <div class="text">
+                        <h2>Diseño</h2>
+                        <p>Una vez que tengamos los datos de tu proyecto, analizaremos tus ideas para organizar el contenido
+                            y la
+                            estructura de la web. Luego, crearemos un Wireframe (boceto) con diferentes propuestas de diseño
+                            para que elijas el que más te guste.</p>
+                    </div>
+                    <img class="image" src="./images/2diseno.png" alt="">
+                    <div class="step-number"> 2</div>
+                </div>
+                <div class="stage">
+                    <img class="image" src="./images/3desaroollo.png" alt="">
+                    <div class="text">
+                        <h2>Desarrollo</h2>
+                        <p>En la etapa de desarrollo, usaremos tecnologías actuales como HTML5, CSS3, SASS y JavaScript. Con
+                            Git & GitHub, podrás seguir los avances de tu proyecto en tiempo real, siendo la única persona
+                            con acceso en esta fase.</p>
+                    </div>
+                    <div class="step-number"> 3</div>
+                </div>
+                <div class="stage reverse">
+                    <div class="text">
+                        <h2>Modo Testing</h2>
+                        <p> En esta etapa, el sitio entrará en Modo Testing por 48 horas. Realizaremos pruebas,
+                            incluyendo la comprobación de compatibilidad entre navegadores, validación de enlaces,
+                            evaluación de la experiencia del usuario y pruebas de carga. Tras confirmar su correcto
+                            funcionamiento y hacer las correcciones necesarias, el sitio avanzará a la Subida al Hosting.
+                        </p>
+                    </div>
+                    <img class="image" src="./images/4test.png" alt="">
+                    <div class="step-number"> 4</div>
+                </div>
+                <div class="stage">
+                    <img class="image" src="./images/5subida.png" alt="">
+                    <div class="text">
+                        <h2>Subida Al Hosting</h2>
+                        <p>En la etapa final, una vez superado el Modo Testing, subiremos el proyecto al hosting. Una vez
+                            finalizado, tu web estará en línea, lista para cumplir sus objetivos. La entrega del proyecto
+                            final marcará el comienzo de tu presencia en línea.</p>
+                    </div>
+                    <div class="step-number"> 5</div>
+                </div>
+        </section>
+    
+    
+        
+    
+        <!-- ACORDION -->
+        <section class="eleccion sombra" id="acordion">
+            <h1 class="titulo-section-h1">¿Por que Elegir <span class="span-cr">C.R </span> Diseño Web?</h1>
+            <h3 class="titulo-section-h3">3 Razones por que elegirnos.</h3>
+    
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Razon 1: Accesible para todos los rubros! </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>¿Sabes un Oficio? ¿Sos una Pyme o Unipersonal?</strong> En CR Diseño Web, lo que
+                            mas nos importa es tu negocio, brindamos el servicio especializado, acorde a tu actividad, asi
+                            seas una pyme o un artista independiente o sabes algun oficio, y deseas tener tu presencia en
+                            linea, hay una opcion para cada especialidad.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Razon 2: Flexibilidad en el Pago
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Que no sea un problema el pago</strong> Ofrezcemos opciones de pago flexibles y
+                            adaptadas a tus necesidades. Ya sea a través de planes de pago o acuerdos personalizados con el
+                            cliente, estamos comprometidos en encontrar una solución que se ajuste a tu presupuesto.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Razon 3: Mantenimiento
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Mantenimiento del Sitio Web:</strong> Un sitio web es una herramienta viva que requiere
+                            atención y cuidado constantes para garantizar su rendimiento óptimo. En CR Diseño Web, no solo
+                            nos enfocamos en la creación de un diseño atractivo, sino que también ofrecemos servicios de
+                            mantenimiento regulares para asegurar que tu sitio esté siempre actualizado y funcionando sin
+                            problemas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="nosotros sombra" id="nosotros">
+    
+            <h1 class="titulo-section-h1">Sobre <span class="span-cr">Nosotros</span>.</h1>
+            <h3 class="titulo-section-h3"></h3>
+            <p class="p-descripcion">CR Diseño Web se especializa en ofrecer un servicio de calidad, enfocado en experiencias únicas y personalizadas para cada cliente. Gestionamos cada proyecto a través de Git y GitHub, proporcionando servicio de hosting con seguridad las 24 horas. </p>
+            <p class="p-descripcion-p">Nuestra misión es transformar tus ideas en una realidad digital</p>
+        </div>
+    
+        </section>
+    
+        <section class="servicios-web" id="servicios">
+            <h2 class="titulo-servicioscard">SERVICIOS WEB</h2>
+            <input type="text" id="busquedaInput" placeholder="Ingresa el servicio: Ej.. Web basico, profesional, rubro, empresa, portfolio">
+            <button class="botonBuscar" id="buscarBtn">Buscar</button>
+            <div class="containerSearch" id="container"></div>
+        </section>
+    
+        <div class="parallax-container">
+            <div class="parallax-background"></div>
+            <div class="content">
+                <h1>Mi página con efecto Parallax</h1>
+                <p>Contenido de la página...</p>
+                <section class="servicios-web" id="servicios">
+                    <h2 class="titulo-servicioscard">SERVICIOS WEB</h2>
+                    <input type="text" id="busquedaInput" placeholder="Ingresa el servicio: Ej.. Web basico, profesional, rubro, empresa, portfolio">
+                    <button class="botonBuscar" id="buscarBtn">Buscar</button>
+                    <div class="containerSearch" id="container"></div>
+                </section>
+            </div>
+        </div>
+        <!-- CONTACTO -->
+    
+        <div>
+            <h2 class="titulo-servicioscard">CONTACTANOS</h2>
+            <h3 class="h3contacto">Envianos tu consulta, dudas o sugerencias al siguiente formulario, le responderemos a la brevedad..</h3>
+    
+            <section class="contact-form" id="contacto">
+                <h3 class="h3contacto">Formulario de Contacto</h3>
+                <form action="https://formsubmit.co/b8de3035ad7d73811be0ce0ae8805a72" method="POST" />
+                
+                <input type="hidden" alt="Mensaje enviado" name="_autoresponse" value="Mensaje Enviado con Exito">
+                <input type="hidden" alt="" name="_captcha" value="false">
+                <input type="hidden" alt="_template" name="_template" value="box">
+                <input type="hidden" alt="Devuelve al Inicio" name="_next" value="https://cr-diseñoweb.com.ar">
+                <label for="nombre" alt="titulo nombre" >Nombre</label>
+                <input type="text" name="name" required  alt="ingrese nombre" >
+                <label for="email" alt="titulo correo" >Correo Electronico</label>
+                <input type="email" name="email" required  alt="ingrese email" >
+                <label for="asunto" alt="titulo asunto mensaje">Asunto del Mensaje</label>
+                <input type="hidden" name="_subject" value="Nuevo Asunto"  alt="asunto" >
+                <textarea placeholder="Escriba aqui su mensaje" class="form-control" name="message" rows="10" required  alt="boton de enviar" ></textarea>
+                <button type="submit" alt="" >Enviar formulario</button>
+                </form>
+        
+            </section>
+        </div>
+        <!-- MODAL CARRITO COMPRAS -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h1>Carrito de Compras</h1>
+                <h2>LISTA DE PRODUCTOS ELEGIDOS</h2>
+                <div class="carritoContainer">
+                    <section id="elegidosSection">
+                        <div class="carritoContainer" id="carritoContainer"></div>
+                    </section>
+                </div>
+                <div class="botonesModal boton">
+                    <button class="finalizar-compra" id="finalizarCompraBtn">Finalizar Compra</button>
+                    <button id="vaciarCarritoBtn">Vaciar Carrito</button>
+                    <button class="seguirCompraBtn" id="seguirCompraBtn">Seguir Comprando</button>
+                </div>
+    
+            </div>
+    
+        </div>
+        <!-- BOTON WHATSAPP -->
+        <a class="whatsapp" href="https://wa.me/+5491124025510" target="blank">
+            <img class="boton-whatsapp" src="./images/WhatsApp.png" width="55" height="55" alt="contactanos-por-WhatsApp">
+        </a>
+    
+        <!-- BOTON BACK TO TOP -->
+        <button id="backToTop"><i class="fas fa-angle-double-up"></i></button>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        <script defer src="./js/modal.js"></script>
+        <script defer src="./js/index.js"></script>
+        <script defer src="./js/app.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            const parallaxBackground = document.querySelector('.parallax-background');
+            const scrolled = window.scrollY;
+            
+            parallaxBackground.style.transform = 'translateY(' + (scrolled * -0.5) + 'px)'; // Cambiamos el estilo utilizando transform en lugar de top
+        });
+    </script>
+</body>
+</html>
