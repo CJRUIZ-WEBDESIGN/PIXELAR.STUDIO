@@ -12,13 +12,13 @@
 
 .modal-content {
     background-color: $soapstone;
-    margin: 15% auto;
     padding: 35px;
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     font-size: 2.3em;
     color: $scarpa-flow;
+    z-index: 99999999;
     
 }
 

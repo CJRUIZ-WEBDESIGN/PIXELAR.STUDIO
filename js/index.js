@@ -103,6 +103,7 @@ buscarBtn.addEventListener("click", () => {
     servicio.nombre.toLowerCase().includes(searchTerm));
  
   container.innerHTML = resultados.length > 0 ? resultados.map(servicio => cardReturn(servicio)).join("") : "<b>No se encontraron productos.</b>";
+
 });
 
 
@@ -195,4 +196,3 @@ window.onscroll = scrollFunction;
   document.getElementById("backToTop").addEventListener("click", function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
   });
-

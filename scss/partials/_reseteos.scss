@@ -25,7 +25,7 @@ html {
 }
 
 .swal2-title {
-    font-size: 2.2em!important;
+    font-size: .9em!important;
 }
 
 .swal2-container{
@@ -36,12 +36,13 @@ z-index: 30000;
 
 
 .swal2-popup{
-    width: 500px;
-    height: 450px;
+    width: auto!important;
+    height: auto!important;
 }
 
 .swal2-show{
-font-size: .6em;
+font-size: .9em;
+color: $thunder;
 }
 
 .swal2-html-container {
@@ -54,5 +55,6 @@ font-size: 1.3em!important;
 padding: 8px;
 
 }
+
 
 

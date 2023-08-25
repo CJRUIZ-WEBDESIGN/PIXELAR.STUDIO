@@ -9,11 +9,10 @@ function mostrarServiciosCarrito() {
         carrito.forEach((servicio, index) => {
             carritoDetalle += `
                 <div class="carritoItem">
-                    <img src="${servicio.img}" alt="...">
-                    <p><b>ID: </b>${servicio.id}</p>
-                    <p><b>NOMBRE: </b>${servicio.nombre}</p>
-                    <p><b>PRECIO: </b>$${servicio.precio}</p>
-                    <p><b>CANTIDAD: </b>${servicio.cantidad}</p>
+                    <img src=" ${servicio.img}" alt="...">
+                    <p><b>ID: </b> ${servicio.id}</p>
+                    <p><b>NOMBRE: </b> ${servicio.nombre}</p>
+                    <p><b>PRECIO: </b>$ ${servicio.precio}</p>
                     <button class="eliminar" data-index="${index}"><i class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>`;
             total += servicio.precio * servicio.cantidad;
@@ -41,6 +40,12 @@ function mostrarServiciosCarrito() {
     document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
     document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarProducto));
     document.querySelector('.finalizar-compra').addEventListener('click', finalizarCompra);
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('seguirCompraBtn').addEventListener('click', function() {
+            window.location.href = "index.html";
+        });
+    });
+    
 }
 
 mostrarServiciosCarrito()
@@ -192,11 +197,5 @@ async function finalizarCompra() {
     // Eliminar el carrito del almacenamiento local
     localStorage.removeItem("carrito");
     mostrarServiciosCarrito()
-}
-
-document.querySelector(".seguirCompraBtn").addEventListener("click", seguirComprandoAhora());
-
-function seguirComprandoAhora() {
-
 }
 

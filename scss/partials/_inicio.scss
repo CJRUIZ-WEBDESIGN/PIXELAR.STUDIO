@@ -90,8 +90,22 @@ body {
 
 #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
     color: $enlaces-orange;
+}
+#inicio .contenido header .contenido-header nav ul li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $enlaces-orange;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#inicio .contenido header .contenido-header nav ul li:hover::before {
+    transform: scaleX(1);
 }
 
 .navbar {
@@ -660,3 +674,340 @@ body {
 .accordion-button {
     font-size: 1.5em;
 }
+
+/* COMIENZO CARRITO Y MODALES */
+
+
+.h1-carrito {
+    font-size: 1.3em;
+    color: $thunder;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    top: 0;
+}
+
+.h2-carrito {
+    color: $scarpa-flow;
+    text-align: center;
+    font-size: 1em;
+}
+.b { 
+    color: red;
+    font-size: .3em!important;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+
+}
+
+.modal-content {
+    background-color: $soapstone;
+    padding: 15px;
+    border: 1px solid #888;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: $scarpa-flow;
+    text-align: center;
+    top: 8%;
+    z-index: 9999999!important;
+}
+
+.close-button {
+    color: #000000;
+    float: right;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: rgb(66, 66, 66);
+    font-size: 1.3em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+//carrito 
+
+#carritoContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: $soapstone;
+    box-shadow: 3px 3px 6px #777777, -3px -3px 6px #ffffff;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    bottom: 15em;
+}
+
+.carritoItem {
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px $thunder dotted;
+
+}
+
+.carritoItem img {
+    width: 53%;
+    height: 53%;
+
+}
+
+.carritoItem p {
+    display: flex;
+    margin: 0px;
+    text-decoration: none;
+    text-align: left;
+    color: $scarpa-flow;
+    font-size: .9em;
+
+}
+
+.fa-trash {
+    background-color: white;
+    font-size: 1.2em;
+}
+
+.total {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+    color: $thunder;
+
+}
+
+
+.botonesModal {
+    display: flex;
+    position: relative;
+    flex-direction: inline;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: .6em;
+    margin-top: 10px;
+    font-size: 1em;
+
+}
+
+#finalizarCompraBtn {
+
+    font-size: .7em;
+    color: $enlaces-orange;
+    width: 200px;
+    border-radius: 8px;
+    background: $thunder;
+    cursor: pointer;
+    font-weight: bold;
+    padding: .2em;
+    text-align: center;
+}
+
+#finalizarCompraBtn:hover {
+
+    font-size: .7em;
+    color: $thunder;
+    width: 200px;
+    border-radius: 8px;
+    background: $enlaces-orange;
+    cursor: pointer;
+    font-weight: bold;
+    padding: .2em;
+    text-align: center;
+}
+
+#vaciarCarritoBtn {
+    font-size: .7em;
+    color: $enlaces-orange;
+    width: 200px;
+    border-radius: 8px;
+    background: $thunder;
+    cursor: pointer;
+    font-weight: bold;
+    padding: .2em;
+    text-align: center;
+
+    #vaciarCarritoBtn:hover {
+        font-size: .7em;
+        color: $soapstone;
+        width: 200px;
+        border-radius: 8px;
+        background-color: red !important;
+        cursor: pointer;
+        font-weight: bold;
+        padding: .2em;
+        text-align: center;
+    }
+
+    #seguirCompraBtn {
+        font-size: .7em;
+        color: $enlaces-orange;
+        width: 200px;
+        border-radius: 8px;
+        background: $thunder;
+        cursor: pointer;
+        font-weight: bold;
+        padding: .2em;
+        text-align: center;
+    }
+
+    .seguirCompraBtn {
+        justify-content: space-between;
+    }
+
+    #elegidosSection {
+        display: inline-block;
+        position: relative;
+        justify-content: start;
+        width: 100%;
+        height: 100vh;
+        padding: 30px;
+        align-items: center;
+    }
+
+}
+
+/* MODAL - CONTACT FINALIZAR COMPRA */
+#contact-modal-fin {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    z-index: 9999999!important;
+}
+
+.modal-fin .modal-content-fin {
+    top: 0;
+    background-color: $soapstone;
+    padding: 15px;
+    border: 1px solid #000000;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 9999999!important;
+}
+
+.close-button-fin {
+    color: #000000;
+    float: right;
+    font-size: 3.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button-fin:hover,
+.close-button-fin:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.formu .form-fin {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.formu label {
+    color: $thunder;
+    font-weight: bold;
+    font-size: 1.62em;
+    text-align: center;
+}
+
+.formu input[type="text"],
+.formu input[type="email"],
+.formu input[type="tel"],
+.formu select,
+.formu .text-area {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.7em;
+}
+
+.formu .text-area {
+    resize: none;
+    height: 100px;
+    font-size: 1.8em;
+}
+
+.formu .submit-fin {
+    background-color: $thunder;
+    color: $soapstone;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.formu .submit-fin:hover {
+    background-color: $enlaces-orange;
+    color: $thunder;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.p-fin {
+    margin-bottom: 1px;
+    font-size: 1.9em;
+    text-align: center;
+    color: $scarpa-flow;
+}
+
+
+.h1-fin {
+    font-size: 2.9em;
+    text-align: center;
+    color: $thunder;
+}
+
+      /* sweet */
+
+      .swal2-popup {
+        width: 80%;
+    }
+
+    .swal2-title {
+        font-size: .5em!important;
+
+    }
+    .swal2-html-container{
+        font-size: .9em!important ;
+    }
+    .swal2-styled {
+        font-size: .9em!important;
+    }
