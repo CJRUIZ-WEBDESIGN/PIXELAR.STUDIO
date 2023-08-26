@@ -199,7 +199,7 @@ window.onscroll = scrollFunction;
 
   /* Comportamiento de los enlaces del responsive. */
 
-  document.addEventListener('DOMContentLoaded', function() {
+/*   document.addEventListener('DOMContentLoaded', function() {
     // Obtiene todos los elementos "a" dentro del contenedor del menú colapsable.
     let navbarLinks = document.querySelectorAll('#navbarSupportedContent a.nav-link');
 
@@ -215,4 +215,36 @@ window.onscroll = scrollFunction;
             }
         });
     });
+});
+ */
+document.addEventListener('DOMContentLoaded', function() {
+  // Obtiene todos los elementos "a" dentro del contenedor del menú colapsable.
+  let navbarLinks = document.querySelectorAll('#navbarSupportedContent a.nav-link');
+  
+  // Obtiene el botón del carrito de compras.
+  let cartButton = document.getElementById('#cart-button');
+
+  // Función para colapsar el menú.
+  const collapseMenu = () => {
+    let navbarToggler = document.querySelector('.navbar-toggler');
+
+    // Verifica si el menú está siendo mostrado (puedes omitir esta parte si siempre deseas colapsar el menú).
+    if (!navbarToggler.getAttribute('aria-expanded') || navbarToggler.getAttribute('aria-expanded') === 'true') {
+      navbarToggler.click();
+    }
+  };
+
+  // Agrega un escuchador de evento para cada enlace.
+  navbarLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      collapseMenu();
+    });
+  });
+
+  // Agrega un escuchador de evento para el botón del carrito.
+  cartButton.addEventListener('click', () => {
+    // Suponiendo que tienes una función llamada "mostrarCarrito" que se encarga de mostrar el carrito de compras.
+    mostrarServiciosCarrito();
+    collapseMenu();
+  });
 });
