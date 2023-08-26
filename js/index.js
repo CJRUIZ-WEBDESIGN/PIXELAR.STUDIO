@@ -161,7 +161,7 @@ function scrollToSection(sectionId) {
 }
 
 function updateActiveDot() {
-  const sections = ['inicio', 'trabajo', "acordion", 'nosotros', "contacto", "servicios", "contacto"];
+  const sections = ['inicio', 'trabajo', "acordion", 'nosotros',  "servicios", "contacto"];
   let currentSection = sections[0];
 
   sections.forEach((sectionId, index) => {

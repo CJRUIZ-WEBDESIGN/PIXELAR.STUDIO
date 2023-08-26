@@ -172,7 +172,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url('../images/fondoprin1.png');
+        background-image: url('../images/fondoprin1.png');      
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 10em 0px 30em 0px rgba(0, 0, 0, 1);
         box-shadow: 30em 0px 30em 0px rgba(0, 0, 0, 1);
     }
 
@@ -1471,6 +1475,9 @@ Pantallas medianas (tablets de menos de 992px)
         align-items: center;
         justify-content: center;
         background-image: url('../images/fondoprin1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         box-shadow: 15em 0px 40em 0px rgba(0, 0, 0, 1);
     }
 
@@ -2753,6 +2760,9 @@ Pantallas medianas (tablets de menos de 992px)
         align-items: center;
         justify-content: center;
         background-image: url('../images/fondoprin1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         box-shadow: 10em 0px 30em 0px rgba(0, 0, 0, 1);
     }
 
@@ -3304,7 +3314,7 @@ Pantallas medianas (tablets de menos de 992px)
         }
 
         .modal-fin .modal-content-fin {
-            top: 10%;
+            top: 5%;
             background-color: $soapstone;
             padding: 15px;
             border: 1px solid #000000;
@@ -4046,6 +4056,9 @@ Pantallas medianas (tablets de menos de 992px)
         align-items: center;
         justify-content: center;
         background-image: url('../images/fondoprin1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         box-shadow: 10em 0px 30em 0px rgba(0, 0, 0, 1);
     }
 
@@ -5049,7 +5062,7 @@ CARDS DE JSON
         }
 
         .modal-fin .modal-content-fin {
-            top: 15%;
+            top: 10%;
             background-color: $soapstone;
             padding: 15px;
             border: 1px solid #000000;
