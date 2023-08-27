@@ -1014,3 +1014,16 @@ body {
     .swal2-styled {
         font-size: .9em!important;
     }
+
+    /* Asumiendo que cada sección con animación tiene la clase 'animate' */
+.animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-out;
+  }
+  
+  /* Estado animado */
+  .animate-show {
+    opacity: 1;
+    transform: translateY(0);
+  }

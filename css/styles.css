@@ -1084,6 +1084,19 @@ body {
   font-size: 0.9em !important;
 }
 
+/* Asumiendo que cada sección con animación tiene la clase 'animate' */
+.animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-out;
+}
+
+/* Estado animado */
+.animate-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1395,14 +1408,14 @@ body {
 }
 
 .card__heading {
-  font-size: 3.5em;
-  font-weight: 200;
+  font-size: 2.5em;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2.5px 3px rgb(0, 0, 0);
   width: 100%;
-  padding: 0.1em;
+  padding: 0 0.5em 0;
 }
 
 .card__heading-span {
@@ -1420,7 +1433,7 @@ body {
   list-style: none;
   width: 100%;
   margin: 0 auto;
-  padding: 2em;
+  padding: 0 0.6em 0;
 }
 
 .card__details ul li {
@@ -1498,14 +1511,14 @@ body {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  padding: 25px;
+  padding: 20px;
   object-fit: contain;
   border-radius: 46px;
 }
 
 .imagProduc--1 {
   width: auto;
-  height: autp;
+  height: auto;
   display: flex;
   position: absolute;
   flex-direction: row;
@@ -2704,14 +2717,14 @@ body {
     font-size: 0.4em;
   }
   .card__heading {
-    font-size: 3em;
+    font-size: 2.4em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
     text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
     width: 100%;
-    padding: 0.1em;
+    padding: 0 0.08em 0;
   }
   .card__heading-span {
     -webkit-box-decoration-break: clone;
@@ -2726,7 +2739,7 @@ body {
     list-style: none;
     width: 100%;
     margin: 0 auto;
-    padding: 2em;
+    padding: 0 1.5em 0;
   }
   .card__details ul li {
     text-align: center;
@@ -3794,14 +3807,14 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 0.4em;
   }
   .card__heading {
-    font-size: 2.6em;
+    font-size: 2.5em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
     text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
     width: 100%;
-    padding: 0.1em;
+    padding: 0 0.51em 0;
   }
   .card__heading-span {
     -webkit-box-decoration-break: clone;
@@ -3816,7 +3829,7 @@ Pantallas medianas (tablets de menos de 992px)
     list-style: none;
     width: 100%;
     margin: 0 auto;
-    padding: 2em;
+    padding: 0 1.5em;
   }
   .card__details ul li {
     text-align: center;
@@ -4868,14 +4881,14 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 0.4em;
   }
   .card__heading {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
     text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
     width: 100%;
-    padding: 0.1em;
+    padding: 0 0.51em 0;
   }
   .card__heading-span {
     -webkit-box-decoration-break: clone;
@@ -4890,7 +4903,7 @@ Pantallas medianas (tablets de menos de 992px)
     list-style: none;
     width: 100%;
     margin: 0 auto;
-    padding: 2em;
+    padding: 0 1.5em 0;
   }
   .card__details ul li {
     text-align: center;
@@ -5650,14 +5663,15 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 0.4em;
   }
   .card__heading {
-    font-size: 3.4em;
+    width: 100%;
+    font-size: 2.5em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
     text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
     width: 100%;
-    padding: 0.1em;
+    padding: 0 0.5em 0;
   }
   .card__heading-span {
     -webkit-box-decoration-break: clone;

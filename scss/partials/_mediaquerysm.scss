@@ -1106,14 +1106,14 @@
             }
     
         .card__heading {
-                font-size: 3em;
+                font-size: 2.4em;
                 font-weight: bold;
                 text-transform: uppercase;
                 text-align: center;
                 color: #ffffff;
                 text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
                 width: 100%;
-                padding: .1em;
+                padding:0 .08em 0;
     
         }
     
@@ -1132,7 +1132,7 @@
                 list-style: none;
                 width: 100%;
                 margin: 0 auto;
-                padding: 2em;
+                padding: 0 1.5em 0;
     
             }
     
@@ -2409,14 +2409,14 @@ Pantallas medianas (tablets de menos de 992px)
             }
     
         .card__heading {
-                font-size: 2.6em;
+                font-size: 2.5em;
                 font-weight: bold;
                 text-transform: uppercase;
                 text-align: center;
                 color: #ffffff;
                 text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
                 width: 100%;
-                padding: .1em;
+                padding: 0 .51em 0;
     
         }
     
@@ -2435,7 +2435,7 @@ Pantallas medianas (tablets de menos de 992px)
                 list-style: none;
                 width: 100%;
                 margin: 0 auto;
-                padding: 2em;
+                padding: 0 1.5em;
     
             }
     
@@ -3699,14 +3699,14 @@ Pantallas medianas (tablets de menos de 992px)
                 }
         
             .card__heading {
-                    font-size: 3em;
+                    font-size: 2.5em;
                     font-weight: bold;
                     text-transform: uppercase;
                     text-align: center;
                     color: #ffffff;
                     text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
                     width: 100%;
-                    padding: .1em;
+                    padding: 0 .51em 0;
         
             }
         
@@ -3725,7 +3725,7 @@ Pantallas medianas (tablets de menos de 992px)
                     list-style: none;
                     width: 100%;
                     margin: 0 auto;
-                    padding: 2em;
+                    padding: 0 1.5em 0;
         
                 }
         
@@ -4697,14 +4697,15 @@ CARDS DE JSON
         }
 
     .card__heading {
-            font-size: 3.4em;
+        width: 100%;
+            font-size: 2.5em;
             font-weight: bold;
             text-transform: uppercase;
             text-align: center;
             color: #ffffff;
             text-shadow: 3px 2.5px 3px rgb(0, 0, 0);
             width: 100%;
-            padding: .1em;
+            padding: 0 .50em 0;
 
     }
 
