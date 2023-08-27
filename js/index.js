@@ -102,7 +102,8 @@ buscarBtn.addEventListener("click", () => {
   const resultados = servicios.filter((servicio) =>
     servicio.nombre.toLowerCase().includes(searchTerm));
  
-  container.innerHTML = resultados.length > 0 ? resultados.map(servicio => cardReturn(servicio)).join("") : "<b>No se encontraron productos.</b>";
+  container.innerHTML = resultados.length > 0 ? resultados.map(servicio => cardReturn(servicio)).join("") : `<b class="b-servicios">No se encontraron servicios con ese nombre.</b>
+  `;
 
 });
 

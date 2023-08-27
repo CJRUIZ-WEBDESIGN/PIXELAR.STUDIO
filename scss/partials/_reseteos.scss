@@ -20,17 +20,17 @@ html {
     display: none;
 } 
 
-.swal2-container {
-    font-size: 2em;
-}
-
 .swal2-title {
-    font-size: .9em!important;
+    font-size: 1.5em!important;
 }
 
 .swal2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 width: 100%;
-z-index: 30000;
+z-index: 99999999;
+font-size: 2em;
 
 }
 
@@ -38,11 +38,15 @@ z-index: 30000;
 .swal2-popup{
     width: auto!important;
     height: auto!important;
+    z-index: 99999999;
+
 }
 
 .swal2-show{
-font-size: .9em;
+font-size: 1em;
 color: $thunder;
+z-index: 99999999;
+
 }
 
 .swal2-html-container {

@@ -594,11 +594,15 @@
 
     .carritoItem p {
         display: flex;
+        width: 100%;
         margin: 0px;
         text-decoration: none;
         text-align: left;
         color: $scarpa-flow;
-        font-size: .9em;
+        font-size: .7em;
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
 
     }
 
@@ -818,7 +822,7 @@
 }
 
 .swal2-title {
-    font-size: .5em!important;
+    font-size: .9em!important;
 
 }
 .swal2-html-container{
@@ -2118,7 +2122,7 @@ Pantallas medianas (tablets de menos de 992px)
         }
 
         .swal2-title {
-            font-size: .5em!important;
+            font-size: .9em!important;
 
         }
         .swal2-html-container{
@@ -3409,7 +3413,7 @@ Pantallas medianas (tablets de menos de 992px)
         }
 
         .swal2-title {
-            font-size: .5em!important;
+            font-size: .9em!important;
 
         }
         .swal2-html-container{
@@ -4845,7 +4849,7 @@ CARDS DE JSON
         .h2-carrito {
             color: $scarpa-flow;
             text-align: center;
-            font-size: .5em;
+            font-size: .8em;
         }
 
         .modal {
@@ -4933,11 +4937,15 @@ CARDS DE JSON
 
         .carritoItem p {
             display: flex;
+            width: 100%;
             margin: 0px;
             text-decoration: none;
             text-align: left;
             color: $scarpa-flow;
-            font-size: .8em;
+            font-size: .7em;
+            align-items: center;
+            padding: 10px;
+            justify-content: center;
 
         }
 

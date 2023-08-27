@@ -32,10 +32,10 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Sitio con Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/webprof.png",
-        "html": "./images/WebAvanzada.png",
-        "css": "./images/WebAvanzada.png",
-        "javascript": "./images/WebAvanzada.png",
+        "img": "./images/oficios/webbasico.png",
+        "html": "./images/html.png",
+        "css": "./images/css3.png",
+        "javascript": "./images/js.png",
 
         "precio": 45000
     },
@@ -53,10 +53,10 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/landingpage.png",
-        "html": "./images/WebAvanzada.png",
-        "css": "./images/WebAvanzada.png",
-        "javascript": "./images/WebAvanzada.png",
+        "img": "./images/oficios/webbasico.png",
+        "html": "./images/html.png",
+        "css": "./images/css3.png",
+        "javascript": "./images/js.png",
         "precio": 45000
     },
     {
@@ -73,10 +73,10 @@
         "seo": "Optimizacion SEO para buscadores",
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/webportfolio.png",
-        "html": "./images/WebAvanzada.png",
-        "css": "./images/WebAvanzada.png",
-        "javascript": "./images/WebAvanzada.png",
+        "img": "./images/oficios/cardportfolio.png",
+       "html": "./images/html.png",
+        "css": "./images/css3.png",
+        "javascript": "./images/js.png",
 
         "precio": 45000
     },
@@ -117,7 +117,7 @@
     },
     {
         "id": "7",
-        "nombre": "WEB RUBRO GASISTA",
+        "nombre": " GASISTA",
         "descripcion": "Dirigido a especialistas en gas. Nuestro diseño, completamente 100% personalizable, está en sintonía con la precisión de tu trabajo. Una elección segura para tu presencia en línea.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -135,7 +135,7 @@
     },
     {
         "id": "8",
-        "nombre": "WEB RUBRO CONSTRUCCION",
+        "nombre": " CONSTRUCCION",
         "descripcion": "Web para Profesionales de la construcción, ofrecemos un diseño 100% personalizado, ideal para empresas de servicio de Construccion que quieran tener todo lo necesario para dar su presencia en linea.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -153,7 +153,7 @@
     },
     {
         "id": "9",
-        "nombre": "WEB RUBRO HERRERIA",
+        "nombre": " HERRERIA",
         "descripcion": "Pensado para Profesionales de la Herreria, ofrecemos un diseño 100% personalizado, y acorde a los criterios de tu negocio, diseño intuitivo, y una Una opción robusta para tu negocio en línea",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -171,7 +171,7 @@
     },
     {
         "id": "10",
-        "nombre": "WEB RUBRO ELECTRICISTA",
+        "nombre": " ELECTRICISTA",
         "descripcion": "Enciende tu negocio con un diseño 100% personalizable que puede incluir una lista de servicios, un botón de WhatsApp para emergencias y una galería de trabajos realizados.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -189,7 +189,7 @@
     },
     {
         "id": "11",
-        "nombre": "WEB RUBRO PLOMERIA",
+        "nombre": " PLOMERIA",
         "descripcion": "Destapa tu potencial con un diseño web totalmente personalizable. Incluye una galería de fotos de proyectos completados, un botón de WhatsApp para urgencias y un seccion con consejos de mantenimiento",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -207,7 +207,7 @@
     },
     {
         "id": "12",
-        "nombre": "WEB RUBRO CARPINTERIA",
+        "nombre": " CARPINTERIA",
         "descripcion": "Diseñado para expertos de la carpintería. Presentamos un diseño totalmente personalizado, que refleja la esencia de la madera. Perfecto para quienes buscan trascender en el mundo digital.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -225,7 +225,7 @@
     },
     {
         "id": "13",
-        "nombre": "WEB RUBRO MEDICOS Y CLINICAS",
+        "nombre": " MEDICOS Y CLINICAS",
         "descripcion": "Diseño 100% personalizado, se podra ofrecer servicios médicos, informacion de salud, mapa de ubicacion, etc.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -243,7 +243,7 @@
     },
     {
         "id": "14",
-        "nombre": "WEB RUBRO DERECHO",
+        "nombre": " DERECHO",
         "descripcion": "Defiende tu presencia en línea con un diseño que puede ofrecer un sistema de consultas en línea, un botón de WhatsApp para urgencias legales y artículos sobre leyes, una opción recomendada para dar a conocer sus servicios.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -261,7 +261,7 @@
     },
     {
         "id": "15",
-        "nombre": "WEB RUBRO VETERINARIO",
+        "nombre": " VETERINARIO",
         "descripcion": "Cuida de las mascotas y de tu negocio con un diseño que puede ofrecer seccion de consejos utiles, botón de WhatsApp para contacto directo para emergencias y una galeria de imagenes.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -279,7 +279,7 @@
     },
     {
         "id": "16",
-        "nombre": "WEB RUBRO LOCAL COMERCIAL",
+        "nombre": " LOCAL COMERCIAL",
         "descripcion": "Proyecto Web de Local Comercial, se centra en la presencia en linea de un local comercial, con enfoque en sus servicios, productos, etc, con un diseño 100% personalizado, opción recomendada para locales que quieran dar a conocer sus servicios.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -313,7 +313,7 @@
     },
     {
         "id": "18",
-        "nombre": "WEB MONOTRIBUTO",
+        "nombre": "WEB MONOTRIBUTISTAS",
         "descripcion": "Proyecto Web pensado para Monotributistas, tenes un emprendimiento y queres tener presencia en linea? Te diseñamos el sitio 100% personalizado y acorde a tu actividad comercial, sin dudas una buena opcion para dar a conocer tus servicios.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -330,7 +330,7 @@
     },
     {
         "id": "19",
-        "nombre": "WEB RUBO MECANICA AUTOMOTRIZ",
+        "nombre": "MECANICA AUTOMOTRIZ",
         "descripcion": "Web pensada para Profesionales de la Mecanica Automotriz, con diseño 100% adaptable a sus necesidades, lugar donde podra mostrar sus precios, tipos de trabajos, y galeria de imagenes, y mucho mas! ",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -342,12 +342,12 @@
         "seo": "Optimizacion SEO para buscadores",
         "mapa": "Mapa de Ubicacion del Local/Emprendimiento",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/mecanicaauto.png",
+        "img": "./images/oficios/cardmecanicoauto.png",
         "precio": 45000
     },
     {
         "id": "20",
-        "nombre": "WEB RUBO MECANICA DE MOTO",
+        "nombre": "MECANICA DE MOTO",
         "descripcion": "Web pensada para especialista en mecánica de motos, con diseño 100% adaptable a sus necesidades, lugar donde podra mostrar sus precios, tipos de trabajos, y galeria de imagenes, y mucho mas! ",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -364,7 +364,7 @@
     },
     {
         "id": "21",
-        "nombre": "WEB RUBRO CERRAJERIA",
+        "nombre": " CERRAJERIA",
         "descripcion": "Abre puertas en el mundo digital con un diseño web que puede incluir un sistema de citas, un botón de WhatsApp para emergencias, reseñas de clientes satisfechos y una sección de servicios disponibles las 24 horas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -381,7 +381,7 @@
     },
     {
         "id": "22",
-        "nombre": "WEB RUBRO FOTOGRAFIA",
+        "nombre": " FOTOGRAFIA",
         "descripcion": "Pensada y enfocada a lo que tu negocio necesita, se diseñara un sitio donde reflara su trabajo y atraera nuevos clientes.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -393,12 +393,12 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/fotografia.png",
+        "img": "./images/oficios/cardfotografia.png",
         "precio": 45000
     },
     {
         "id": "23",
-        "nombre": "WEB RUBRO PASTELERÍAS",
+        "nombre": " PASTELERÍAS",
         "descripcion": "Hornea tu éxito en línea con un diseño web que puede incluir un catálogo de pasteles, un botón de WhatsApp para pedidos y reseñas de eventos azucarados.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -410,12 +410,12 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/pasteleria.jpg",
+        "img": "./images/oficios/cardpasteleria.png",
         "precio": 45000
     },
     {
         "id": "24",
-        "nombre": "WEB RUBRO ODONTOLOGIA",
+        "nombre": " ODONTOLOGIA",
         "descripcion": "Pensada y enfocada a lo que tu negocio necesita, se diseñara un sitio 100% adaptable en el cual reflejar su trabajo con galeria de imagenes, descripción de tratamientos, etc.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -466,7 +466,7 @@
     },
     {
         "id": "27",
-        "nombre": "WEB RUBRO IMPRESORAS Y COPIADORAS",
+        "nombre": " IMPRESORAS Y COPIADORAS",
         "descripcion": "Imprime tu éxito en línea con un diseño que puede ofrecer una lista de servicios, un botón de WhatsApp para pedidos urgentes y testimonios de trabajos bien realizados.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -483,7 +483,7 @@
     },
     {
         "id": "28",
-        "nombre": "WEB RUBRO CATERING",
+        "nombre": " CATERING",
         "descripcion": "Sirve la mejor experiencia con un diseño web que puede incluir un menú personalizable, un botón de WhatsApp para pedidos y reseñas de eventos exitosos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -500,7 +500,7 @@
     },
     {
         "id": "29",
-        "nombre": "WEB RUBRO COACHES DE VIDA",
+        "nombre": " COACHES DE VIDA",
         "descripcion": "Mejora vidas y tu negocio con un diseño 100% personalizable que puede incluir sesiones en línea, un botón de WhatsApp para consultas y testimonios de transformaciones.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -517,7 +517,7 @@
     },
     {
         "id": "30",
-        "nombre": "WEB RUBRO AGENTES DE VIAJE",
+        "nombre": " AGENTES DE VIAJE",
         "descripcion": "Descubre el mundo y nuevos clientes con un diseño que puede ofrecer paquetes turísticos, un botón de WhatsApp para consultas y un blog de viajes.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -534,7 +534,7 @@
     },
     {
         "id": "31",
-        "nombre": "WEB RUBRO JARDINEROS",
+        "nombre": " JARDINEROS",
         "descripcion": "Cultiva tu presencia en línea con un diseño que puede ofrecer una lista de servicios, un botón de WhatsApp para citas y reseñas de jardines felices.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -551,7 +551,7 @@
     },
     {
         "id": "32",
-        "nombre": "WEB RUBRO NUTRICIONISTAS",
+        "nombre": " NUTRICIONISTAS",
         "descripcion": "Alimenta el éxito con un diseño 100% personalizable que puede incluir planes de dieta, un botón de WhatsApp para consultas y un blog de nutrición.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -568,7 +568,7 @@
     },
     {
         "id": "33",
-        "nombre": "WEB RUBRO CLÍNICAS DE BELLEZA Y SPA",
+        "nombre": " CLÍNICAS DE BELLEZA Y SPA",
         "descripcion": "Relaja tu camino hacia el éxito con un diseño web que puede incluir un menú de servicios, un botón de WhatsApp para citas y una tienda de productos de belleza.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -585,7 +585,7 @@
     },
     {
         "id": "34",
-        "nombre": "WEB RUBRO SERVICIOS DE MARKETING",
+        "nombre": " SERVICIOS DE MARKETING",
         "descripcion": "Haz crecer tu agencia con un diseño 100% personalizable que puede incluir un portafolio de campañas, un botón de WhatsApp para consultas y un blog de marketing.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -602,7 +602,7 @@
     },
     {
         "id": "35",
-        "nombre": "WEB RUBRO TRADUCTORES E INTÉRPRETES",
+        "nombre": " TRADUCTORES E INTÉRPRETES",
         "descripcion": "Traduce tu habilidad en éxito online con un diseño que puede incluir una lista de idiomas ofrecidos, un botón de WhatsApp para consultas rápidas y testimonios de clientes globales.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -619,7 +619,7 @@
     },
     {
         "id": "36",
-        "nombre": "WEB RUBRO MECÁNICOS DE BICICLETAS",
+        "nombre": " MECÁNICOS DE BICICLETAS",
         "descripcion": "Pedalea hacia el éxito con un diseño 100% personalizable que puede incluir un menú de reparaciones, un botón de WhatsApp para citas urgentes y una galería de bicicletas reparadas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -631,12 +631,12 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardmicanicobici.png",
+        "img": "./images/oficios/cardmecanicobici.png",
         "precio": 45000
     },
     {
         "id": "37",
-        "nombre": "WEB RUBRO ESTUDIOS DE YOGA",
+        "nombre": " ESTUDIOS DE YOGA",
         "descripcion": "Estira tu presencia online con un diseño web que puede ofrecer clases en línea, un botón de WhatsApp para consultas y un blog de bienestar.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -653,7 +653,7 @@
     },
     {
         "id": "38",
-        "nombre": "WEB RUBRO SERVICIOS DE FUMIGACIÓN",
+        "nombre": " SERVICIOS DE FUMIGACIÓN",
         "descripcion": "Elimina la competencia con un diseño que puede incluir una lista de plagas tratadas, un botón de WhatsApp para emergencias y reseñas de espacios limpios.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -670,7 +670,7 @@
     },
     {
         "id": "39",
-        "nombre": "WEB RUBRO SERVICIOS DE LIMPIEZA",
+        "nombre": " SERVICIOS DE LIMPIEZA",
         "descripcion": "Brilla en la web con un diseño 100% personalizable que puede incluir una lista de paquetes, un botón de WhatsApp para citas y testimonios de hogares y oficinas limpias.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -687,7 +687,7 @@
     },
     {
         "id": "40",
-        "nombre": "WEB RUBRO CONSULTORES DE RECURSOS HUMANOS",
+        "nombre": " CONSULTORES DE RECURSOS HUMANOS",
         "descripcion": "Optimiza el capital humano y tu negocio con un diseño que puede ofrecer planes de consultoría, un botón de WhatsApp para consultas y casos de éxito.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -704,7 +704,7 @@
     },
     {
         "id": "41",
-        "nombre": "WEB RUBRO TÉCNICOS EN ELECTRÓNICA",
+        "nombre": " TÉCNICOS EN ELECTRÓNICA",
         "descripcion": "Conecta con más clientes a través de un diseño web que puede incluir una lista de dispositivos reparados, un botón de WhatsApp para emergencias y un blog de consejos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -721,7 +721,7 @@
     },
     {
         "id": "42",
-        "nombre": "WEB RUBRO CAFETERÍAS",
+        "nombre": " CAFETERÍAS",
         "descripcion": "Sirve la mejor taza de éxito con un diseño web que puede incluir un menú digital, un botón de WhatsApp para pedidos y reseñas de clientes encantados.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -738,7 +738,7 @@
     },
     {
         "id": "43",
-        "nombre": "WEB RUBRO HELADERIAS",
+        "nombre": " HELADERIAS",
         "descripcion": "Endulza tu presencia online con un diseño 100% personalizable que puede ofrecer un menú de sabores, un botón de WhatsApp para pedidos y una galería de delicias.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -755,7 +755,7 @@
     },
     {
         "id": "44",
-        "nombre": "WEB RUBRO GIMNASIOS",
+        "nombre": " GIMNASIOS",
         "descripcion": "Levanta tu negocio con un diseño que puede incluir horarios de clases, un botón de WhatsApp para consultas y testimonios de transformaciones físicas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -772,7 +772,7 @@
     },
     {
         "id": "45",
-        "nombre": "WEB RUBRO SERVICIOS DE MUDANZAS",
+        "nombre": " SERVICIOS DE MUDANZAS",
         "descripcion": "Mueve tu negocio al siguiente nivel con un diseño que puede ofrecer un cotizador en línea, un botón de WhatsApp para consultas y testimonios de mudanzas exitosas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -789,7 +789,7 @@
     },
     {
         "id": "46",
-        "nombre": "WEB RUBRO FLORERÍAS",
+        "nombre": " FLORERÍAS",
         "descripcion": "Haz florecer tu negocio con un diseño web que puede incluir un catálogo floral, un botón de WhatsApp para pedidos y reseñas de eventos embellecidos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -806,7 +806,7 @@
     },
     {
         "id": "47",
-        "nombre": "WEB RUBRO TATUADORES",
+        "nombre": " TATUADORES",
         "descripcion": "Dibuja tu éxito en línea con un diseño 100% personalizable que puede ofrecer una galería de arte, un botón de WhatsApp para citas y consejos de cuidado post-tatuaje.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -823,7 +823,7 @@
     },
     {
         "id": "48",
-        "nombre": "WEB RUBRO SERVICIOS DE DJ",
+        "nombre": " SERVICIOS DE DJ",
         "descripcion": "Haz que la fiesta nunca pare con un diseño que puede ofrecer listas de reproducción, un botón de WhatsApp para consultas y testimonios de eventos inolvidables.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -840,7 +840,7 @@
     },
     {
         "id": "49",
-        "nombre": "WEB RUBRO SERVICIOS DE SEGURIDAD",
+        "nombre": " SERVICIOS DE SEGURIDAD",
         "descripcion": "Protege tu presencia online con un diseño web que puede incluir una lista de servicios, un botón de WhatsApp para emergencias y reseñas de clientes seguros.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -857,7 +857,7 @@
     },
     {
         "id": "50",
-        "nombre": "WEB RUBRO REPARACIÓN DE COMPUTADORAS",
+        "nombre": " REPARACIÓN DE COMPUTADORAS",
         "descripcion": "Optimiza tu negocio con un diseño 100% personalizable que puede incluir una lista de problemas comunes solucionados, un botón de WhatsApp para consultas y un blog técnico.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -874,7 +874,7 @@
     },
     {
         "id": "51",
-        "nombre": "WEB RUBRO TIENDAS DE MASCOTAS",
+        "nombre": " TIENDAS DE MASCOTAS",
         "descripcion": "Haz que tu tienda se convierta en el mejor amigo de tu peludo, con un diseño que puede ofrecer un catálogo en línea, un botón de WhatsApp para consultas y reseñas de dueños satisfechos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -891,7 +891,7 @@
     },
     {
         "id": "52",
-        "nombre": "WEB RUBRO PLANCHADO Y LAVANDERÍA",
+        "nombre": " PLANCHADO Y LAVANDERÍA",
         "descripcion": "Limpia tu camino hacia el éxito con un diseño web que puede incluir precios por kilo, un botón de WhatsApp para pedidos y testimonios de clientes.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -908,7 +908,7 @@
     },
     {
         "id": "53",
-        "nombre": "WEB RUBRO TIENDAS DE ARTÍCULOS DEPORTIVOS",
+        "nombre": " TIENDAS DE ARTÍCULOS DEPORTIVOS",
         "descripcion": "Marca un gol con un diseño que puede ofrecer un catálogo en línea, un botón de WhatsApp para consultas de stock y reseñas de atletas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -920,12 +920,12 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardtiendadeporte.png",
+        "img": "./images/oficios/cardtiendadeportiva.png",
         "precio": 45000
     },
     {
         "id": "54",
-        "nombre": "WEB RUBRO ASISTENTES VIRTUALES",
+        "nombre": " ASISTENTES VIRTUALES",
         "descripcion": "Organiza tu camino hacia el éxito con un diseño 100% personalizable que puede incluir una lista de servicios, un botón de WhatsApp para consultas y reseñas de empresas asistidas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -942,7 +942,7 @@
     },
     {
         "id": "55",
-        "nombre": "WEB RUBRO GUÍAS TURÍSTICOS",
+        "nombre": " GUÍAS TURÍSTICOS",
         "descripcion": "Dirige a tus clientes hacia tu negocio con un diseño 100% personalizable que puede incluir itinerarios, un botón de WhatsApp para consultas y testimonios de viajeros satisfechos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -959,7 +959,7 @@
     },
     {
         "id": "56",
-        "nombre": "WEB RUBRO ABOGADOS DE INMIGRACIÓN",
+        "nombre": " ABOGADOS DE INMIGRACIÓN",
         "descripcion": "Navega por el complejo mundo de la inmigración con un diseño que puede ofrecer una lista de servicios, un botón de WhatsApp para consultas urgentes y casos de éxito.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -976,7 +976,7 @@
     },
     {
         "id": "57",
-        "nombre": "WEB RUBRO MAQUILLADORES PROFESIONALES",
+        "nombre": " MAQUILLADORES PROFESIONALES",
         "descripcion": "Realza la belleza de tu negocio con un diseño 100% personalizado que puede incluir tutoriales en video, un botón de WhatsApp para citas y un portafolio de trabajos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -993,7 +993,7 @@
     },
     {
         "id": "58",
-        "nombre": "WEB RUBRO ENTRENADORES DE YOGA",
+        "nombre": " ENTRENADORES DE YOGA",
         "descripcion": "Equilibra tu presencia en línea con un diseño que puede ofrecer videos de clases, material de interes, botón de WhatsApp para consultas y un blog sobre bienestar.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1010,7 +1010,7 @@
     },
     {
         "id": "59",
-        "nombre": "WEB RUBRO INSTALADORES DE ENERGÍA SOLAR",
+        "nombre": " INSTALADORES DE ENERGÍA SOLAR",
         "descripcion": "Ilumina el camino verde con un diseño que puede ofrecer un calculador de ahorro, un botón de WhatsApp para consultas y un blog sobre energía sostenible.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "60",
-        "nombre": "WEB RUBRO AGENTES INMOBILIARIOS",
+        "nombre": " AGENTES INMOBILIARIOS",
         "descripcion": "Vende más que propiedades con un diseño 100% personalizable que puede ofrecer un catálogo de bienes raíces, un botón de WhatsApp para consultas inmediatas y un calculador de hipotecas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1044,7 +1044,7 @@
     },
     {
         "id": "61",
-        "nombre": "WEB RUBRO SASTRES Y MODISTAS",
+        "nombre": " SASTRES Y MODISTAS",
         "descripcion": "Cose tu éxito con un diseño que puede ofrecer un catálogo de estilos, un botón de WhatsApp para citas y una galería de trabajos anteriores.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1061,7 +1061,7 @@
     },
     {
         "id": "62",
-        "nombre": "WEB RUBRO EDITORES DE VIDEO",
+        "nombre": " EDITORES DE VIDEO",
         "descripcion": "Corta y pega tu camino hacia el éxito con un diseño que puede ofrecer un portafolio en video, un botón de WhatsApp para consultas y paquetes de edición.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1078,7 +1078,7 @@
     },
     {
         "id": "63",
-        "nombre": "WEB RUBRO ESCRITORES Y REDACTORES",
+        "nombre": " ESCRITORES Y REDACTORES",
         "descripcion": "Escribe tu historia de éxito con un diseño 100% personalizado que puede ofrecer un portafolio de escritura, un botón de WhatsApp para proyectos y un blog literario.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1095,7 +1095,7 @@
     },
     {
         "id": "64",
-        "nombre": "WEB RUBRO PROFESORES PARTICULARES",
+        "nombre": " PROFESORES PARTICULARES",
         "descripcion": "Educadores particulares, con un diseño 100% personalizado que puede incluir un espacio de documentacion de apoyo virtual, un botón de WhatsApp para consultas y reseñas de estudiantes exitosos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1112,7 +1112,7 @@
     },
     {
         "id": "65",
-        "nombre": "WEB RUBRO AGRICULTORES",
+        "nombre": " AGRICULTORES",
         "descripcion": "Cosecha el éxito online con un sitio web que muestre tus productos, técnicas de cultivo sostenible y un botón de WhatsApp para pedidos y consultas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1129,7 +1129,7 @@
     },
     {
         "id": "66",
-        "nombre": "WEB RUBRO INSTRUCTORES DE FITNESS",
+        "nombre": " INSTRUCTORES DE FITNESS",
         "descripcion": "Entrena tu negocio con un diseño 100% personalizable que puede incluir programas de entrenamiento, un botón de WhatsApp para consultas y un blog sobre nutrición.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1146,7 +1146,7 @@
     },
     {
         "id": "67",
-        "nombre": "WEB RUBRO DISEÑO GRÁFICO",
+        "nombre": " DISEÑO GRÁFICO",
         "descripcion": "Portafolio o web empresarial en línea con galería de trabajos previos, y un botón de WhatsApp para contrataciones, etc.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1163,7 +1163,7 @@
     },
     {
         "id": "68",
-        "nombre": "WEB RUBRO FOTÓGRAFOS DE BODAS",
+        "nombre": " FOTOGRAFOS DE BODAS",
         "descripcion": "Captura momentos únicos con un diseño que puede ofrecer una galería de bodas, un botón de WhatsApp para consultas rápidas y paquetes de fotografía.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1180,7 +1180,7 @@
     },
     {
         "id": "69",
-        "nombre": "WEB RUBRO BARBERÍAS",
+        "nombre": " BARBERÍAS",
         "descripcion": "Afila tu presencia en línea con un diseño 100% personalizable que puede ofrecer un sistema de citas, un botón de WhatsApp para consultas y galerías de estilos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1197,7 +1197,7 @@
     },
     {
         "id": "70",
-        "nombre": "WEB RUBRO POESÍA Y ESCRITURA",
+        "nombre": " POESÍA Y ESCRITURA",
         "descripcion": "Deja que tus palabras creen una web de éxito con un diseño que puede ofrecer un catálogo de publicaciones, un botón de WhatsApp para encargos y reseñas de lectores.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1214,7 +1214,7 @@
     },
     {
         "id": "71",
-        "nombre": "WEB RUBRO ESCUELAS DE MÚSICA",
+        "nombre": " ESCUELAS DE MÚSICA",
         "descripcion": "Afina tu presencia en línea con un diseño que puede ofrecer horarios de clases, un botón de WhatsApp para consultas y reseñas de estudiantes.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1231,7 +1231,7 @@
     },
     {
         "id": "72",
-        "nombre": "WEB RUBRO PUBLICIDAD",
+        "nombre": " PUBLICIDAD",
         "descripcion": "Muestre casos de estudio exitosos, y permita a los futuros clientes comunicarse a través de un botón de WhatsApp.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1243,12 +1243,12 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/fotografia.png",
+        "img": "./images/oficios/cardmarketing.png",
         "precio": 45000
     },
     {
         "id": "73",
-        "nombre": "WEB RUBRO DECORADORES DE INTERIORES",
+        "nombre": " DECORADORES DE INTERIORES",
         "descripcion": "Renueva tu presencia en línea con un diseño que puede incluir un portafolio de trabajos realizados, un botón de WhatsApp para consultas y consejos de decoración.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1265,7 +1265,7 @@
     },
     {
         "id": "74",
-        "nombre": "WEB RUBRO ASESORES FINANCIEROS",
+        "nombre": " ASESORES FINANCIEROS",
         "descripcion": "Invierte en tu éxito en línea con un diseño web que puede ofrecer planes de asesoramiento, un botón de WhatsApp para consultas y reseñas de clientes satisfechos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1282,7 +1282,7 @@
     },
     {
         "id": "75",
-        "nombre": "WEB RUBRO ESCUELAS DE ARTE",
+        "nombre": " ESCUELAS DE ARTE",
         "descripcion": "Pinta tu camino hacia el éxito con un diseño 100% personalizable que puede ofrecer horarios de clases, un botón de WhatsApp para consultas y galería de obras de estudiantes.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1316,7 +1316,7 @@
     },
     {
         "id": "77",
-        "nombre": "WEB RUBRO ESTUDIOS DE GRABACIÓN",
+        "nombre": " ESTUDIOS DE GRABACIÓN",
         "descripcion": "Amplifica tu presencia en línea con un diseño web que puede incluir una lista de servicios, un botón de WhatsApp para reservas y reseñas de artistas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1350,7 +1350,7 @@
     },
     {
         "id": "79",
-        "nombre": "WEB RUBRO TIENDAS DE MUEBLES",
+        "nombre": " TIENDAS DE MUEBLES",
         "descripcion": "Amuebla tu camino hacia el éxito con un diseño que puede ofrecer un catálogo en línea, un botón de WhatsApp para consultas y reseñas de productos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1367,7 +1367,7 @@
     },
     {
         "id": "80",
-        "nombre": "WEB RUBRO SERVICIOS DE PESTICIDAS",
+        "nombre": " SERVICIOS DE PESTICIDAS",
         "descripcion": "Erradica tus problemas de visibilidad en línea con un diseño 100% personalizable que puede incluir una lista de servicios, un botón de WhatsApp para consultas y testimonios de clientes.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1401,7 +1401,7 @@
     },
     {
         "id": "82",
-        "nombre": "WEB RUBRO RESIDENCIA GERIATRICA", 
+        "nombre": " RESIDENCIA GERIATRICA", 
         "descripcion": "Ofrezca una descripción detallada de sus servicios de cuidado y permita a los familiares hacer consultas a través de un botón de WhatsApp o un formulario de contacto.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1435,7 +1435,7 @@
     },
     {
         "id": "84",
-        "nombre": "WEB RUBRO ARQUITECTOS",
+        "nombre": " ARQUITECTOS",
         "descripcion": "Diseña tu futuro en línea con un sitio web que puede mostrar tu portafolio, un botón de WhatsApp para consultas y reseñas de proyectos exitosos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1452,7 +1452,7 @@
     },
     {
         "id": "85",
-        "nombre": "WEB RUBRO ESCUELAS DE CONDUCCIÓN",
+        "nombre": " ESCUELAS DE CONDUCCIÓN",
         "descripcion": "Guía a tus alumnos hacia el éxito con un diseño que puede ofrecer horarios de clases, un botón de WhatsApp para inscripciones y reseñas de conductores seguros.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1469,7 +1469,7 @@
     },
     {
         "id": "86",
-        "nombre": "WEB RUBRO ARTE FLORAL",
+        "nombre": " ARTE FLORAL",
         "descripcion": "Exhiba arreglos florales y eventos previos a través de una galería de fotos, con un formulario de contacto para pedidos y consultas, un botón de WhatsApp para pedidos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1486,7 +1486,7 @@
     },
     {
         "id": "87",
-        "nombre": "WEB RUBRO AGENCIAS DE SEGURO",
+        "nombre": " AGENCIAS DE SEGURO",
         "descripcion": "Asegura tu presencia digital con un diseño web adaptado a tus servicios. Incluye cotizadores en línea, botón de WhatsApp para consultas rápidas y secciones de testimonios para fomentar la confianza.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1503,7 +1503,7 @@
     },
     {
         "id": "88",
-        "nombre": "WEB RUBRO RESTAURADORES DE MUEBLES",
+        "nombre": " RESTAURADORES DE MUEBLES",
         "descripcion": "Muestra tu habilidad para dar nueva vida a muebles antiguos con un sitio web que incluye galerías de tu trabajo, un blog con tips, y un botón de WhatsApp para consultas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1520,7 +1520,7 @@
     },
     {
         "id": "89",
-        "nombre": "WEB RUBRO CONTROL DE PLAGAS",
+        "nombre": " CONTROL DE PLAGAS",
         "descripcion": "Extermina la competencia con un sitio web que detalla tus métodos y productos, incluye testimonios de clientes satisfechos, y un botón de WhatsApp para emergencias.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1537,7 +1537,7 @@
     },
     {
         "id": "90",
-        "nombre": "WEB RUBRO ESTILISTAS DE MODA",
+        "nombre": " ESTILISTAS DE MODA",
         "descripcion": "Conviértete en el estilista de elección con un sitio web que muestra tus proyectos anteriores, servicios ofrecidos y un botón de WhatsApp para consultas directas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1554,7 +1554,7 @@
     },
     {
         "id": "91",
-        "nombre": "WEB RUBRO ORFEBRES",
+        "nombre": " ORFEBRES",
         "descripcion": "Brilla con un sitio web que muestra tus creaciones únicas en joyería. Incluye tienda en línea, un blog con consejos de mantenimiento y un botón de WhatsApp para consultas personalizadas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1571,7 +1571,7 @@
     },
     {
         "id": "92",
-        "nombre": "WEB RUBRO APICULTORES",
+        "nombre": " APICULTORES",
         "descripcion": "Destaca la dulzura de tu negocio con un sitio web que muestra tus productos de miel y subproductos. Incluye botón de WhatsApp para compras y consultas sobre cuidado de abejas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1588,7 +1588,7 @@
     },
     {
         "id": "93",
-        "nombre": "WEB RUBRO DERMATÓLOGOS",
+        "nombre": " DERMATÓLOGOS",
         "descripcion": "Ofrece soluciones para el cuidado de la piel con un sitio web que muestra tratamientos, consejos y un botón de WhatsApp para programar consultas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1605,7 +1605,7 @@
     },
     {
         "id": "94",
-        "nombre": "WEB RUBRO ENTRENADORES DE PERROS",
+        "nombre": " ENTRENADORES DE PERROS",
         "descripcion": "Haz que tu pasión por el entrenamiento canino se siente y se quede en la web. Ofrece paquetes de entrenamiento, consejos y un botón de WhatsApp para programar sesiones.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1622,7 +1622,7 @@
     },
     {
         "id": "95",
-        "nombre": "WEB RUBRO ORGANIZADORES DE EVENTOS",
+        "nombre": " ORGANIZADORES DE EVENTOS",
         "descripcion": "Transforma cada evento en una celebración digital con un sitio web lleno de portafolios de eventos anteriores, paquetes y un botón de WhatsApp para consultas rápidas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1639,7 +1639,7 @@
     },
     {
         "id": "96",
-        "nombre": "WEB RUBRO PILOTOS DE DRONES",
+        "nombre": " PILOTOS DE DRONES",
         "descripcion": "Eleva tus servicios a nuevas alturas con un diseño web que muestra tu portafolio de imágenes aéreas y un botón de WhatsApp para cotizaciones de proyectos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1656,7 +1656,7 @@
     },
     {
         "id": "97",
-        "nombre": "WEB RUBRO ENFERMEROS A DOMICILIO",
+        "nombre": " ENFERMEROS A DOMICILIO",
         "descripcion": "Cuida tu presencia en línea con un sitio que ofrezca servicios de enfermería a domicilio, tarifas y un botón de WhatsApp para programar visitas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1673,7 +1673,7 @@
     },
     {
         "id": "98",
-        "nombre": "WEB RUBRO GESTORÍA DE DOCUMENTOS", 
+        "nombre": " GESTORÍA DE DOCUMENTOS", 
         "descripcion": "Ofrezca sus servicios de gestión documental, desde trámites vehiculares hasta legales. Formulario de contacto para presupuestos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1690,7 +1690,7 @@
     },
     {
         "id": "99",
-        "nombre": "WEB RUBRO ARTESANOS",
+        "nombre": " ARTESANOS",
         "descripcion": "Exhibe tu artesanía en un sitio web que muestre tus obras, talleres y un botón de WhatsApp para pedidos.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1724,7 +1724,7 @@
     },
     {
         "id": "101",
-        "nombre": "WEB RUBRO PINTORES DE CASAS",
+        "nombre": " PINTORES DE CASAS",
         "descripcion": "Dale vida a tus espacios con un diseño web que muestre su gama de colores, técnicas de pintura y un botón de WhatsApp para contrataciones directas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1741,7 +1741,7 @@
     },
     {
         "id": "102",
-        "nombre": "WEB RUBRO FISIOTERAPEUTAS",
+        "nombre": " FISIOTERAPEUTAS",
         "descripcion": "Ayuda a tus pacientes a encontrar alivio con un sitio web que detalle tus servicios y terapias. Incluye testimonios y un botón de WhatsApp para agendar consultas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",

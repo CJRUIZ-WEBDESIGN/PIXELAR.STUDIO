@@ -29,17 +29,17 @@ function agregarAlCarrito(servicio) {
     }
     localStorage.setItem("carrito", JSON.stringify(carrito));
     Swal.fire({
-        title: 'Agregado al Carrito!',
-        text: `Agregaste ${servicio.nombre} correctamente.`,
+        title: 'AGREGADO AL CARRITO!',
+        text: `Se añadio ${servicio.nombre} correctamente.`,
         imageUrl: `${servicio.img}`,
         imageWidth: 350,
         imageHeight: 200,
-        imageAlt: 'Imagen de Producto',
+        imageAlt: 'Imagen del Servicio',
         showClass: {
             popup: 'fondo_oscuro animate__animated animate__backInDown'
         },
         showConfirmButton: false,
-        timer: 2000,
+        timer: 2500,
         timerProgressBar: true,
         hideClass: {
             popup: 'fondo_oscuro animate__animated animate__backOutDown'

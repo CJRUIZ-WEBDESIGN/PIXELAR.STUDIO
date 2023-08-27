@@ -265,11 +265,11 @@ body {
 
 #busquedaInput {
     margin-right: .5em;
-    width: 80vw;
-    font-size: 2em;
+    width: 50vw;
+    font-size: 2.5em;
     border-radius: 10px;
     padding: .3em;
-    color: $spun-pearl;
+    color: $thunder;
     
 }
 
@@ -302,7 +302,13 @@ body {
     
 }
 
-
+.b-servicios {
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: $soapstone
+  }
 /* -------CSS de Chat WhatsApp -------*/
 
 .whatsapp {
@@ -774,8 +780,8 @@ body {
 }
 
 .carritoItem img {
-    width: 53%;
-    height: 53%;
+    width: 40%;
+    height: 40%;
 
 }
 

@@ -373,11 +373,11 @@ body {
 
 #busquedaInput {
   margin-right: 0.5em;
-  width: 80vw;
-  font-size: 2em;
+  width: 50vw;
+  font-size: 2.5em;
   border-radius: 10px;
   padding: 0.3em;
-  color: #ababb1;
+  color: #393646;
 }
 
 .botonBuscar {
@@ -406,6 +406,14 @@ body {
   justify-content: center;
   margin-top: 2em;
   margin-bottom: 5em;
+}
+
+.b-servicios {
+  width: 100%;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #d6d6d6;
 }
 
 /* -------CSS de Chat WhatsApp -------*/
@@ -856,8 +864,8 @@ body {
 }
 
 .carritoItem img {
-  width: 53%;
-  height: 53%;
+  width: 40%;
+  height: 40%;
 }
 
 .carritoItem p {
@@ -1114,27 +1122,29 @@ html {
   display: none;
 }
 
-.swal2-container {
-  font-size: 2em;
-}
-
 .swal2-title {
-  font-size: 0.9em !important;
+  font-size: 1.5em !important;
 }
 
 .swal2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  z-index: 30000;
+  z-index: 99999999;
+  font-size: 2em;
 }
 
 .swal2-popup {
   width: auto !important;
   height: auto !important;
+  z-index: 99999999;
 }
 
 .swal2-show {
-  font-size: 0.9em;
+  font-size: 1em;
   color: #393646;
+  z-index: 99999999;
 }
 
 .swal2-html-container {
@@ -1532,7 +1542,6 @@ body {
   color: white;
 }
 
-/* CARDS DE PASOS */
 .modal {
   display: none;
   position: fixed;
@@ -2282,11 +2291,15 @@ body {
   }
   .carritoItem p {
     display: flex;
+    width: 100%;
     margin: 0px;
     text-decoration: none;
     text-align: left;
     color: #404042;
-    font-size: 0.9em;
+    font-size: 0.7em;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
   }
   .fa-trash {
     background-color: white;
@@ -2473,7 +2486,7 @@ body {
     width: 80%;
   }
   .swal2-title {
-    font-size: 0.5em !important;
+    font-size: 0.9em !important;
   }
   .swal2-html-container {
     font-size: 1.3em !important;
@@ -3560,7 +3573,7 @@ Pantallas medianas (tablets de menos de 992px)
     width: 80%;
   }
   .swal2-title {
-    font-size: 0.5em !important;
+    font-size: 0.9em !important;
   }
   .swal2-html-container {
     font-size: 1.3em !important;
@@ -4634,7 +4647,7 @@ Pantallas medianas (tablets de menos de 992px)
     width: 80%;
   }
   .swal2-title {
-    font-size: 0.5em !important;
+    font-size: 0.9em !important;
   }
   .swal2-html-container {
     font-size: 1.3em !important;
@@ -5781,7 +5794,7 @@ Pantallas medianas (tablets de menos de 992px)
   .h2-carrito {
     color: #404042;
     text-align: center;
-    font-size: 0.5em;
+    font-size: 0.8em;
   }
   .modal {
     display: none;
@@ -5855,11 +5868,15 @@ Pantallas medianas (tablets de menos de 992px)
   }
   .carritoItem p {
     display: flex;
+    width: 100%;
     margin: 0px;
     text-decoration: none;
     text-align: left;
     color: #404042;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
   }
   .fa-trash {
     background-color: white;
