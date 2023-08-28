@@ -15,7 +15,7 @@ function mostrarServiciosCarrito() {
                     <p><b>PRECIO: </b>$ ${servicio.precio}</p>
                     <button class="eliminar" data-index="${index}"><i class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>`;
-            total += servicio.precio * servicio.cantidad;
+            total = servicio.precio;
         });
         carritoDetalle += `
                 <p class="total">TOTAL: $${total}</p>`;
@@ -38,7 +38,7 @@ function mostrarServiciosCarrito() {
     });
 
     document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
-    document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarProducto));
+    document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarServicio));
     document.querySelector('.finalizar-compra').addEventListener('click', finalizarCompra);
     document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('seguirCompraBtn').addEventListener('click', function() {
@@ -50,7 +50,7 @@ function mostrarServiciosCarrito() {
 
 mostrarServiciosCarrito()
 
-async function eliminarProducto(event) {
+async function eliminarServicio(event) {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     carrito.splice(event.target.dataset.index, 1);
     localStorage.setItem("carrito", JSON.stringify(carrito));
@@ -155,7 +155,7 @@ async function finalizarCompra() {
     let modalFin = document.querySelector('#contact-modal-fin');
     let modalContentFin = document.querySelector('.modal-content-fin');
 
-    // Mostrar el modal de finalizar compra (si es necesario, aquí puedes agregar el código para mostrarlo)
+    // Mostrar el modal de finalizar compra (si es necesario, aquí se puede agregar el código para mostrarlo)
     modalFin.style.display = "block";
 
     // Función para manejar el cierre con confirmación
@@ -167,8 +167,8 @@ async function finalizarCompra() {
             showCancelButton: true,
             confirmButtonColor: '#393646',
             cancelButtonColor: '#d33',
-            confirmButtonText: 'Continuar con el formulario',
-            cancelButtonText: 'Salir del formulario'
+            confirmButtonText: 'Continuar con la compra',
+            cancelButtonText: 'Salir de la compra'
         }).then((result) => {
             if (!result.isConfirmed) {
                 document.querySelector('#contact-modal-fin').style.display = "none";

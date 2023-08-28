@@ -13,24 +13,28 @@ body {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    color: $thunder;
+
 }
 
-.contact-form h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 
 .contact-form label {
+    font-size: 2em;
     display: block;
     margin-bottom: 5px;
+    color: $thunder;
 }
 
 .contact-form input,
 .contact-form textarea {
+    font-size: 2em;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
+    color: $thunder;
+
 }
 
 .contact-form button {
@@ -41,13 +45,18 @@ body {
     color: #fff;
     cursor: pointer;
     font-size: 18px;
+    font-weight: bold;
+
 }
 
 .contact-form button:hover {
-    background-color:$oslo-gray;
+    background-color:$enlaces-orange;
+    color: $thunder;
+    font-weight: bold;
 }
 
 .h3contacto {
+    font-size: 2.5em;
     text-align: center;
     padding: 2em;
 }

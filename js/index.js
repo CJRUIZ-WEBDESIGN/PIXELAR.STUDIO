@@ -198,26 +198,7 @@ window.onscroll = scrollFunction;
     window.scrollTo({top: 0, behavior: 'smooth'});
   });
 
-  /* Comportamiento de los enlaces del responsive. */
 
-/*   document.addEventListener('DOMContentLoaded', function() {
-    // Obtiene todos los elementos "a" dentro del contenedor del menú colapsable.
-    let navbarLinks = document.querySelectorAll('#navbarSupportedContent a.nav-link');
-
-    // Agrega un escuchador de evento para cada enlace.
-    navbarLinks.forEach(function(link) {
-        link.addEventListener('click', function() {
-            let navbarToggler = document.querySelector('.navbar-toggler');
-            
-            // Verifica si el menú está siendo mostrado.
-            if(!navbarToggler.classList.contains('collapsed')) {
-                // Emula un click en el botón para colapsar el menú.
-                navbarToggler.click();
-            }
-        });
-    });
-});
- */
 document.addEventListener('DOMContentLoaded', function() {
   // Obtiene todos los elementos "a" dentro del contenedor del menú colapsable.
   let navbarLinks = document.querySelectorAll('#navbarSupportedContent a.nav-link');

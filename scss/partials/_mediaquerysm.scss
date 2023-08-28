@@ -815,23 +815,79 @@
         color: $thunder;
     }
 
-        /* sweet */
+       /* SWEET ALERT */
 
-   .swal2-popup {
-    width: 80%;
-}
+
+.swal2-timer-progress-bar {
+    display: none;
+} 
 
 .swal2-title {
-    font-size: .9em!important;
+    font-size: 1.5em!important;
+}
+
+.swal2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+z-index: 99999999;
+font-size: 2em;
 
 }
-.swal2-html-container{
-    font-size: 1.3em!important ;
+body.swal2-toast-shown {
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 100%;
+    pointer-events: none;
 }
+.swal2-popup{
+    width: 50%!important;
+    height: 60%!important;
+    z-index: 99999999;
+    font-size: .52em;
+    padding: 10px;
+
+
+}
+
+.swal2-show{
+font-size: 1em;
+color: $thunder;
+z-index: 99999999;
+
+}
+
+.swal2-html-container {
+    font-size: 1.3em!important;
+    
+}
+
 .swal2-styled {
-    font-size: 1.21em!important;
+font-size: 1.3em!important;
+padding: 8px;
+
 }
 
+.swal2-bottom-end {
+color: white;
+}
+
+.swal2-toast {
+    width: 100%!important;
+    height: 80px!important;
+    font-size: .51em!important;
+}
+
+.swal2-show {
+    
+    font-size: .51em!important;
+}
+
+.swal2-center {
+    width: 100%;
+    font-size: 3em!important;
+}
 /*  
         CARDS DE JSON
         */
@@ -2115,23 +2171,79 @@ Pantallas medianas (tablets de menos de 992px)
             color: $thunder;
         }
 
-          /* sweet */
+          /* SWEET ALERT */
 
-          .swal2-popup {
-            width: 80%;
-        }
 
-        .swal2-title {
-            font-size: .9em!important;
+.swal2-timer-progress-bar {
+    display: none;
+} 
 
-        }
-        .swal2-html-container{
-            font-size: 1.3em!important ;
-        }
-        .swal2-styled {
-            font-size: 1.21em!important;
-        }
+.swal2-title {
+    font-size: 1.5em!important;
+}
 
+.swal2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+z-index: 99999999;
+font-size: 2em;
+
+}
+body.swal2-toast-shown .swal2-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    pointer-events: none;
+}
+.swal2-popup{
+    width: 90%!important;
+    height: 60%!important;
+    z-index: 99999999;
+    font-size: .52em;
+    padding: 10px;
+
+
+}
+
+.swal2-show{
+font-size: 1em;
+color: $thunder;
+z-index: 99999999;
+
+}
+
+.swal2-html-container {
+    font-size: 1.3em!important;
+    
+}
+
+.swal2-styled {
+font-size: 1.3em!important;
+padding: 8px;
+
+}
+
+.swal2-bottom-end {
+color: white;
+}
+
+.swal2-toast {
+    width: 100%;
+    height: 80px!important;
+    font-size: .51em!important;
+}
+
+.swal2-show {
+    
+    font-size: .51em!important;
+}
+
+.swal2-center {
+    width: 100%;
+    font-size: 3em!important;
+}
         b {font-size: .7em;}
 
 
@@ -3406,23 +3518,79 @@ Pantallas medianas (tablets de menos de 992px)
             color: $thunder;
         }
 
-        /* sweet */
+        /* SWEET ALERT */
 
-        .swal2-popup {
-            width: 80%;
-        }
 
-        .swal2-title {
-            font-size: .9em!important;
+.swal2-timer-progress-bar {
+    display: none;
+} 
 
-        }
-        .swal2-html-container{
-            font-size: 1.3em!important ;
-        }
-        .swal2-styled {
-            font-size: 1.21em!important;
-        }
+.swal2-title {
+    font-size: 1.5em!important;
+}
 
+.swal2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+z-index: 99999999;
+font-size: 2em;
+
+}
+body.swal2-toast-shown .swal2-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    pointer-events: none;
+}
+.swal2-popup{
+    width: 90%!important;
+    height: 60%!important;
+    z-index: 99999999;
+    font-size: .52em;
+    padding: 10px;
+
+
+}
+
+.swal2-show{
+font-size: 1em;
+color: $thunder;
+z-index: 99999999;
+
+}
+
+.swal2-html-container {
+    font-size: 1.3em!important;
+    
+}
+
+.swal2-styled {
+font-size: 1.3em!important;
+padding: 8px;
+
+}
+
+.swal2-bottom-end {
+color: white;
+}
+
+.swal2-toast {
+    width: 100%;
+    height: 80px!important;
+    font-size: .51em!important;
+}
+
+.swal2-show {
+    
+    font-size: .51em!important;
+}
+
+.swal2-center {
+    width: 100%;
+    font-size: 3em!important;
+}
         b {font-size: .8em;}
 
         /*  
@@ -5158,7 +5326,79 @@ CARDS DE JSON
             text-align: center;
             color: $thunder;
         }
+/* SWEET ALERT */
 
+
+.swal2-timer-progress-bar {
+    display: none;
+} 
+
+.swal2-title {
+    font-size: 1.5em!important;
+}
+
+.swal2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+z-index: 99999999;
+font-size: 2em;
+
+}
+body.swal2-toast-shown .swal2-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    pointer-events: none;
+}
+.swal2-popup{
+    width: 90%!important;
+    height: 60%!important;
+    z-index: 99999999;
+    font-size: .52em;
+    padding: 10px;
+
+
+}
+
+.swal2-show{
+font-size: 1em;
+color: $thunder;
+z-index: 99999999;
+
+}
+
+.swal2-html-container {
+    font-size: 1.3em!important;
+    
+}
+
+.swal2-styled {
+font-size: 1.3em!important;
+padding: 8px;
+
+}
+
+.swal2-bottom-end {
+color: white;
+}
+
+.swal2-toast {
+    width: 100%;
+    height: 80px!important;
+    font-size: .51em!important;
+}
+
+.swal2-show {
+    
+    font-size: .51em!important;
+}
+
+.swal2-center {
+    width: 100%;
+    font-size: 3em!important;
+}
 
    
     }

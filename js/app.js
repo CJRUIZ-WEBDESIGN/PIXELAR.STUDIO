@@ -20,17 +20,26 @@ getServiciosAsync()
 
 function agregarAlCarrito(servicio) {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-    let servicioEncontrado = carrito.find(serv => serv.id === servicio.id);
-    if (servicioEncontrado) {
-        servicioEncontrado.cantidad++;
-    } else {
-        servicio.cantidad = 1;
-        carrito.push(servicio);
+  
+    // Si el carrito ya tiene un servicio, mostramos un Sweet Alert y salimos de la función
+    if (carrito.length > 0) {
+        Swal.fire({
+            title: 'CARRITO LLENO!',
+            text: `Solo puedes elegir un servicio a la vez.`,
+            icon: 'warning',
+            showConfirmButton: true,
+        });
+        return;
     }
+
+    // Si llegamos aquí, el carrito está vacío y podemos agregar el servicio
+    servicio.cantidad = 1;
+    carrito.push(servicio);
     localStorage.setItem("carrito", JSON.stringify(carrito));
+
     Swal.fire({
         title: 'AGREGADO AL CARRITO!',
-        text: `Se añadio ${servicio.nombre} correctamente.`,
+        text: `Se añadió ${servicio.nombre} correctamente.`,
         imageUrl: `${servicio.img}`,
         imageWidth: 350,
         imageHeight: 200,
@@ -44,7 +53,8 @@ function agregarAlCarrito(servicio) {
         hideClass: {
             popup: 'fondo_oscuro animate__animated animate__backOutDown'
         }
-    })
+    });
+
     mostrarServiciosCarrito();
 }
 
