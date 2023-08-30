@@ -91,11 +91,5 @@ $topblue:        #260ff1;
 }
 
 .fondo_oscuro {
-    background-color: rgba($color: #000000, $alpha: .9);
-    width: 450px;
-    height: 550px;
-    border-radius: 4%;
-    border: 2px solid whitesmoke;
-    color: chartreuse;
-    font-size: 1.2em;
+    background-color: rgba($color: $soapstone, $alpha: .9);
 }

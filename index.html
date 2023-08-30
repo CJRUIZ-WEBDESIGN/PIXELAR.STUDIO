@@ -72,7 +72,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#contacto">Contacto</a>
                                     </li>
-                                
+
                                     <li class="nav-item ">
                                         <button id="cart-button"><i class="fa-solid fa-cart-shopping"></i></button>
                                     </li>
@@ -89,8 +89,8 @@
                 <h2>Diseño & Desarrollo Web</h2>
                 <p class="p_presentacion">Sitio en Fase de Construccion, agredemos su visita, cualquier consulta o duda
                 </p>
-                <p class="p_presentacion">envianos un mensaje por medio del boton de WhatsApp o comunicate al numero <span
-                        class="span-cr">+54 11 2402 5510</span></p>
+                <p class="p_presentacion">envianos un mensaje por medio del boton de WhatsApp o comunicate al numero
+                    <span class="span-cr">+54 11 2402 5510</span></p>
 
             </div>
 
@@ -228,11 +228,11 @@
     <!-- SERVICIOS -->
     <section class="servicios-web" id="servicios">
         <h1 class="titulo-section-h1">SERVICIOS<span class="span-cr">WEB</span>.</h1>
-        
+
         <div>
             <input type="text" id="busquedaInput"
                 placeholder="Ingresa el servicio: Ej.. Web basico, profesional, rubro, empresa, portfolio">
-                <button class="botonBuscar" id="buscarBtn">Buscar</button>
+            <button class="botonBuscar" id="buscarBtn">Buscar</button>
 
         </div>
         <div class="containerSearch" id="container"></div>
@@ -290,7 +290,7 @@
         <img class="boton-whatsapp" src="./images/WhatsApp.png" width="55" height="55" alt="contactanos-por-WhatsApp">
     </a>
 
-    
+
     <!-- BOTON BACK TO TOP -->
     <button id="backToTop"><i class="fas fa-angle-double-up"></i></button>
 
@@ -300,6 +300,68 @@
     <script defer src="./js/modal.js"></script>
     <script defer src="./js/index.js"></script>
     <script defer src="./js/app.js"></script>
+
+
+
+     <div aria-labelledby="swal2-title" aria-describedby="swal2-html-container"
+        class="swal2-popup swal2-modal fondo_oscuro animate__animated animate__backOutDown" tabindex="-1" role="dialog"
+        aria-live="assertive" aria-modal="true" style="display: grid;">
+        
+        <button type="button" class="swal2-close"
+            aria-label="Close this dialog" style="display: none;">×</button>
+
+
+        <ul class="swal2-progress-steps" style="display: none;"></ul>
+
+        <div class="swal2-icon" style="display: none;">
+        
+        </div>
+        
+        <img class="swal2-image"
+            src="./images/oficios/webbasico.png" alt="Imagen del Servicio" style="width: 350px; height: 200px;">
+
+        <h2 class="swal2-title" id="swal2-title" style="display: block;">AGREGADO AL CARRITO!</h2>
+        
+        <div class="swal2-html-container" id="swal2-html-container" style="display: block;">Se añadió WEB LANDING PAGE correctamente.</div>
+
+            <input id="swal2-input" class="swal2-input" style="display: none;"><input type="file"  class="swal2-file" style="display: none;">
+            
+            <div class="swal2-range" style="display: none;">
+                
+                <input type="range"><output></output></div><select
+            id="swal2-select" class="swal2-select" style="display: none;"></select>
+
+        <div class="swal2-radio" style="display: none;"></div>
+        
+        <label class="swal2-checkbox"style="display: none;">
+            
+            <input type="checkbox" id="swal2-checkbox"><span class="swal2-label"></span>
+        
+        </label>
+            
+            <textarea id="swal2-textarea" class="swal2-textarea" style="display: none;"></textarea>
+
+        <div class="swal2-validation-message" id="swal2-validation-message" style="display: none;">
+        
+        </div>
+
+        <div class="swal2-actions" style="display: none;">
+            <div class="swal2-loader"></div><button type="button" class="swal2-confirm swal2-styled" aria-label=""
+                style="display: none;">OK</button><button type="button" class="swal2-deny swal2-styled" aria-label=""
+                style="display: none;">No</button><button type="button" class="swal2-cancel swal2-styled" aria-label=""
+                style="display: none;">Cancel</button>
+        </div>
+
+        <div class="swal2-footer" style="display: none;"></div>
+
+        <div class="swal2-timer-progress-bar-container">
+
+            <div class="swal2-timer-progress-bar" style="display: flex; transition: width 2.5s linear 0s; width: 0%;">
+            </div>
+
+        </div>
+    </div>
+ 
 
 
 </body>

@@ -68,7 +68,7 @@ async function eliminarServicio(event) {
 
     Toast.fire({
         icon: 'success',
-        title: 'Se ha eliminado el producto del carrito'
+        title: 'EL SERVICIO HA SIDO ELIMINADO DEL CARRITO'
     })
 
     mostrarServiciosCarrito();
@@ -85,14 +85,12 @@ async function finalizarCompra() {
 
     let carrito = JSON.parse(localStorage.getItem("carrito") || "[]");
 
-    // Crear tabla con los servicios del carrito
     let carritoTabla = 'Detalles del Carrito:\n';
     carrito.forEach(servicio => {
         carritoTabla += `Nombre del Servicio: ${servicio.nombre}\n  Cantidad: ${servicio.cantidad}\n  Precio: ${servicio.precio}\n\n`;
     });
     
 
-    // Crear el contenido del modal
     let modalHTML = `
         <div id="contact-modal-fin" class="modal-fin">
 
@@ -138,14 +136,11 @@ async function finalizarCompra() {
             </div>
         </div>`;
 
-    // Agregar el modal al cuerpo del documento
     document.body.insertAdjacentHTML('beforeend', modalHTML);
 
-    // Mostrar el modal
     document.querySelector('#contact-modal-fin').style.display = "block";
     document.querySelector('.modal-fin').style.display = "none";
 
-    // Cerrar el modal con el botón de cierre
     document.querySelector('#close-contact-modal-fin').addEventListener('click', () => {
         document.querySelector('#contact-modal-fin').style.display = "none";
     });
@@ -155,10 +150,8 @@ async function finalizarCompra() {
     let modalFin = document.querySelector('#contact-modal-fin');
     let modalContentFin = document.querySelector('.modal-content-fin');
 
-    // Mostrar el modal de finalizar compra (si es necesario, aquí se puede agregar el código para mostrarlo)
     modalFin.style.display = "block";
 
-    // Función para manejar el cierre con confirmación
     function handleClose() {
         Swal.fire({
             title: '¿Deseas abandonar el formulario? ',
@@ -179,22 +172,18 @@ async function finalizarCompra() {
         });
     }
 
-    // Evento de clic en el botón de cierre
     document.querySelector('#close-contact-modal-fin').addEventListener('click', handleClose);
 
-    // Evento de clic fuera del contenido del modal
     modalFin.addEventListener('click', function (e) {
         if (e.target === modalFin) {
             handleClose();
         }
     });
 
-    // Asegúrate de que los clics en el contenido del modal no cierren el modal
     modalContentFin.addEventListener('click', function (e) {
         e.stopPropagation();
     });
 
-    // Eliminar el carrito del almacenamiento local
     localStorage.removeItem("carrito");
     mostrarServiciosCarrito()
 }

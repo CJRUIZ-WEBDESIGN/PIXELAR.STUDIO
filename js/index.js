@@ -76,8 +76,8 @@ function vaciarCarrito() {
   mostrarServiciosCarrito();
   let timerInterval
   Swal.fire({
-    title: 'Vaciando Carrito!',
-    html: 'El carrito se vaciara en <b></b> milisegundos.',
+    title: 'VACIANDO EL CARRITO',
+    html: 'EN <b></b> milisegundos.',
     timer: 1500,
     timerProgressBar: true,
     didOpen: () => {
@@ -142,12 +142,10 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 
-  // Evento para actualizar el punto activo al desplazarse
   window.addEventListener('scroll', () => {
       updateActiveDot();
   });
 
-  // Función para actualizar el punto activo inicialmente
   updateActiveDot();
 });
 
@@ -200,32 +198,25 @@ window.onscroll = scrollFunction;
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Obtiene todos los elementos "a" dentro del contenedor del menú colapsable.
   let navbarLinks = document.querySelectorAll('#navbarSupportedContent a.nav-link');
   
-  // Obtiene el botón del carrito de compras.
   let cartButton = document.getElementById('#cart-button');
 
-  // Función para colapsar el menú.
   const collapseMenu = () => {
     let navbarToggler = document.querySelector('.navbar-toggler');
 
-    // Verifica si el menú está siendo mostrado (puedes omitir esta parte si siempre deseas colapsar el menú).
     if (!navbarToggler.getAttribute('aria-expanded') || navbarToggler.getAttribute('aria-expanded') === 'true') {
       navbarToggler.click();
     }
   };
 
-  // Agrega un escuchador de evento para cada enlace.
   navbarLinks.forEach((link) => {
     link.addEventListener('click', () => {
       collapseMenu();
     });
   });
 
-  // Agrega un escuchador de evento para el botón del carrito.
   cartButton.addEventListener('click', () => {
-    // Suponiendo que tienes una función llamada "mostrarCarrito" que se encarga de mostrar el carrito de compras.
     mostrarServiciosCarrito();
     collapseMenu();
   });
