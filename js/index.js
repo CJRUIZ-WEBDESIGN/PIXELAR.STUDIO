@@ -222,3 +222,28 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+//Cerrar menu de navegacion al hacer click
+
+document.addEventListener("DOMContentLoaded", function() { // Asegura que el DOM esté completamente cargado
+  document.addEventListener("click", function(event) { // Escucha el evento de clic en cualquier lugar del documento
+
+    // Obtén el menú y el botón del menú
+    const menu = document.getElementById("navbarSupportedContent");
+    const menuButton = document.getElementById("menuButton");
+    const cartButton = document.getElementById("cart-button");
+
+    // Verifica si el menú está abierto (utiliza "show" para Bootstrap 5, y "in" para Bootstrap 4)
+    const isOpen = menu.classList.contains("show");
+
+    // Cerramos el menú si se hizo clic fuera del menú y del botón
+    if (isOpen && !menu.contains(event.target) && !menuButton.contains(event.target)) {
+      menu.classList.remove("show");
+    }
+
+    // Cerramos el menú si se hizo clic en el botón del carrito
+    if (isOpen && cartButton.contains(event.target)) {
+      menu.classList.remove("show");
+    }
+
+  });
+});

@@ -506,7 +506,7 @@
     }
     .b { 
         color: red;
-        font-size: .3em!important;
+        font-size: .64em!important;
 
     }
 
@@ -599,7 +599,7 @@
         text-decoration: none;
         text-align: left;
         color: $scarpa-flow;
-        font-size: .7em;
+        font-size: 1em;
         align-items: center;
         padding: 10px;
         justify-content: center;
@@ -1958,8 +1958,12 @@ Pantallas medianas (tablets de menos de 992px)
             text-decoration: none;
             text-align: left;
             color: $scarpa-flow;
-            font-size: .9em;
+            font-size: 1em;
 
+        }
+
+        b {
+            font-size: 1em!important;
         }
 
         .fa-trash {
@@ -3236,7 +3240,7 @@ color: white;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             color: $scarpa-flow;
             text-align: center;
-            top: 8%;
+            top: 4%;
             z-index: 9999999!important;
 
         }
@@ -5041,7 +5045,7 @@ CARDS DE JSON
             font-size: 2.2em;
             color: $scarpa-flow;
             text-align: center;
-            top: 20%;
+            top:8%;
             z-index: 9999999!important;
 
         }
@@ -5319,7 +5323,8 @@ CARDS DE JSON
             text-align: center;
             color: $scarpa-flow;
         }
-        b {font-size: .6em;}
+
+        b {font-size: 1em;}
 
         .h1-fin {
             font-size: 1.9em;
@@ -5397,7 +5402,7 @@ color: white;
 
 .swal2-center {
     width: 100%;
-    font-size: 3em!important;
+    font-size: 2.5em!important;
 }
 
    

@@ -2353,7 +2353,7 @@ body {
   }
   .b {
     color: red;
-    font-size: 0.3em !important;
+    font-size: 0.64em !important;
   }
   #cart-modal {
     z-index: 9999999;
@@ -2431,7 +2431,7 @@ body {
     text-decoration: none;
     text-align: left;
     color: #404042;
-    font-size: 0.7em;
+    font-size: 1em;
     align-items: center;
     padding: 10px;
     justify-content: center;
@@ -3563,7 +3563,10 @@ Pantallas medianas (tablets de menos de 992px)
     text-decoration: none;
     text-align: left;
     color: #404042;
-    font-size: 0.9em;
+    font-size: 1em;
+  }
+  b {
+    font-size: 1em !important;
   }
   .fa-trash {
     background-color: white;
@@ -4622,7 +4625,7 @@ Pantallas medianas (tablets de menos de 992px)
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     color: #404042;
     text-align: center;
-    top: 8%;
+    top: 4%;
     z-index: 9999999 !important;
   }
   .close-button {
@@ -6076,7 +6079,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 2.2em;
     color: #404042;
     text-align: center;
-    top: 20%;
+    top: 8%;
     z-index: 9999999 !important;
   }
   .close-button {
@@ -6315,7 +6318,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #404042;
   }
   b {
-    font-size: 0.6em;
+    font-size: 1em;
   }
   .h1-fin {
     font-size: 1.9em;
@@ -6375,7 +6378,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   .swal2-center {
     width: 100%;
-    font-size: 3em !important;
+    font-size: 2.5em !important;
   }
 }
 .error {
