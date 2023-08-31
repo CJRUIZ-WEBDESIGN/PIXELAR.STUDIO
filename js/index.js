@@ -6,7 +6,8 @@ const vaciarCarritoBtn = document.querySelector('#vaciarCarritoBtn');
 const gridContainer = document.querySelector('.grid-container');
 
 function cardReturn(servicio) {
-  return `   <div class="grid-container">
+  return `   
+<div class="grid-container">
 
 
         <div class="card">
@@ -65,10 +66,13 @@ function cardReturn(servicio) {
             </div>
         </div>
     </div>
-    </div>
+    </div> 
   
+
 `;
 }
+
+
 
 
 function vaciarCarrito() {
@@ -247,3 +251,6 @@ document.addEventListener("DOMContentLoaded", function() { // Asegura que el DOM
 
   });
 });
+
+
+//comportamiento de las cards

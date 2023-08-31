@@ -1,5 +1,5 @@
   
-  .heading-primary {
+   .heading-primary {
     color: #fff;
     text-transform: uppercase;
     -webkit-backface-visibility: hidden;
@@ -102,20 +102,7 @@
   .btn--green::after {
     background-color: #55c57a;
   }
-  
-  *,
-  *::after,
-  *::before {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
-  }
-  
-  html {
-    font-size: 62.5%;
-  }
-  
+
   body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -368,7 +355,8 @@
   
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3);
-  }
+  } 
+  
 
   .imagProduc {
     display: flex;
@@ -400,5 +388,4 @@
     font-size:1.8em;
     color: white;
 }
-
 

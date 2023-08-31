@@ -521,7 +521,7 @@ body {
 
 .stage .text p {
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.6em;
     transition: font-size 0.3s ease;
 }
 
@@ -553,7 +553,7 @@ body {
 }
 
 .stage:hover .text p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 
@@ -653,7 +653,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 1em 20em 1em 20em;
+    padding: 1em 15em 1em 15em;
     margin-bottom: 15em;
     height: 100%;
     
@@ -1151,14 +1151,7 @@ body {
     padding: 10px;
  }
 
-body.swal2-toast-shown {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 100%;
-    pointer-events: none;
-    height: 200px;
-    font-size: 1em!important;
-}
+
 
 .swal2-popup{
     width: 66%!important;
@@ -1195,7 +1188,7 @@ color: white;
 
 .swal2-toast {
     width: 100%!important;
-    height: 100px!important;
+    height: auto!important;
     font-size: .21em!important;
 }
 
@@ -1219,7 +1212,15 @@ font-size: 2em;
 }
 
 
-
+body.swal2-toast-shown {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    pointer-events: none;
+    height: auto!important;
+    font-size: .81em!important;
+    z-index: 99999999;
+}
 
 
 

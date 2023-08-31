@@ -617,7 +617,7 @@ body {
 
 .stage .text p {
   margin: 0;
-  font-size: 1.3em;
+  font-size: 1.6em;
   transition: font-size 0.3s ease;
 }
 
@@ -649,7 +649,7 @@ body {
 }
 
 .stage:hover .text p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 /* Barra lateral */
@@ -738,7 +738,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 1em 20em 1em 20em;
+  padding: 1em 15em 1em 15em;
   margin-bottom: 15em;
   height: 100%;
 }
@@ -1206,15 +1206,6 @@ body {
   padding: 10px;
 }
 
-body.swal2-toast-shown {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  pointer-events: none;
-  height: 200px;
-  font-size: 1em !important;
-}
-
 .swal2-popup {
   width: 66% !important;
   height: 50% !important;
@@ -1244,7 +1235,7 @@ body.swal2-toast-shown {
 
 .swal2-toast {
   width: 100% !important;
-  height: 100px !important;
+  height: auto !important;
   font-size: 0.21em !important;
 }
 
@@ -1264,6 +1255,16 @@ body.swal2-toast-shown {
 .swal2-center {
   width: 100%;
   font-size: 3em !important;
+}
+
+body.swal2-toast-shown {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  pointer-events: none;
+  height: auto !important;
+  font-size: 0.81em !important;
+  z-index: 99999999;
 }
 
 /* Asumiendo que cada sección con animación tiene la clase 'animate' */
@@ -1289,6 +1290,19 @@ body.swal2-toast-shown {
 html {
   scroll-behavior: smooth;
   width: auto;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 .heading-primary {
@@ -1391,19 +1405,6 @@ html {
 
 .btn--green::after {
   background-color: #55c57a;
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 body {
@@ -2672,8 +2673,8 @@ body {
     font-size: 3em !important;
   }
   /*  
-          CARDS DE JSON
-          */
+      CARDS DE JSON
+      */
   .heading-primary {
     color: #fff;
     text-transform: uppercase;
@@ -3807,8 +3808,8 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 0.7em;
   }
   /*  
-  CARDS DE JSON
-  */
+      CARDS DE JSON
+      */
   .heading-primary {
     color: #fff;
     text-transform: uppercase;
@@ -4923,8 +4924,8 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 0.8em;
   }
   /*  
-  CARDS DE JSON
-  */
+      CARDS DE JSON
+      */
   .heading-primary {
     color: #fff;
     text-transform: uppercase;
