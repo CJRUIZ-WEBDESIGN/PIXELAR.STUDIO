@@ -205,6 +205,8 @@ body {
 .p_presentacion {
     font-size: 2em;
     color: $oslo-gray;
+    padding: 2em;
+    text-align: center;
 }
 
 #inicio .contenido .presentacion h2 {
@@ -1008,250 +1010,21 @@ body {
 
 /* SWEET ALERT */
 
-
-
-
-.swal2-modal{
-    width: 100%!important;
-    height: 100%!important;
-    padding: .0001px;
-    margin-bottom: 10em!important;
-
-} 
-.swal2-close{
-    padding: .0001px;
-} 
-.swal2-progress-steps{
-    padding: .0001px;
-
-} 
-.swal2-icon{
-    padding: .0001px;
-
-}
-.swal2-image{
-    padding: .0001px;
-
-}
- 
-
-#swal2-html-container{
-    padding: .0001px;
-
-}
-.swal2-input{
-    padding: .0001px;
-
-} 
-.swal2-file{
-    padding: .0001px;
-
-}
-
-.swal2-range{
-    padding: .0001px;
-
-}
-
-#swal2-select{
-    padding: .0001px;
-
-}
-
-.swal2-radio{
-    padding: .0001px;
-
-}
-.swal2-checkbox{
-    padding: .0001px;
-
-}
-#swal2-checkbox{
-    padding: .0001px;
-
-}
-.swal2-label{
-    padding: .0001px;
-
-}
-#swal2-textarea{
-    padding: .0001px;
-
-}
-.swal2-textarea{
-    padding: .0001px;
-
-}
-.swal2-validation-message{
-    padding: .0001px;
-
-}
-#swal2-validation-message{
-    padding: .0001px;
-
-}
-.swal2-actions{
-    padding: .0001px;
-
-}
-.swal2-loader{
-    padding: .0001px;
-
-}
-.swal2-confirm{
-    padding: .0001px;
-
-}
-.swal2-styled{
-    padding: .0001px;
-
-}
-.swal2-deny{
-    padding: .0001px;
-
-}
-.swal2-styled{    
-    padding: .0001px;
-
-}
-.swal2-cancel{
-    padding: .0001px;
-
-}
-.swal2-styled{
-    padding: .0001px;
-
-}
-.swal2-footer{
-    padding: .0001px;
-
-}
-.swal2-timer-progress-bar-container{
-    padding: .0001px;
-
-}
-.swal2-timer-progress-bar{
-    padding: .0001px;
-
-}
-
-.swal2-timer-progress-bar {
-    display: none;
-} 
-
 .swal2-title {
-    font-size: 1.8em!important;
-    color: $thunder;
+    font-size: 1.5em !important;
+    font-weight: bold!important;
 }
-
-
-.swal2-image {
-    width: 300px!important;
-    height: 200px!important;
-    padding: 10px;
- }
-
-
-
-.swal2-popup{
-    width: 66%!important;
-    height: 50%!important;
-    z-index: 99999999;
-    font-size: .52em;
-    padding: 10px;
-
-
-}
-
-.swal2-show{
-font-size: 1em;
-color: $thunder;
-z-index: 99999999;
-
-}
-
 
 .swal2-html-container {
-    font-size: 1.63em!important;
-    
+    font-size: 1.5em !important;
+    font-weight: bold!important;
+    z-index: 9999999;
 }
 
-.swal2-styled {
-font-size: 1.3em!important;
-padding: 8px;
+.swal2-container {
+    font-size: 1.8em !important;
+    font-weight: bold!important;
+    z-index: 9999999;
 
 }
 
-.swal2-bottom-end {
-color: white;
-}
-
-.swal2-toast {
-    width: 100%!important;
-    height: auto!important;
-    font-size: .21em!important;
-}
-
-.swal2-show {
-    
-    font-size: .51em!important;
-}
-
-.swal2-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-width: 100%;
-z-index: 99999999;
-font-size: 2em;
-
-}
-.swal2-center {
-    width: 100%;
-    font-size: 3em!important;
-}
-
-
-body.swal2-toast-shown {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 100%;
-    pointer-events: none;
-    height: auto!important;
-    font-size: .81em!important;
-    z-index: 99999999;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       /* Asumiendo que cada sección con animación tiene la clase 'animate' */
-.animate {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.5s ease-out;
-  }
-  
-  /* Estado animado */
-  .animate-show {
-    opacity: 1;
-    transform: translateY(0);
-  }

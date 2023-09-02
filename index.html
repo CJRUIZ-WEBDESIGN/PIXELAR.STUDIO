@@ -7,21 +7,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords"
-        content="Diseño Web, Aplicaciones moviles, Landing Page, Ecommerce, CMS, WordPress, PrestaShop, Responsive Design, Diseño Responsive, Sitio Web, HTML5, CSS3, JavaScript, ReactJS, Desarrollo Web, Full Stack">
+    <meta name="keywords" content="Diseño Web, Aplicaciones moviles, Landing Page, Ecommerce, CMS, WordPress, PrestaShop, Responsive Design, Diseño Responsive, Sitio Web, HTML5, CSS3, JavaScript, ReactJS, Desarrollo Web, Full Stack">
     <meta name="description" content="CR-DiseñoWeb.com.ar - Pagina Principal - Donde comienza tu Presencia En Linea.!">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
     <!-- Fuente de Google Font -->
     <script src="https://kit.fontawesome.com/088b4b5c76.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap"
-        rel="stylesheet">
-    <!-- Bootstrap - CSS - CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap - CSS - CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script title="oNlineWebFonts" src="https://db.onlinewebfonts.com/animations/icons/71968.js"
         type="text/javascript"></script>
     <!-- Vinculacion del CSS al HTML  -->
@@ -38,10 +39,11 @@
         <div class="dot" data-section="nosotros"></div>
         <div class="dot" data-section="servicios"></div>
         <div class="dot" data-section="contacto"></div>
+        <div class="dot" data-section="footer"></div>
     </div>
 
     <!-- INICIO -->
-    <section id="inicio">
+    <div class="presentacion sombra" id="inicio">
         <div class="contenido">
 
             <header>
@@ -89,17 +91,16 @@
             <div class="presentacion sombra">
                 <h1 class="bienvenida_h1">Bienvenid#s a <span class="span-cr">C.R </span></h1>
                 <h2>Diseño & Desarrollo Web</h2>
-                <p class="p_presentacion">Sitio en Fase de Construccion, agredemos su visita, cualquier consulta o duda
-                </p>
-                <p class="p_presentacion">envianos un mensaje por medio del boton de WhatsApp o comunicate al numero
-                    <span class="span-cr">+54 11 2402 5510</span>
+                <p class="p_presentacion">Con un enfoque centrado en el cliente, empleamos HTML, CSS y JavaScript para llevar tu negocio al siguiente nivel en el mundo digital.</p>
+                <p class="p_presentacion">Queres saber mas? comunicate al <span class="span-cr">+54 11 2402 5510</span>
                 </p>
 
             </div>
 
         </div>
-    </section>
+    </div>
 
+    
     <!-- TRABAJOS -->
     <section class="container" id="trabajo">
         <h1 class="titulo-section-h1">¿ Como se trabaja en <span class="span-cr">C.R</span> Diseño Web ?</h1>
@@ -245,7 +246,7 @@
     <!-- CONTACTO -->
     <div class="contacto" id="contacto">
         <h1 class="titulo-servicioscard">CONTACTO</h1>
-        <h3 class="h3contacto">Envianos tu consulta, dudas o sugerencias al siguiente formulario, le responderemos a la
+        <h3 class="h3contacto">Envianos tu consulta, dudas o sugerencias, le responderemos a la
             brevedad..</h3>
 
         <section class="contact-form" id="contacto">
@@ -272,8 +273,7 @@
     <div id="cart-modal" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h1 class="h1-carrito">Carrito de Compras</h1>
-            <h2 class="h2-carrito">LISTA DE PRODUCTOS ELEGIDOS</h2>
+            <h1 class="h1-carrito">Carrito de Compra</h1>
             <div class="carritoContainer">
                 <section id="elegidosSection">
                     <div class="carritoContainer" id="carritoContainer"></div>
@@ -287,6 +287,109 @@
             </div>
         </div>
     </div>
+
+    <footer class="footer-section" id="footer">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Ubicacion</h4>
+                                <span>Almirante Brown, Buenos Aires</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fa-brands fa-whatsapp" style="color: #ffa500;"></i>
+                            <div class="cta-text">
+                                <h4>WhatsApp</h4>
+                                <span>+54 11 2402-5510</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Envianos un correo</h4>
+                                <span>info@cr-diseñoweb.com.ar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="./images/Cdesignremove.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Diseñamos más que sitios web, desarrollamos experiencias de usuario que transforman y potencian tu negocio</p>
+                            </div>
+                     
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Links de Interes</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Como Trabajamos</a></li>
+                                <li><a href="#">Por que Elegirnos</a></li>
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Servicios Web</a></li>
+                                <li><a href="#">Contacto</a></li>
+                                <li><a href="#">Trabajos</a></li>
+                                <li><a href="#">Consejos Web</a></li>
+                                <li><a href="#">Garantia</a></li>
+                                <li><a href="#">Formas de Pago</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-social-icon">
+                                <span>Seguinos en: </span>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-square-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023 CR Diseño Web. Todos los derechos reservados.
+                       </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Politicas de privacidad</a></li>
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- BOTON WHATSAPP -->
     <a class="whatsapp" href="https://wa.me/+5491124025510" target="blank">

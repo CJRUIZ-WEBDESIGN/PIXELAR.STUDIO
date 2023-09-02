@@ -150,7 +150,7 @@ body {
 }
 
 .nav-link.active {
-  color: #ffa500 !important;
+  color: rgb(255, 165, 0) !important;
 }
 
 .presentacion h2 {
@@ -159,18 +159,18 @@ body {
 
 .bienvenida,
 .descripcion p {
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   font-size: em;
 }
 
 .bienvenida,
 .descripcion {
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   font-size: em;
 }
 
 .span-cr {
-  color: #ffa500;
+  color: rgb(255, 165, 0);
 }
 
 /* NAVEGACION */
@@ -199,7 +199,7 @@ body {
 
 #inicio .contenido header .contenido-header nav ul li:hover a {
   transform: scale(1.1);
-  color: #ffa500;
+  color: rgb(255, 165, 0);
 }
 
 #inicio .contenido header .contenido-header nav ul li::before {
@@ -209,7 +209,7 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #ffa500;
+  background-color: rgb(255, 165, 0);
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
@@ -312,6 +312,8 @@ body {
 .p_presentacion {
   font-size: 2em;
   color: #8b8d92;
+  padding: 2em;
+  text-align: center;
 }
 
 #inicio .contenido .presentacion h2 {
@@ -675,12 +677,12 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
   z-index: 100;
-  border: 1px solid #ffa500;
+  border: 1px solid rgb(255, 165, 0);
 }
 
 /* Punto activo */
 .side-bar .dot:hover {
-  background-color: #ffa500 !important;
+  background-color: rgb(255, 165, 0) !important;
   z-index: 100;
 }
 
@@ -712,14 +714,14 @@ body {
 }
 
 #backToTop:hover {
-  background-color: #ffa500;
+  background-color: rgb(255, 165, 0);
   color: #393646;
 }
 
 /* ACORDEON */
 .accordion-button {
   background-color: #393646 !important;
-  color: #ffa500 !important;
+  color: rgb(255, 165, 0) !important;
 }
 
 .accordion-button:hover {
@@ -902,7 +904,7 @@ body {
 
 #finalizarCompraBtn {
   font-size: 0.7em;
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -917,7 +919,7 @@ body {
   color: #393646;
   width: 200px;
   border-radius: 8px;
-  background: #ffa500;
+  background: rgb(255, 165, 0);
   cursor: pointer;
   font-weight: bold;
   padding: 0.2em;
@@ -926,7 +928,7 @@ body {
 
 #vaciarCarritoBtn {
   font-size: 0.7em;
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -948,7 +950,7 @@ body {
 }
 #vaciarCarritoBtn #seguirCompraBtn {
   font-size: 0.7em;
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1052,7 +1054,7 @@ body {
 }
 
 .formu .submit-fin:hover {
-  background-color: #ffa500;
+  background-color: rgb(255, 165, 0);
   color: #393646;
   font-weight: bold;
   font-size: 2em;
@@ -1072,212 +1074,21 @@ body {
 }
 
 /* SWEET ALERT */
-.swal2-modal {
-  width: 100% !important;
-  height: 100% !important;
-  padding: 0.0001px;
-  margin-bottom: 10em !important;
-}
-
-.swal2-close {
-  padding: 0.0001px;
-}
-
-.swal2-progress-steps {
-  padding: 0.0001px;
-}
-
-.swal2-icon {
-  padding: 0.0001px;
-}
-
-.swal2-image {
-  padding: 0.0001px;
-}
-
-#swal2-html-container {
-  padding: 0.0001px;
-}
-
-.swal2-input {
-  padding: 0.0001px;
-}
-
-.swal2-file {
-  padding: 0.0001px;
-}
-
-.swal2-range {
-  padding: 0.0001px;
-}
-
-#swal2-select {
-  padding: 0.0001px;
-}
-
-.swal2-radio {
-  padding: 0.0001px;
-}
-
-.swal2-checkbox {
-  padding: 0.0001px;
-}
-
-#swal2-checkbox {
-  padding: 0.0001px;
-}
-
-.swal2-label {
-  padding: 0.0001px;
-}
-
-#swal2-textarea {
-  padding: 0.0001px;
-}
-
-.swal2-textarea {
-  padding: 0.0001px;
-}
-
-.swal2-validation-message {
-  padding: 0.0001px;
-}
-
-#swal2-validation-message {
-  padding: 0.0001px;
-}
-
-.swal2-actions {
-  padding: 0.0001px;
-}
-
-.swal2-loader {
-  padding: 0.0001px;
-}
-
-.swal2-confirm {
-  padding: 0.0001px;
-}
-
-.swal2-styled {
-  padding: 0.0001px;
-}
-
-.swal2-deny {
-  padding: 0.0001px;
-}
-
-.swal2-styled {
-  padding: 0.0001px;
-}
-
-.swal2-cancel {
-  padding: 0.0001px;
-}
-
-.swal2-styled {
-  padding: 0.0001px;
-}
-
-.swal2-footer {
-  padding: 0.0001px;
-}
-
-.swal2-timer-progress-bar-container {
-  padding: 0.0001px;
-}
-
-.swal2-timer-progress-bar {
-  padding: 0.0001px;
-}
-
-.swal2-timer-progress-bar {
-  display: none;
-}
-
 .swal2-title {
-  font-size: 1.8em !important;
-  color: #393646;
-}
-
-.swal2-image {
-  width: 300px !important;
-  height: 200px !important;
-  padding: 10px;
-}
-
-.swal2-popup {
-  width: 66% !important;
-  height: 50% !important;
-  z-index: 99999999;
-  font-size: 0.52em;
-  padding: 10px;
-}
-
-.swal2-show {
-  font-size: 1em;
-  color: #393646;
-  z-index: 99999999;
+  font-size: 1.5em !important;
+  font-weight: bold !important;
 }
 
 .swal2-html-container {
-  font-size: 1.63em !important;
-}
-
-.swal2-styled {
-  font-size: 1.3em !important;
-  padding: 8px;
-}
-
-.swal2-bottom-end {
-  color: white;
-}
-
-.swal2-toast {
-  width: 100% !important;
-  height: auto !important;
-  font-size: 0.21em !important;
-}
-
-.swal2-show {
-  font-size: 0.51em !important;
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+  z-index: 9999999;
 }
 
 .swal2-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  z-index: 99999999;
-  font-size: 2em;
-}
-
-.swal2-center {
-  width: 100%;
-  font-size: 3em !important;
-}
-
-body.swal2-toast-shown {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  pointer-events: none;
-  height: auto !important;
-  font-size: 0.81em !important;
-  z-index: 99999999;
-}
-
-/* Asumiendo que cada sección con animación tiene la clase 'animate' */
-.animate {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: all 0.5s ease-out;
-}
-
-/* Estado animado */
-.animate-show {
-  opacity: 1;
-  transform: translateY(0);
+  font-size: 1.8em !important;
+  font-weight: bold !important;
+  z-index: 9999999;
 }
 
 * {
@@ -1787,7 +1598,7 @@ body {
 
 #finalizarCompraBtn {
   font-size: 0.7em;
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1802,7 +1613,7 @@ body {
   color: #393646;
   width: 200px;
   border-radius: 8px;
-  background: #ffa500;
+  background: rgb(255, 165, 0);
   cursor: pointer;
   font-weight: bold;
   padding: 0.2em;
@@ -1811,7 +1622,7 @@ body {
 
 #vaciarCarritoBtn {
   font-size: 0.7em;
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1823,7 +1634,7 @@ body {
 
 #seguirCompraBtn {
   font-size: 0.7em;
-  color: #ffa500;
+  color: rgb(255, 165, 0);
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1927,7 +1738,7 @@ body {
 }
 
 .formu .submit-fin:hover {
-  background-color: #ffa500;
+  background-color: rgb(255, 165, 0);
   color: #393646;
   font-weight: bold;
   font-size: 1.4em;
@@ -1977,23 +1788,23 @@ body {
     color: #debfb0;
   }
   .nav-link.active {
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 0.6em;
   }
   .span-cr {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -2017,7 +1828,7 @@ body {
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   .navbar {
     width: 100%;
@@ -2103,6 +1914,8 @@ body {
   .p_presentacion {
     font-size: 2em;
     color: #8b8d92;
+    padding: 50px;
+    text-align: center;
   }
   #inicio .contenido .presentacion h2 {
     font-size: 3.5em;
@@ -2254,11 +2067,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 100;
-    border: 1px solid #ffa500;
+    border: 1px solid rgb(255, 165, 0);
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: #ffa500 !important;
+    background-color: rgb(255, 165, 0) !important;
     z-index: 100;
   }
   /* TOP BACK */
@@ -2288,13 +2101,13 @@ body {
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
   }
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
   }
   .accordion-button:hover {
     background-color: #8b8d92;
@@ -2463,7 +2276,7 @@ body {
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -2477,7 +2290,7 @@ body {
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: #ffa500;
+    background: rgb(255, 165, 0);
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -2485,7 +2298,7 @@ body {
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -2507,7 +2320,7 @@ body {
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -2601,7 +2414,7 @@ body {
     font-size: 2em;
   }
   .formu .submit-fin:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
     font-weight: bold;
     font-size: 2em;
@@ -3108,23 +2921,23 @@ Pantallas medianas (tablets de menos de 992px)
     color: #debfb0;
   }
   .nav-link.active {
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 1em;
   }
   .span-cr {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -3148,7 +2961,7 @@ Pantallas medianas (tablets de menos de 992px)
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   .navbar {
     width: 100%;
@@ -3391,11 +3204,11 @@ Pantallas medianas (tablets de menos de 992px)
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 100;
-    border: 1px solid #ffa500;
+    border: 1px solid rgb(255, 165, 0);
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: #ffa500 !important;
+    background-color: rgb(255, 165, 0) !important;
     z-index: 100;
   }
   /* TOP BACK */
@@ -3425,13 +3238,13 @@ Pantallas medianas (tablets de menos de 992px)
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
   }
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
   }
   .accordion-button:hover {
     background-color: #8b8d92;
@@ -3595,7 +3408,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -3609,7 +3422,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: #ffa500;
+    background: rgb(255, 165, 0);
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -3617,7 +3430,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -3639,7 +3452,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -3733,7 +3546,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 2em;
   }
   .formu .submit-fin:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
     font-weight: bold;
     font-size: 2em;
@@ -4226,23 +4039,23 @@ Pantallas medianas (tablets de menos de 992px)
     color: #debfb0;
   }
   .nav-link.active {
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 0.3em;
   }
   .span-cr {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -4267,7 +4080,7 @@ Pantallas medianas (tablets de menos de 992px)
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   .navbar {
     width: 100%;
@@ -4509,11 +4322,11 @@ Pantallas medianas (tablets de menos de 992px)
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 100;
-    border: 1px solid #ffa500;
+    border: 1px solid rgb(255, 165, 0);
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: #ffa500 !important;
+    background-color: rgb(255, 165, 0) !important;
     z-index: 100;
   }
   /* TOP BACK */
@@ -4543,13 +4356,13 @@ Pantallas medianas (tablets de menos de 992px)
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
   }
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
   }
   .accordion-button:hover {
     background-color: #8b8d92;
@@ -4711,7 +4524,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -4725,7 +4538,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: #ffa500;
+    background: rgb(255, 165, 0);
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -4733,7 +4546,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -4755,7 +4568,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -4849,7 +4662,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 2em;
   }
   .formu .submit-fin:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
     font-weight: bold;
     font-size: 2em;
@@ -5308,23 +5121,23 @@ Pantallas medianas (tablets de menos de 992px)
     color: #debfb0;
   }
   .nav-link.active {
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     font-size: 0.3em;
   }
   .span-cr {
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -5349,7 +5162,7 @@ Pantallas medianas (tablets de menos de 992px)
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: #ffa500;
+    color: rgb(255, 165, 0);
   }
   .navbar {
     width: 100%;
@@ -5596,11 +5409,11 @@ Pantallas medianas (tablets de menos de 992px)
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 10000;
-    border: 1px solid #ffa500;
+    border: 1px solid rgb(255, 165, 0);
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: #ffa500 !important;
+    background-color: rgb(255, 165, 0) !important;
     z-index: 10000;
   }
   /* TOP BACK */
@@ -5631,7 +5444,7 @@ Pantallas medianas (tablets de menos de 992px)
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
   }
   /* 
@@ -5642,7 +5455,7 @@ Pantallas medianas (tablets de menos de 992px)
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: #ffa500 !important;
+    color: rgb(255, 165, 0) !important;
     font-size: 1em !important;
   }
   .accordion-button:hover {
@@ -6169,7 +5982,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -6183,7 +5996,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: #ffa500;
+    background: rgb(255, 165, 0);
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -6191,7 +6004,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -6213,7 +6026,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: #ffa500;
+    color: rgb(255, 165, 0);
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -6307,7 +6120,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 1.6em;
   }
   .formu .submit-fin:hover {
-    background-color: #ffa500;
+    background-color: rgb(255, 165, 0);
     color: #393646;
     font-weight: bold;
     font-size: 1.6em;
@@ -6429,7 +6242,7 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: #ffa500;
+  background-color: rgb(255, 165, 0);
   color: #393646;
   font-weight: bold;
 }
@@ -6442,4 +6255,245 @@ body {
 
 .contacto {
   padding: 3em;
+}
+
+.footer-section {
+  width: 100%;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background: #393646;
+  border: 1px solid #8b8d92;
+  color: rgb(255, 165, 0);
+  position: relative;
+}
+
+.footer-cta {
+  width: 100%;
+  display: inline-block;
+  flex-wrap: nowrap;
+  display: block;
+  border-bottom: 1px solid #373636;
+}
+
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  max-width: 200px;
+}
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+.facebook-bg {
+  background: #3B5998;
+}
+
+.twitter-bg {
+  background: #55ACEE;
+}
+
+.google-bg {
+  background: #DD4B39;
+}
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.container {
+  margin-bottom: 0;
+}
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+
+.footer-widget ul li {
+  display: flex;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: #ff5e14;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #393646;
+  border: 1px solid #8b8d92;
+  color: rgb(255, 165, 0);
+}
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 1em !important;
+  color: #878787;
+}
+
+.copyright-text p a {
+  font-size: 1em !important;
+  color: #ff5e14;
+}
+
+.footer-menu li {
+  display: inline-block;
+  font-size: 1em !important;
+  margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+  font-size: 1em !important;
+  color: #ff5e14;
+}
+
+.footer-menu li a {
+  font-size: 1em !important;
+  color: #878787;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.fa-phone:before {
+  color: rgb(255, 165, 0);
+}
+
+.fa-envelope-open:before {
+  color: rgb(255, 165, 0);
+}
+
+.fa-location-dot:before {
+  color: rgb(255, 165, 0);
+}
+
+.fa-map-marker-alt:before {
+  color: rgb(255, 165, 0);
+}
+
+.fab {
+  color: rgb(255, 165, 0);
+}
+
+.fa-telegram-plane {
+  color: rgb(255, 165, 0);
+}
+
+.fa-whatsapp {
+  color: rgb(255, 165, 0);
 }/*# sourceMappingURL=styles.css.map */

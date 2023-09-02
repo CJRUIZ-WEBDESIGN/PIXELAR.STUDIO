@@ -20,7 +20,7 @@ function mostrarServiciosCarrito() {
         carritoDetalle += `
                 <p class="total">TOTAL: $${total}</p>`;
     } else {
-        carritoDetalle = "<b>El carrito está vacío.</b>";
+        carritoDetalle = "<b>El carrito se encuentra vacío.</b>";
     }
     document.getElementById('cart-button').addEventListener('click', function () {
         mostrarServiciosCarrito();
@@ -68,7 +68,7 @@ async function eliminarServicio(event) {
 
     Toast.fire({
         icon: 'success',
-        title: 'EL SERVICIO HA SIDO ELIMINADO DEL CARRITO'
+        title: 'EL SERVICIO HA SIDO ELIMINADO'
     })
 
     mostrarServiciosCarrito();
@@ -87,7 +87,7 @@ async function finalizarCompra() {
 
     let carritoTabla = 'Detalles del Carrito:\n';
     carrito.forEach(servicio => {
-        carritoTabla += `Nombre del Servicio: ${servicio.nombre}\n  Cantidad: ${servicio.cantidad}\n  Precio: ${servicio.precio}\n\n`;
+        carritoTabla += `Nombre del Servicio: ${servicio.nombre}\n Precio: ${servicio.precio}\n`;
     });
     
 
@@ -126,7 +126,10 @@ async function finalizarCompra() {
                             <option value="transferencia-bancaria">Transferencia Bancaria</option>
                             <option value="mercado-pago">Mercado Pago</option>
                             <option value="efectivo">Efectivo</option>
-                        </select>
+                            <option value="billeteras">Billeteras Virtuales</option>
+                            <option value="rapi">Rapipago - Pagofacil</option>
+                            <option value="otros">Otros medios</option>
+                            </select>
 
                         <textarea class="text-area" placeholder="Escriba aqui su mensaje" class="form-control" name="message" rows="15" required></textarea>
                         
@@ -136,14 +139,33 @@ async function finalizarCompra() {
             </div>
         </div>`;
 
-    document.body.insertAdjacentHTML('beforeend', modalHTML);
+        document.body.insertAdjacentHTML('beforeend', modalHTML);
 
-    document.querySelector('#contact-modal-fin').style.display = "block";
-    document.querySelector('.modal-fin').style.display = "none";
+        document.querySelector('#contact-modal-fin').style.display = "block";
+        document.querySelector('.modal-fin').style.display = "none";
+        
+      
+        document.querySelector('#close-contact-modal-fin').addEventListener('click', () => {
+            document.querySelector('#contact-modal-fin').style.display = "none";
+        });
+        
+        const form = document.querySelector('.form-fin');
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault(); 
 
-    document.querySelector('#close-contact-modal-fin').addEventListener('click', () => {
-        document.querySelector('#contact-modal-fin').style.display = "none";
-    });
+            Swal.fire({
+                title: 'Su compra finalizó con éxito.',
+                text: 'En breve será contactad# por nuestro equipo. Muchas gracias por su visita.',
+                icon: 'success',
+                timer: 3500,
+                timerProgressBar: true,
+                showConfirmButton: false,
+
+            });
+        
+             e.target.submit();
+        });
 
     ///////////
 
@@ -188,3 +210,22 @@ async function finalizarCompra() {
     mostrarServiciosCarrito()
 }
 
+//MODAL CARDS
+
+const modal = document.querySelector('.modal');
+const viewMoreButton = document.querySelector('.view-more');
+const closeModalButton = document.querySelector('.modal-close');
+
+viewMoreButton.addEventListener('click', () => {
+    modal.style.display = 'block';
+});
+
+closeModalButton.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+
+window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+})

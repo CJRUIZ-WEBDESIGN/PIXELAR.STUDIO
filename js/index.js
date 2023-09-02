@@ -7,7 +7,9 @@ const gridContainer = document.querySelector('.grid-container');
 
 function cardReturn(servicio) {
   return `   
-<div class="grid-container">
+  
+  
+  <div class="grid-container">
 
 
         <div class="card">
@@ -61,19 +63,15 @@ function cardReturn(servicio) {
                     </div>
                 </div>
 
-                    <button class="botonCarrito btn btn--white" data-id="${servicio.id}">COMPRAR</button>
+                    <button class="botonCarrito btn btn--white" data-id="${servicio.id}">CONTRATAR</button>
                 </div>
             </div>
         </div>
     </div>
     </div> 
   
-
 `;
 }
-
-
-
 
 function vaciarCarrito() {
   localStorage.removeItem('carrito');
@@ -105,7 +103,7 @@ buscarBtn.addEventListener("click", () => {
   const searchTerm = busquedaInput.value.toLowerCase().trim();
   const resultados = servicios.filter((servicio) =>
     servicio.nombre.toLowerCase().includes(searchTerm));
- 
+
   container.innerHTML = resultados.length > 0 ? resultados.map(servicio => cardReturn(servicio)).join("") : `<b class="b-servicios">No se encontraron servicios con ese nombre.</b>
   `;
 
@@ -114,7 +112,7 @@ buscarBtn.addEventListener("click", () => {
 
 /* SCROLLED PAGE */
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
   let header = document.querySelector('.bg-body-tertiary');
   if (window.scrollY > 50) { // Puedes ajustar este valor
     header.classList.add('scrolled');
@@ -141,13 +139,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const dots = document.querySelectorAll('.dot');
 
   dots.forEach(dot => {
-      dot.addEventListener('click', (e) => {
-          scrollToSection(e.target.getAttribute('data-section'));
-      });
+    dot.addEventListener('click', (e) => {
+      scrollToSection(e.target.getAttribute('data-section'));
+    });
   });
 
   window.addEventListener('scroll', () => {
-      updateActiveDot();
+    updateActiveDot();
   });
 
   updateActiveDot();
@@ -156,30 +154,30 @@ document.addEventListener('DOMContentLoaded', () => {
 function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
   if (section) {
-      window.scrollTo({
-          top: section.offsetTop,
-          behavior: 'instant'
-      });
+    window.scrollTo({
+      top: section.offsetTop,
+      behavior: 'instant'
+    });
   }
 }
 
 function updateActiveDot() {
-  const sections = ['inicio', 'trabajo', "acordion", 'nosotros',  "servicios", "contacto"];
+  const sections = ['inicio', 'trabajo', "acordion", 'nosotros', "servicios", "contacto", "footer"];
   let currentSection = sections[0];
 
   sections.forEach((sectionId, index) => {
-      const section = document.getElementById(sectionId);
-      if (section && window.scrollY >= section.offsetTop) {
-          currentSection = sectionId;
-      }
+    const section = document.getElementById(sectionId);
+    if (section && window.scrollY >= section.offsetTop) {
+      currentSection = sectionId;
+    }
   });
 
   document.querySelectorAll('.dot').forEach((dot, index) => {
-      if (dot.getAttribute('data-section') === currentSection) {
-          dot.classList.add('dot-active');
-      } else {
-          dot.classList.remove('dot-active');
-      }
+    if (dot.getAttribute('data-section') === currentSection) {
+      dot.classList.add('dot-active');
+    } else {
+      dot.classList.remove('dot-active');
+    }
   });
 }
 window.addEventListener('scroll', updateActiveDot);
@@ -188,22 +186,22 @@ window.addEventListener('scroll', updateActiveDot);
 
 window.onscroll = scrollFunction;
 
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("backToTop").style.display = "block";
-    } else {
-      document.getElementById("backToTop").style.display = "none";
-    }
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("backToTop").style.display = "block";
+  } else {
+    document.getElementById("backToTop").style.display = "none";
   }
+}
 
-  document.getElementById("backToTop").addEventListener("click", function() {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  });
+document.getElementById("backToTop").addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   let navbarLinks = document.querySelectorAll('#navbarSupportedContent a.nav-link');
-  
+
   let cartButton = document.getElementById('#cart-button');
 
   const collapseMenu = () => {
@@ -228,8 +226,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Cerrar menu de navegacion al hacer click
 
-document.addEventListener("DOMContentLoaded", function() { // Asegura que el DOM esté completamente cargado
-  document.addEventListener("click", function(event) { // Escucha el evento de clic en cualquier lugar del documento
+document.addEventListener("DOMContentLoaded", function () { // Asegura que el DOM esté completamente cargado
+  document.addEventListener("click", function (event) { // Escucha el evento de clic en cualquier lugar del documento
 
     // Obtén el menú y el botón del menú
     const menu = document.getElementById("navbarSupportedContent");
@@ -252,5 +250,3 @@ document.addEventListener("DOMContentLoaded", function() { // Asegura que el DOM
   });
 });
 
-
-//comportamiento de las cards
