@@ -1,52 +1,59 @@
-
-
 function mostrarServiciosCarrito() {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+    const container = document.getElementById('servicios-container');
+  
+     
     let carritoDetalle = "";
     let total = 0;
-
+  
     if (carrito.length > 0) {
-        carrito.forEach((servicio, index) => {
-            carritoDetalle += `
-                <div class="carritoItem">
-                    <img src=" ${servicio.img}" alt="...">
-                    <p><b>ID: </b> ${servicio.id}</p>
-                    <p><b>NOMBRE: </b> ${servicio.nombre}</p>
-                    <p><b>PRECIO: </b>$ ${servicio.precio}</p>
-                    <button class="eliminar" data-index="${index}"><i class="fa fa-trash" aria-hidden="true"></i></button>
-                </div>`;
-            total = servicio.precio;
-        });
+      carrito.forEach((servicio, index) => {
         carritoDetalle += `
-                <p class="total">TOTAL: $${total}</p>`;
+          <div class="carritoItem">
+            <img src=" ${servicio.img}" alt="...">
+            <p><b>ID: </b> ${servicio.id}</p>
+            <p><b>NOMBRE: </b> ${servicio.nombre}</p>
+            <p><b>PRECIO: </b>$ ${servicio.precio}</p>
+            <button class="eliminar" data-index="${index}"><i class="fa fa-trash" aria-hidden="true"></i></button>
+          </div>`;
+        total = servicio.precio;
+      });
+      carritoDetalle += `
+        <p class="total">TOTAL: $${total}</p>`;
     } else {
-        carritoDetalle = "<b>El carrito se encuentra vacío.</b>";
+      carritoDetalle = "<b>El carrito se encuentra vacío.</b>";
     }
+
     document.getElementById('cart-button').addEventListener('click', function () {
-        mostrarServiciosCarrito();
-        document.getElementById('cart-modal').style.display = 'block';
+      mostrarServiciosCarrito();
+      document.getElementById('cart-modal').style.display = 'block';
     });
     document.getElementsByClassName('close-button')[0].addEventListener('click', function () {
-        document.getElementById('cart-modal').style.display = 'none';
+      document.getElementById('cart-modal').style.display = 'none';
     });
     window.addEventListener('click', function (event) {
-        let modal = document.getElementById('cart-modal');
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-
+      if (event.target === document.getElementById('cart-modal')) {
+        document.getElementById('cart-modal').style.display = 'none';
+      }
     });
-
+    document.getElementById("servicios-container");
+    document.addEventListener("DOMContentLoaded", getServiciosAsync);
     document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
     document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarServicio));
     document.querySelector('.finalizar-compra').addEventListener('click', finalizarCompra);
-    document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById('seguirCompraBtn').addEventListener('click', function() {
-            window.location.href = "index.html";
-        });
-    });
-    
-}
+  
+    // Agregar código para agregar evento click a botones "CONTRATAR"
+    const botonesContratar = document.querySelectorAll('.botonCarrito');
+  
+    botonesContratar.forEach(boton => boton.addEventListener('click', function (event) {
+      const servId = event.target.dataset.id;
+      agregarAlCarrito(servicios);
+    }));
+
+    document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
+
+  }
 
 mostrarServiciosCarrito()
 
@@ -229,3 +236,4 @@ window.addEventListener('click', (event) => {
         modal.style.display = 'none';
     }
 })
+

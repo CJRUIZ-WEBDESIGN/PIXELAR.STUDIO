@@ -16,7 +16,7 @@
         "img": "./images/oficios/webbasico.png",
         "html": "./images/html.png",
         "css": "./images/css3.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "2",
@@ -37,7 +37,7 @@
         "css": "./images/css3.png",
         "javascript": "./images/js.png",
 
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "3",
@@ -57,7 +57,7 @@
         "html": "./images/html.png",
         "css": "./images/css3.png",
         "javascript": "./images/js.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "4",
@@ -78,7 +78,7 @@
         "css": "./images/css3.png",
         "javascript": "./images/js.png",
 
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "5",
@@ -95,7 +95,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/pymes.png",
-        "precio": 45000
+        "precio": 55000
     },
  
     {
@@ -113,7 +113,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardempinsti.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "7",
@@ -131,7 +131,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardgasista1.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "8",
@@ -149,7 +149,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardconstruc.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "9",
@@ -167,7 +167,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardherreria.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "10",
@@ -185,7 +185,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardelectri.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "11",
@@ -203,7 +203,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardplomeria.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "12",
@@ -221,7 +221,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardcarpinteria.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "13",
@@ -239,7 +239,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardpsycho.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "14",
@@ -257,7 +257,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardderecho.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "15",
@@ -275,7 +275,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardvete1.png",
-        "precio": 45000 
+        "precio": 55000 
     },
     {
         "id": "16",
@@ -309,7 +309,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardartistas.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "18",
@@ -343,7 +343,7 @@
         "mapa": "Mapa de Ubicacion del Local/Emprendimiento",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardmecanicoauto.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "20",
@@ -360,7 +360,7 @@
         "mapa": "Mapa de Ubicacion del Local/Emprendimiento",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/mecanicamoto.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "21",
@@ -377,7 +377,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cerrajeria.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "22",
@@ -394,7 +394,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardfotografia.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "23",
@@ -411,7 +411,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardpasteleria.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "24",
@@ -428,7 +428,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/carddentista.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "25",
@@ -445,7 +445,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardCursococina.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "26",
@@ -462,7 +462,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardaireacondicionado.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "27",
@@ -479,7 +479,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardimpresoras.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "28",
@@ -496,7 +496,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardcatering.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "29",
@@ -513,7 +513,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardcoachdevida.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "30",
@@ -530,7 +530,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardagentedeviajes.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "31",
@@ -547,7 +547,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardjardinero.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "32",
@@ -564,7 +564,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardnutricion.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "33",
@@ -581,7 +581,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardbellezaspa.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "34",
@@ -598,7 +598,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardmarketing.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "35",
@@ -615,7 +615,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardtraductoresinter.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "36",
@@ -632,7 +632,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardmecanicobici.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "37",
@@ -649,7 +649,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardyoga.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "38",
@@ -666,7 +666,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardfumigacion.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "39",
@@ -683,7 +683,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardlimpieza.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "40",
@@ -700,7 +700,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardrrhh.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "41",
@@ -717,7 +717,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardtecelectronica.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "42",
@@ -734,7 +734,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardcafeterias.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "43",
@@ -751,7 +751,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardheladerias.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "44",
@@ -768,7 +768,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardgym.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "45",
@@ -785,7 +785,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardmudanzas.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "46",
@@ -802,7 +802,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardfloreria.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "47",
@@ -819,7 +819,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardtatuajes.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "48",
@@ -836,7 +836,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/carddj.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "49",
@@ -853,7 +853,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardsegprivada.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "50",
@@ -870,7 +870,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardtecnicopc.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "51",
@@ -887,7 +887,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardtiendamascota.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "52",
@@ -904,7 +904,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardlavadero.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "53",
@@ -921,7 +921,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardtiendadeportiva.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "54",
@@ -938,7 +938,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardasistentevirtual.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "55",
@@ -955,7 +955,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardguiaturista.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "56",
@@ -972,7 +972,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardabogadomigrante.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "57",
@@ -989,7 +989,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardmaquillajeprof.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "58",
@@ -1006,7 +1006,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardyogaentrenador.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "59",
@@ -1023,7 +1023,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardenergiasolar.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "60",
@@ -1040,7 +1040,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardinmobiliarias.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "61",
@@ -1057,7 +1057,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardsastre.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "62",
@@ -1074,7 +1074,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardedicionvideo.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "63",
@@ -1091,7 +1091,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardescritoredactor.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "64",
@@ -1108,7 +1108,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardprofesoresparticulares.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "65",
@@ -1125,7 +1125,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardagricultor.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "66",
@@ -1142,7 +1142,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardentrenadorpersonal.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "67",
@@ -1159,7 +1159,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardisenografico.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "68",
@@ -1176,7 +1176,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardfotografobodas.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "69",
@@ -1193,7 +1193,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardbarberias.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "70",
@@ -1210,7 +1210,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardpoesiaescritura.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "71",
@@ -1227,7 +1227,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardescuelademusica.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "72",
@@ -1244,7 +1244,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardmarketing.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "73",
@@ -1261,7 +1261,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/carddisenointerior.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "74",
@@ -1278,7 +1278,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardasesorfinanciero.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "75",
@@ -1295,7 +1295,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardescuelaarte.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "76",
@@ -1312,7 +1312,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardlimpiapiscina.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "77",
@@ -1329,7 +1329,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardestudiograbacion.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "78",
@@ -1346,7 +1346,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardlavadoauto.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "79",
@@ -1362,8 +1362,8 @@
         "wsp": "Boton de WhatsApp Integrado en Sitio",
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
-        "img": "./images/oficios/cardrestauradormueble.png",
-        "precio": 45000
+        "img": "./images/oficios/cardventamuebles.png",
+        "precio": 55000
     },
     {
         "id": "80",
@@ -1380,7 +1380,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardplagaspesticidas.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "81",
@@ -1397,7 +1397,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardproductosbelleza.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "82",
@@ -1414,7 +1414,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardpersonasmayores.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "83",
@@ -1431,7 +1431,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardprodorganicos.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "84",
@@ -1448,7 +1448,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardarquitecto.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "85",
@@ -1465,7 +1465,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardescuelaconductores.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "86",
@@ -1482,7 +1482,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardarteflorar.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "87",
@@ -1499,7 +1499,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardsegurosasesor.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "88",
@@ -1516,7 +1516,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardrestauradormueble.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "89",
@@ -1533,7 +1533,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardcontrolplagas.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "90",
@@ -1550,7 +1550,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardestilistamoda.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "91",
@@ -1567,7 +1567,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardorfebre.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "92",
@@ -1584,7 +1584,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardapicultura.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "93",
@@ -1601,7 +1601,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/carddermatologia1.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "94",
@@ -1618,7 +1618,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardentrenadoresperros.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "95",
@@ -1635,7 +1635,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardorganizadoreventos.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "96",
@@ -1652,11 +1652,11 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardpilotosdrones.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "97",
-        "nombre": " ENFERMEROS A DOMICILIO",
+        "nombre": "ENFERMEROS A DOMICILIO",
         "descripcion": "Cuida tu presencia en línea con un sitio que ofrezca servicios de enfermería a domicilio, tarifas y un botón de WhatsApp para programar visitas.",
         "correo": "Correo Electronico con la extension de su dominio",
         "dominio": "Extension de Dominio .com.ar",
@@ -1669,7 +1669,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardenfermerosdomicilio.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "98",
@@ -1686,7 +1686,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardgestordocumentos.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "99",
@@ -1703,7 +1703,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardartesano.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "100",
@@ -1720,7 +1720,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardreparacioncelu.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "101",
@@ -1737,7 +1737,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardpintores.png",
-        "precio": 45000
+        "precio": 55000
     },
     {
         "id": "102",
@@ -1754,7 +1754,7 @@
         "seo": "Optimizacion SEO para buscadores",
         "formulario": "Formulario de Contacto",
         "img": "./images/oficios/cardfisioterapia.png",
-        "precio": 45000
+        "precio": 55000
     }
    
 ]
