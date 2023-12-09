@@ -210,10 +210,12 @@ body {
 }
 
 .p_presentacion {
-    font-size: 2em;
+    max-width: 1000px;
+    font-size: 1.6em;
     color: $oslo-gray;
-    padding: 2em;
+    padding: 0.8em;
     text-align: center;
+    font-weight: bold;
 }
 
 #inicio .contenido .presentacion h2 {
