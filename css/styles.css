@@ -70,7 +70,7 @@
   position: relative;
   align-items: center;
   justify-content: space-around;
-  padding: 3em;
+  padding: 0.6em;
 }
 
 .fa-brands {
@@ -79,30 +79,41 @@
 
 .fa-html5 {
   text-align: center;
-  font-size: 6em;
-  color: #eff240;
+  font-size: 2em;
+  color: #393646;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .fa-css3 {
-  list-style-type: none;
-  color: #eff240;
   text-align: center;
-  font-size: 6em;
+  font-size: 2em;
+  color: #393646;
+  list-style-type: none;
+  justify-content: center;
 }
 
 .fa-js {
   text-align: center;
-  font-size: 6em;
-  color: #eff240;
+  font-size: 2em;
+  color: #393646;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.fa-react {
+  text-align: center;
+  font-size: 2em;
+  color: #393646;
+  list-style-type: none;
+  justify-content: center;
 }
 
 .skill__class {
   display: flex;
   position: relative;
   width: 100%;
-  height: 100px;
+  height: auto;
   flex-direction: row;
   list-style-type: none;
 }
@@ -151,7 +162,7 @@ body {
 }
 
 .nav-link.active {
-  color: rgb(255, 165, 0) !important;
+  color: #ffa500 !important;
 }
 
 .presentacion h2 {
@@ -160,18 +171,26 @@ body {
 
 .bienvenida,
 .descripcion p {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   font-size: em;
 }
 
 .bienvenida,
 .descripcion {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   font-size: em;
 }
 
 .span-cr {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
+}
+
+.ar-header {
+  color: #ffffff;
+}
+
+.ar {
+  color: #75AADB;
 }
 
 /* NAVEGACION */
@@ -200,7 +219,7 @@ body {
 
 #inicio .contenido header .contenido-header nav ul li:hover a {
   transform: scale(1.1);
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 #inicio .contenido header .contenido-header nav ul li::before {
@@ -210,7 +229,7 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: rgb(255, 165, 0);
+  background-color: #ffa500;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
@@ -483,7 +502,7 @@ body {
 
 #servicios {
   width: 100%;
-  margin-top: 30em;
+  margin-top: 10em;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -494,13 +513,16 @@ body {
   background: linear-gradient(to top, #404042, transparent);
   color: #404042;
   padding: 2em;
+  align-items: center;
+  align-content: center;
 }
 
 .imglogo {
   display: inline;
-  width: 150px;
+  width: 220px;
   float: right;
   text-shadow: 0 5px 39px white;
+  padding: 24px;
 }
 
 /* analisis */
@@ -538,7 +560,7 @@ body {
   margin-top: 4em;
   width: 100%;
   text-align: center;
-  font-size: 5cqmax;
+  font-size: 20px;
 }
 
 .titulo-proyec__h3 {
@@ -678,12 +700,12 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
   z-index: 100;
-  border: 1px solid rgb(255, 165, 0);
+  border: 1px solid #ffa500;
 }
 
 /* Punto activo */
 .side-bar .dot:hover {
-  background-color: rgb(255, 165, 0) !important;
+  background-color: #ffa500 !important;
   z-index: 100;
 }
 
@@ -715,14 +737,14 @@ body {
 }
 
 #backToTop:hover {
-  background-color: rgb(255, 165, 0);
+  background-color: #ffa500;
   color: #393646;
 }
 
 /* ACORDEON */
 .accordion-button {
   background-color: #393646 !important;
-  color: rgb(255, 165, 0) !important;
+  color: #ffa500 !important;
 }
 
 .accordion-button:hover {
@@ -738,19 +760,19 @@ body {
 }
 
 .eleccion {
-  width: 100%;
+  width: 96%;
   align-items: center;
   justify-content: center;
-  padding: 1em 15em 1em 15em;
+  padding: 1em 1em 1em 1em;
   margin-bottom: 15em;
   height: 100%;
 }
 
 .nosotros {
-  width: 100%;
+  width: 96%;
   align-items: center;
   justify-content: center;
-  padding: 1em 20em 1em 20em;
+  padding: 1em 1em 1em 1em;
   margin-bottom: 15em;
   height: 100%;
 }
@@ -794,46 +816,48 @@ body {
   font-size: 0.3em !important;
 }
 
+/* 
 .modal {
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 75%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 100;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+
 }
 
 .modal-content {
-  background-color: #d6d6d6;
-  padding: 15px;
-  border: 1px solid #888;
-  width: 70%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  color: #404042;
-  text-align: center;
-  top: 8%;
-  z-index: 9999999 !important;
+    background-color: $soapstone;
+    padding: 15px;
+    border: 1px solid #888;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: $scarpa-flow;
+    text-align: center;
+    top: 8%;
+    z-index: 9999999!important;
 }
 
 .close-button {
-  color: #000000;
-  float: right;
-  font-size: 1.3em;
-  font-weight: bold;
-  display: flex;
-  flex-direction: row-reverse;
+    color: #000000;
+    float: right;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .close-button:hover,
 .close-button:focus {
-  color: rgb(66, 66, 66);
-  font-size: 1.3em;
-  text-decoration: none;
-  cursor: pointer;
+    color: rgb(66, 66, 66);
+    font-size: 1.3em;
+    text-decoration: none;
+    cursor: pointer;
 }
-
+ */
 #carritoContainer {
   border: 1px solid #ccc;
   padding: 10px;
@@ -905,7 +929,7 @@ body {
 
 #finalizarCompraBtn {
   font-size: 0.7em;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -920,7 +944,7 @@ body {
   color: #393646;
   width: 200px;
   border-radius: 8px;
-  background: rgb(255, 165, 0);
+  background: #ffa500;
   cursor: pointer;
   font-weight: bold;
   padding: 0.2em;
@@ -929,7 +953,7 @@ body {
 
 #vaciarCarritoBtn {
   font-size: 0.7em;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -951,7 +975,7 @@ body {
 }
 #vaciarCarritoBtn #seguirCompraBtn {
   font-size: 0.7em;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1055,7 +1079,7 @@ body {
 }
 
 .formu .submit-fin:hover {
-  background-color: rgb(255, 165, 0);
+  background-color: #ffa500;
   color: #393646;
   font-weight: bold;
   font-size: 2em;
@@ -1092,6 +1116,47 @@ body {
   z-index: 9999999;
 }
 
+/* styles.css */
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 5px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1117,377 +1182,197 @@ html {
   font-size: 62.5%;
 }
 
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  margin-bottom: 6rem;
+#servicios-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
 }
 
-.heading-primary--main {
-  display: block;
-  font-size: 6rem;
-  font-weight: 400;
-  letter-spacing: 3.5rem;
-  -webkit-animation-name: moveInLeft;
-  animation-name: moveInLeft;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  animation-delay: 3s;
-  animation-iteration-count: 3;
+.tarjeta {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
 }
 
-.heading-primary--sub {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1.75rem;
-  -webkit-animation: moveInRight 1s ease-out;
-  animation: moveInRight 1s ease-out;
+.tarjeta:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  padding: 10px;
 }
 
-.heading-secondary {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: transparent;
-  letter-spacing: 0.2rem;
-  line-height: 1;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  color: #eee;
+.tarjeta img {
+  width: 95%;
+  border-radius: 15px;
+  height: auto;
+  object-fit: cover;
+  top: 20px;
 }
 
-.btn, .btn:link, .btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  border-radius: 0.5rem;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  position: relative;
-  font-size: 1.6rem;
-  border: none;
-  cursor: pointer;
-}
-
-.btn:hover {
-  -webkit-transform: translateY(-3px);
-  transform: translateY(-3px);
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.6705882353);
-  font-weight: bold;
-  color: black;
-}
-
-.btn:hover::after {
-  -webkit-transform: scaleX(1.4) scaleY(1.6);
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-
-.btn:active, .btn:focus {
-  outline: none;
-  -webkit-transform: translateY(-1px);
-  transform: translateY(-1px);
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.btn--white {
-  width: 60%;
-  background-color: #0e5794;
-  color: #ffffff;
-}
-
-.btn--white::after {
-  background-color: #fff;
-}
-
-.btn--green {
-  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#3f5efb));
-  background: linear-gradient(to right, #fc466b, #3f5efb);
-  color: #fff;
-}
-
-.btn--green::after {
-  background-color: #55c57a;
-}
-
-body {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.section-plans {
-  background-color: #000;
-  padding: 4rem 0 4rem 0;
-}
-
-.card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: transparent;
-  justify-content: space-between;
-  width: 400px;
-  height: 70em;
-  -webkit-perspective: 250rem;
-  perspective: 250rem;
-  -moz-perspective: 150rem;
-  --bs-card-border-width: none;
-  padding: 20px;
+.tarjeta h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 10px;
   text-align: center;
 }
 
-.card__side {
-  -webkit-transition: all 0.8s ease;
-  transition: all 0.8s ease;
-  position: absolute;
+.tarjeta p {
+  color: #555;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.tarjeta button {
+  background-color: #404042; /* Color principal */
+  color: #fff;
+  padding: 12px 20px 12px 20px;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  width: 85%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tarjeta button:hover {
+  background-color: #ffa500;
+  color: #404042;
+  font-weight: bold; /* Color al hacer hover */
+}
+
+.modal {
+  display: none;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 70em;
-  background-color: transparent;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-radius: 46px;
-  overflow: hidden;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  text-shadow: 4px 5px 6px rgb(0, 0, 0);
-}
-
-.card__side--front {
-  background-color: #fff;
-}
-
-.card__side--front-1 {
-  background: linear-gradient(-45deg, #000000, #474747);
-  color: white;
-  background-image: url(../images/Cardback.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.card__side--front-2 {
-  background: linear-gradient(-45deg, #474747, #000000);
-  background-image: url(../images/Cardback.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.card__side--front-3 {
-  background: linear-gradient(-45deg, #000000, #474747);
-  background-image: url(../images/Cardback.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.card__side--back {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-
-.card__side--back-1 {
-  background: linear-gradient(-45deg, #474747, #000000);
-  background-image: url(../images/Cardback.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.card__side--back-2 {
-  background: linear-gradient(-45deg, #000000, #474747);
-  background-image: url(../images/Cardback.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.card__side--back-3 {
-  background: linear-gradient(-45deg, #474747, #000000);
-  background-image: url(../images/Cardback.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.card:hover .card__side--front-1,
-.card:hover .card__side--front-2,
-.card:hover .card__side--front-3 {
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-}
-
-.card:hover .card__side--back {
-  -webkit-transform: rotateY(0);
-  transform: rotateY(0);
-}
-
-.card__title {
-  display: flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
   align-items: center;
-  background-image: url(./images/oficios/webperson.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  justify-content: center;
 }
 
-.card__title--1 .fas {
-  font-size: 1rem;
-}
-
-.card__title--2 .fas {
-  font-size: 1rem;
-}
-
-.card__title--3 .fas {
-  font-size: 1rem;
-}
-
-.card__heading {
-  font-size: 2.5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-  text-shadow: 2px 2.5px 3px rgb(0, 0, 0);
+.modal-content {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  max-width: 700px;
   width: 100%;
-  padding: 0 0.5em 0;
-}
-
-.card__heading-span {
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
-.card__details {
-  list-style: none;
-  display: flex;
-  padding: 0.5em 0.5em;
-}
-
-.card__details ul {
-  list-style: none;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 0.6em 0;
-}
-
-.card__details ul li {
-  text-align: center;
-  font-size: 1.39em;
-  padding: 0.2rem;
-  text-shadow: 4px 5px 6px rgb(0, 0, 0);
-}
-
-.card__details_mod {
-  width: 100%;
-  flex-direction: row;
-}
-
-.card__cta {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 90%;
-  text-align: center;
-}
-
-.card__price-box {
-  text-align: center;
-  color: #fff;
-  height: 30em;
-}
-
-.card__price-only {
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-
-.card__price-value {
-  font-size: 4.5em;
-  padding: 0.8em;
-  color: rgb(170, 255, 0);
-  text-shadow: 4px 5px 6px rgb(0, 0, 0);
-}
-
-.row {
-  max-width: 114rem;
-  margin: 0 auto;
-}
-
-.row:not(:last-child) {
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row [class^=col-] {
-  float: left;
-}
-
-.row [class^=col-]:not(:last-child) {
-  margin-right: 6rem;
-}
-
-.row .col-1-of-3 {
-  width: calc((100% - 12rem) / 3);
-}
-
-.imagProduc {
-  display: flex;
+  height: auto;
+  padding: 20px;
   position: relative;
-  flex-direction: row;
-  justify-content: space-between;
+  top: 5px;
+}
+
+.modal-content img {
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-content h2, .modal-content p, .modal-content ul {
+  margin: 10px 0;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.modal-content p {
+  margin: 10px 0;
+  color: #222222;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-size: 1.5em;
+  color: #333;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+/* Botón de contratar */
+.modal-content button {
+  background-color: #28a745; /* Color para el botón Contratar */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #218838;
+}
+
+.modal-content img {
+  max-width: 98%; /* Asegura que la imagen no exceda el ancho del modal */
+  height: auto;
+}
+
+.modal-content table {
+  width: 100%; /* Ancho completo dentro del modal */
+  border-collapse: initial; /* Elimina el espacio entre las celdas */
+  height: 200px;
+}
+
+.modal-content th, .modal-content td {
+  border: 1px solid #ddd; /* Borde ligero para las celdas */
+  padding: 1px; /* Espaciado interno en las celdas */
+  text-align: center; /* Alineación del texto */
+  height: 1px;
+}
+
+.modal-content th {
+  background-color: #f2f2f2; /* Color de fondo para los encabezados */
+  font-size: 0.8em; /* Reducción del tamaño de la fuente */
+}
+
+.modal-content td {
+  font-size: 0.65em; /* Reducción del tamaño de la fuente */
+}
+
+.servicio-contenedor {
+  position: relative;
+  width: 100%;
+  height: 170px;
+}
+
+.servicio-contenedor img {
   width: 100%;
   height: 100%;
-  padding: 20px;
-  object-fit: contain;
-  border-radius: 40px;
+  object-fit: cover; /* Esto asegura que la imagen cubra todo el contenedor */
 }
 
-.imagProduc--1 {
-  width: auto;
-  height: auto;
-  display: flex;
+.nombre-servicio {
   position: absolute;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  top: 50%; /* Ajusta estos valores según necesites */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el texto en la imagen */
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  /* Añade más estilos al texto si lo necesitas (tamaño, sombra, etc.) */
 }
 
-.p-det {
-  list-style-type: none;
-  font-size: 1.8em;
-  color: white;
+.td-precio {
+  font-size: 30px !important;
+}
+
+.card-img {
+  width: 100%;
+  height: 170px !important;
+  display: flex;
+  justify-content: center;
 }
 
 .modal {
@@ -1497,19 +1382,22 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 100;
 }
 
 .modal-content {
+  max-width: 900px;
+  max-height: auto;
   background-color: #d6d6d6;
-  padding: 35px;
+  padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-size: 2.3em;
   color: #404042;
   z-index: 99999999;
+  margin-top: 100px;
 }
 
 .close-button {
@@ -1599,7 +1487,7 @@ body {
 
 #finalizarCompraBtn {
   font-size: 0.7em;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1614,7 +1502,7 @@ body {
   color: #393646;
   width: 200px;
   border-radius: 8px;
-  background: rgb(255, 165, 0);
+  background: #ffa500;
   cursor: pointer;
   font-weight: bold;
   padding: 0.2em;
@@ -1623,7 +1511,7 @@ body {
 
 #vaciarCarritoBtn {
   font-size: 0.7em;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1635,7 +1523,7 @@ body {
 
 #seguirCompraBtn {
   font-size: 0.7em;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   width: 200px;
   border-radius: 8px;
   background: #393646;
@@ -1715,7 +1603,7 @@ body {
 .formu select,
 .formu .text-area {
   padding: 10px;
-  width: 100%;
+  width: 95%;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1.8em;
@@ -1739,7 +1627,7 @@ body {
 }
 
 .formu .submit-fin:hover {
-  background-color: rgb(255, 165, 0);
+  background-color: #ffa500;
   color: #393646;
   font-weight: bold;
   font-size: 1.4em;
@@ -1789,23 +1677,23 @@ body {
     color: #debfb0;
   }
   .nav-link.active {
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.6em;
   }
   .span-cr {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -1829,7 +1717,7 @@ body {
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   .navbar {
     width: 100%;
@@ -2075,11 +1963,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 100;
-    border: 1px solid rgb(255, 165, 0);
+    border: 1px solid #ffa500;
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: rgb(255, 165, 0) !important;
+    background-color: #ffa500 !important;
     z-index: 100;
   }
   /* TOP BACK */
@@ -2109,13 +1997,13 @@ body {
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
   }
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .accordion-button:hover {
     background-color: #8b8d92;
@@ -2284,7 +2172,7 @@ body {
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -2298,7 +2186,7 @@ body {
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: rgb(255, 165, 0);
+    background: #ffa500;
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -2306,7 +2194,7 @@ body {
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -2328,7 +2216,7 @@ body {
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -2422,7 +2310,7 @@ body {
     font-size: 2em;
   }
   .formu .submit-fin:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
     font-weight: bold;
     font-size: 2em;
@@ -2929,23 +2817,23 @@ Pantallas medianas (tablets de menos de 992px)
     color: #debfb0;
   }
   .nav-link.active {
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 1em;
   }
   .span-cr {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -2969,7 +2857,7 @@ Pantallas medianas (tablets de menos de 992px)
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   .navbar {
     width: 100%;
@@ -3212,11 +3100,11 @@ Pantallas medianas (tablets de menos de 992px)
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 100;
-    border: 1px solid rgb(255, 165, 0);
+    border: 1px solid #ffa500;
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: rgb(255, 165, 0) !important;
+    background-color: #ffa500 !important;
     z-index: 100;
   }
   /* TOP BACK */
@@ -3246,13 +3134,13 @@ Pantallas medianas (tablets de menos de 992px)
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
   }
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .accordion-button:hover {
     background-color: #8b8d92;
@@ -3416,7 +3304,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -3430,7 +3318,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: rgb(255, 165, 0);
+    background: #ffa500;
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -3438,7 +3326,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -3460,7 +3348,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -3554,7 +3442,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 2em;
   }
   .formu .submit-fin:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
     font-weight: bold;
     font-size: 2em;
@@ -4047,23 +3935,23 @@ Pantallas medianas (tablets de menos de 992px)
     color: #debfb0;
   }
   .nav-link.active {
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.3em;
   }
   .span-cr {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -4088,7 +3976,7 @@ Pantallas medianas (tablets de menos de 992px)
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   .navbar {
     width: 100%;
@@ -4330,11 +4218,11 @@ Pantallas medianas (tablets de menos de 992px)
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 100;
-    border: 1px solid rgb(255, 165, 0);
+    border: 1px solid #ffa500;
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: rgb(255, 165, 0) !important;
+    background-color: #ffa500 !important;
     z-index: 100;
   }
   /* TOP BACK */
@@ -4364,13 +4252,13 @@ Pantallas medianas (tablets de menos de 992px)
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
   }
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .accordion-button:hover {
     background-color: #8b8d92;
@@ -4532,7 +4420,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -4546,7 +4434,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: rgb(255, 165, 0);
+    background: #ffa500;
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -4554,7 +4442,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -4576,7 +4464,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -4670,7 +4558,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 2em;
   }
   .formu .submit-fin:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
     font-weight: bold;
     font-size: 2em;
@@ -5130,23 +5018,23 @@ Pantallas medianas (tablets de menos de 992px)
     color: #debfb0;
   }
   .nav-link.active {
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.3em;
   }
   .span-cr {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -5171,7 +5059,7 @@ Pantallas medianas (tablets de menos de 992px)
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   .navbar {
     width: 100%;
@@ -5418,11 +5306,11 @@ Pantallas medianas (tablets de menos de 992px)
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 10000;
-    border: 1px solid rgb(255, 165, 0);
+    border: 1px solid #ffa500;
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: rgb(255, 165, 0) !important;
+    background-color: #ffa500 !important;
     z-index: 10000;
   }
   /* TOP BACK */
@@ -5453,7 +5341,7 @@ Pantallas medianas (tablets de menos de 992px)
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
   }
   /* 
@@ -5464,7 +5352,7 @@ Pantallas medianas (tablets de menos de 992px)
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
     font-size: 1em !important;
   }
   .accordion-button:hover {
@@ -5991,7 +5879,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -6005,7 +5893,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: rgb(255, 165, 0);
+    background: #ffa500;
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -6013,7 +5901,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -6035,7 +5923,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -6129,7 +6017,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 1.6em;
   }
   .formu .submit-fin:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
     font-weight: bold;
     font-size: 1.6em;
@@ -6239,23 +6127,23 @@ Pantallas medianas (tablets de menos de 992px)
     color: #debfb0;
   }
   .nav-link.active {
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
   }
   .presentacion h2 {
     color: #debfb0;
   }
   .bienvenida,
   .descripcion p {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.5em;
   }
   .bienvenida,
   .descripcion {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     font-size: 0.3em;
   }
   .span-cr {
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   /* NAVEGACION */
   #inicio .contenido header .contenido-header nav ul {
@@ -6280,7 +6168,7 @@ Pantallas medianas (tablets de menos de 992px)
   #inicio .contenido header .contenido-header nav ul li:hover a {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
-    color: rgb(255, 165, 0);
+    color: #ffa500;
   }
   .navbar {
     width: 100%;
@@ -6527,11 +6415,11 @@ Pantallas medianas (tablets de menos de 992px)
     cursor: pointer;
     transition: background-color 0.3s;
     z-index: 10000;
-    border: 1px solid rgb(255, 165, 0);
+    border: 1px solid #ffa500;
   }
   /* Punto activo */
   .side-bar .dot:hover {
-    background-color: rgb(255, 165, 0) !important;
+    background-color: #ffa500 !important;
     z-index: 10000;
   }
   /* TOP BACK */
@@ -6562,7 +6450,7 @@ Pantallas medianas (tablets de menos de 992px)
     animation: bounce 2s infinite;
   }
   #backToTop:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
   }
   /* 
@@ -6573,7 +6461,7 @@ Pantallas medianas (tablets de menos de 992px)
   /* ACORDEON */
   .accordion-button {
     background-color: #393646 !important;
-    color: rgb(255, 165, 0) !important;
+    color: #ffa500 !important;
     font-size: 1em !important;
   }
   .accordion-button:hover {
@@ -7100,7 +6988,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #finalizarCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -7114,7 +7002,7 @@ Pantallas medianas (tablets de menos de 992px)
     color: #393646;
     width: 200px;
     border-radius: 8px;
-    background: rgb(255, 165, 0);
+    background: #ffa500;
     cursor: pointer;
     font-weight: bold;
     padding: 0.2em;
@@ -7122,7 +7010,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -7144,7 +7032,7 @@ Pantallas medianas (tablets de menos de 992px)
   }
   #vaciarCarritoBtn #seguirCompraBtn {
     font-size: 0.7em;
-    color: rgb(255, 165, 0);
+    color: #ffa500;
     width: 200px;
     border-radius: 8px;
     background: #393646;
@@ -7238,7 +7126,7 @@ Pantallas medianas (tablets de menos de 992px)
     font-size: 1.6em;
   }
   .formu .submit-fin:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: #ffa500;
     color: #393646;
     font-weight: bold;
     font-size: 1.6em;
@@ -7382,7 +7270,7 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: rgb(255, 165, 0);
+  background-color: #ffa500;
   color: #393646;
   font-weight: bold;
 }
@@ -7404,7 +7292,7 @@ body {
   flex-wrap: nowrap;
   background: #393646;
   border: 1px solid #8b8d92;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
   position: relative;
 }
 
@@ -7556,7 +7444,7 @@ body {
   padding: 14px 28px;
   background: #393646;
   border: 1px solid #8b8d92;
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 .subscribe-form button {
@@ -7615,29 +7503,29 @@ body {
 }
 
 .fa-phone:before {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 .fa-envelope-open:before {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 .fa-location-dot:before {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 .fa-map-marker-alt:before {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 .fab {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 .fa-telegram-plane {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }
 
 .fa-whatsapp {
-  color: rgb(255, 165, 0);
+  color: #ffa500;
 }/*# sourceMappingURL=styles.css.map */

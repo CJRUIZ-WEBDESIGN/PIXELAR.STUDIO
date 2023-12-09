@@ -1,17 +1,14 @@
-
-
 /* SCSS HEX */
-$blacky:         #141414;
-$thunder:        #393646; //FONDO PRINCIPAL / FOOTER
-$scarpa-flow:    #404042; //FONDO SECUNDARIO / 
-$cavern-pink:    #cf1481; //FONDO TIPOGRAFIA
-$oslo-gray:      #8b8d92; //FONDO NAVBAR
-$spun-pearl:     #ababb1; // 
-$soapstone:      #d6d6d6; // FONDO DIVS
-$white:          #ffffff;
-$enlaces-orange: rgb(255, 165, 0); //FONDO ENLACES
-$topblue:        rgb(38, 15, 241);
-
+$blacky: #141414;
+$thunder: #393646; //FONDO PRINCIPAL / FOOTER
+$scarpa-flow: #404042; //FONDO SECUNDARIO / 
+$cavern-pink: #cf1481; //FONDO TIPOGRAFIA
+$oslo-gray: #8b8d92; //FONDO NAVBAR
+$spun-pearl: #ababb1; // 
+$soapstone: #d6d6d6; // FONDO DIVS
+$white: #ffffff;
+$enlaces-orange: #ffa500; //FONDO ENLACES
+$topblue: #a72ff7;
 
 #icono-nav {
     color: #fff;
@@ -47,7 +44,7 @@ $topblue:        rgb(38, 15, 241);
     position: relative;
     align-items: center;
     justify-content: space-around;
-    padding: 3em;
+    padding: 0.6em;
 
 }
 
@@ -58,33 +55,46 @@ $topblue:        rgb(38, 15, 241);
 
 .fa-html5 {
     text-align: center;
-    font-size: 6em;
-    color: #eff240;
+    font-size: 2em;
+    color: $thunder;
     list-style-type: none;
-justify-content: space-between 
+    justify-content: center;
+
 }
 
 .fa-css3 {
-    list-style-type: none;
-    color: #eff240;
     text-align: center;
-    font-size: 6em;
-
+    font-size: 2em;
+    color: $thunder;
+    list-style-type: none;
+    justify-content: center;
 
 }
 
 .fa-js {
     text-align: center;
-    font-size: 6em;
-    color: #eff240;
+    font-size: 2em;
+    color: $thunder;
+    list-style-type: none;
+    justify-content: center;
 
 }
+.fa-react {
+    text-align: center;
+    font-size: 2em;
+    color: $thunder;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+
 
 .skill__class {
     display: flex;
     position: relative;
     width: 100%;
-    height: 100px;
+    height: auto;
     flex-direction: row;
     list-style-type: none;
 

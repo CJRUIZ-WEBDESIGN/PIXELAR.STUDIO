@@ -1,15 +1,15 @@
-const URL = "js/servicios.json"
+const URL = "js/servicios.json";
 const carrito = [];
-const servicios = [];
-
+let servicios = []; // Definida como variable global
 
 function cargarServicios() {
-    container.innerHTML = "";
-    servicios.forEach((servicio) => {
-        container.innerHTML += cardReturn(servicio);
+    const container = document.getElementById("servicios-container");
+    servicios.forEach(servicio => {
+        container.innerHTML += crearTarjeta(servicio);
     });
+    // Aquí cualquier otra lógica que dependa de los servicios cargados
 }
- 
+
 async function getServiciosAsync() {
     const response = await fetch(URL)
     const data = await response.json() 
@@ -17,6 +17,7 @@ async function getServiciosAsync() {
     cargarServicios()
 }
 getServiciosAsync()
+
 
 function agregarAlCarrito(servicio) {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
@@ -58,10 +59,12 @@ function agregarAlCarrito(servicio) {
 
 
 
-container.addEventListener('click', (event) => {
+/* container.addEventListener('click', (event) => {
     if (event.target.classList.contains('botonCarrito')) {
         const servId = event.target.dataset.id;
         const servicio = servicios.find((servicio) => servicio.id === (servId));
         agregarAlCarrito(servicio);
     }
-});
+}); */
+
+

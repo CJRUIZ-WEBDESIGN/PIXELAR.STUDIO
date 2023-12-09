@@ -5,20 +5,23 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     z-index: 100;
     
 }
 
 .modal-content {
+    max-width: 900px;
+    max-height: auto;
     background-color: $soapstone;
-    padding: 35px;
+    padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     font-size: 2.3em;
     color: $scarpa-flow;
     z-index: 99999999;
+    margin-top: 100px;
     
 }
 
@@ -235,7 +238,7 @@ justify-content: center;
 .formu select,
 .formu .text-area {
     padding: 10px;
-    width: 100%;
+    width: 95%;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1.8em;

@@ -63,6 +63,12 @@ body {
 .span-cr {
     color: $enlaces-orange;
 }
+.ar-header {
+    color: #ffffff;
+}
+.ar {
+    color: #75AADB;
+}
 
 /* NAVEGACION */
 #inicio .contenido header .contenido-header nav ul {
@@ -187,6 +193,7 @@ body {
     background-size: cover;
     box-shadow: 30em 0px 30em 0px rgba(0, 0, 0, 1);
 }
+
 
 .sombra {
     box-shadow: 3em 0 0 0 rgba(0, 0, 0, 1);
@@ -383,7 +390,7 @@ body {
 
 #servicios {
     width: 100%;
-    margin-top: 30em;
+    margin-top: 10em;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -394,13 +401,16 @@ body {
     background: linear-gradient(to top, rgba($scarpa-flow, 1.02), transparent);
     color: #404042;
     padding: 2em;
+    align-items: center;
+    align-content: center;
 }
 
 .imglogo {
     display: inline;
-    width: 150px;
+    width: 220px;
     float: right;
     text-shadow: 0 5px 39px white;
+    padding: 24px;
 }
 
 /* analisis */
@@ -440,7 +450,7 @@ body {
     margin-top: 4em;
     width: 100%;
     text-align: center;
-    font-size: 5cqmax;
+    font-size: 20px;
 }
 
 .titulo-proyec__h3 {
@@ -652,20 +662,20 @@ body {
 }
 
 .eleccion {
-    width: 100%;
+    width: 96%;
     align-items: center;
     justify-content: center;
-    padding: 1em 15em 1em 15em;
+    padding: 1em 1em 1em 1em;
     margin-bottom: 15em;
     height: 100%;
     
 }
 
 .nosotros {
-    width: 100%;
+    width: 96%;
     align-items: center;
     justify-content: center;
-    padding: 1em 20em 1em 20em;
+    padding: 1em 1em 1em 1em;
     margin-bottom: 15em;
     height: 100%;
 }
@@ -710,7 +720,7 @@ body {
     font-size: .3em!important;
 
 }
-
+/* 
 .modal {
     display: none;
     position: fixed;
@@ -751,7 +761,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-
+ */
 //carrito 
 
 #carritoContainer {
@@ -1028,3 +1038,44 @@ body {
 
 }
 
+
+/* styles.css */
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 5px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
