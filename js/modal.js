@@ -1,30 +1,40 @@
 function mostrarServiciosCarrito() {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-    const container = document.getElementById('servicios-container');
   
      
     let carritoDetalle = "";
     let total = 0;
   
     if (carrito.length > 0) {
-      carrito.forEach((servicio, index) => {
-        carritoDetalle += `
-          <div class="carritoItem">
-            <img src=" ${servicio.img}" alt="...">
-            <p><b>ID: </b> ${servicio.id}</p>
-            <p><b>NOMBRE: </b> ${servicio.nombre}</p>
-            <p><b>PRECIO: </b>$ ${servicio.precio}</p>
-            <button class="eliminar" data-index="${index}"><i class="fa fa-trash" aria-hidden="true"></i></button>
-          </div>`;
-        total = servicio.precio;
-      });
+        carrito.forEach((servicio, index) => {
+            carritoDetalle += `
+                <div class="carritoItem">
+                    <img src="${servicio.img}" alt="Imagen de ${servicio.nombre}">
+                    <p><b>ID: </b>${servicio.id}</p>
+                    <p><b>NOMBRE: </b>${servicio.nombre}</p>
+                    <p><b>PRECIO: </b>$${servicio.precio}</p>
+                    <button class="eliminar" data-index="${index}">Eliminar</button>
+                </div>`;
+            total += servicio.precio; // Sumar precios si hay más de un servicio
+        });
+        
       carritoDetalle += `
         <p class="total">TOTAL: $${total}</p>`;
     } else {
       carritoDetalle = "<b>El carrito se encuentra vacío.</b>";
     }
 
+    carrito.forEach((servicio, index) => {
+        if(servicio.nombre && servicio.precio && servicio.img) {
+            // Tu código para mostrar el servicio
+        } else {
+            console.log("Propiedad faltante en el servicio:", servicio);
+        }
+    });
+    
+    
+    
     document.getElementById('cart-button').addEventListener('click', function () {
       mostrarServiciosCarrito();
       document.getElementById('cart-modal').style.display = 'block';
@@ -37,25 +47,85 @@ function mostrarServiciosCarrito() {
         document.getElementById('cart-modal').style.display = 'none';
       }
     });
-    document.getElementById("servicios-container");
+    document.getElementById('seguirCompraBtn').addEventListener('click', function() {
+        document.getElementById('cart-modal').style.display = 'none';
+    });
+    
     document.addEventListener("DOMContentLoaded", getServiciosAsync);
-    document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
-    document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarServicio));
+/*     document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
+ */    document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarServicio));
     document.querySelector('.finalizar-compra').addEventListener('click', finalizarCompra);
   
     // Agregar código para agregar evento click a botones "CONTRATAR"
     const botonesContratar = document.querySelectorAll('.botonCarrito');
   
     botonesContratar.forEach(boton => boton.addEventListener('click', function (event) {
-      const servId = event.target.dataset.id;
-      agregarAlCarrito(servicios);
-    }));
-
-    document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
+        const servId = event.target.dataset.id;
+        const servicioSeleccionado = servicios.find(servicio => servicio.id === servId);
+        agregarAlCarrito(servicioSeleccionado);
+      }));
+      
+    document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarServicio));
 
   }
 
 mostrarServiciosCarrito()
+
+
+
+// Event listeners que deberían ejecutarse una sola vez cuando la página carga
+document.addEventListener("DOMContentLoaded", function() {
+    getServiciosAsync();
+
+    document.getElementById('cart-button').addEventListener('click', function() {
+        mostrarServiciosCarrito();
+        document.getElementById('cart-modal').style.display = 'block';
+    });
+
+    document.getElementsByClassName('close-button')[0].addEventListener('click', function() {
+        document.getElementById('cart-modal').style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === document.getElementById('cart-modal')) {
+            document.getElementById('cart-modal').style.display = 'none';
+        }
+    });
+});
+
+// La función mostrarServiciosCarrito ahora solo maneja la lógica para mostrar los servicios en el carrito
+function mostrarServiciosCarrito() {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    let carritoDetalle = "";
+    let total = 0;
+
+    if (carrito.length > 0) {
+        carrito.forEach((servicio, index) => {
+            carritoDetalle += `
+                <div class="carritoItem">
+                    <img src="${servicio.img}" alt="Imagen de ${servicio.nombre}">
+                    <p><b>ID: </b>${servicio.id}</p>
+                    <p><b>NOMBRE: </b>${servicio.nombre}</p>
+                    <p><b>PRECIO: </b>$${servicio.precio}</p>
+                    <button class="eliminar" data-index="${index}">Eliminar</button>
+                </div>`;
+            total += servicio.precio; // Sumar precios si hay más de un servicio
+        });
+    }
+
+    document.querySelector('.carritoContainer').innerHTML = carritoDetalle;
+    document.querySelectorAll('.eliminar').forEach(button => button.addEventListener('click', eliminarServicio));
+}
+
+// Asegúrate de que los botones para agregar al carrito estén correctamente configurados
+// Esta lógica puede necesitar estar en la función que crea la UI de los servicios, después de cargar los servicios
+const botonesContratar = document.querySelectorAll('.botonCarrito');
+botonesContratar.forEach(boton => boton.addEventListener('click', function(event) {
+    const servId = event.target.dataset.id;
+    const servicioSeleccionado = servicios.find(servicio => servicio.id === servId);
+    agregarAlCarrito(servicioSeleccionado);
+}));
+
 
 async function eliminarServicio(event) {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];

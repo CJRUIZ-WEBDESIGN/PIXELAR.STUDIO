@@ -140,16 +140,14 @@ vaciarCarritoBtn.addEventListener("click", vaciarCarrito);
 
 buscarBtn.addEventListener("click", () => {
   const searchTerm = busquedaInput.value.toLowerCase().trim();
-  const resultados = servicios.filter((servicio) =>
-    servicio.nombre.toLowerCase().includes(searchTerm)
+  const resultados = servicios.filter(servicio =>
+      servicio.nombre.toLowerCase().includes(searchTerm)
   );
 
-  container.innerHTML = "";
-  resultados.length > 0
-    ? resultados.map((servicio) => crearTarjeta(servicio)).join("")
-    : `<b class="b-servicios">No se encontraron servicios con ese nombre.</b>
-  `;
+    serviciosContainer.innerHTML = resultados.map(servicio => crearTarjeta(servicio)).join("");
+
 });
+
 
 /* SCROLLED PAGE */
 

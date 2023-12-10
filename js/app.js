@@ -1,25 +1,47 @@
 const URL = "js/servicios.json";
 const carrito = [];
-let servicios = []; // Definida como variable global
+const servicios = [];
 
+async function getServiciosAsync() {
+    try {
+        const response = await fetch(URL);
+        const data = await response.json();
+        servicios.push(...data); // Esto añade los elementos de 'data' a 'servicios'
+    } catch (error) {
+        console.error("Error al cargar los servicios:", error);
+    }
+    cargarServicios();
+}
+
+
+// Asegúrate de que esta función cree el HTML basado en la variable global `servicios`
 function cargarServicios() {
     const container = document.getElementById("servicios-container");
     servicios.forEach(servicio => {
         container.innerHTML += crearTarjeta(servicio);
     });
-    // Aquí cualquier otra lógica que dependa de los servicios cargados
+    // Cualquier otra lógica necesaria
 }
 
-async function getServiciosAsync() {
-    const response = await fetch(URL)
-    const data = await response.json() 
-    servicios.push(...data)
-    cargarServicios()
-}
-getServiciosAsync()
+container.addEventListener('click', (event) => {
+    if (event.target.classList.contains('botonCarrito')) {
+        const servId = event.target.dataset.id;
+        const servicio = servicios.find(serv => serv.id === servId);
+        if (servicio) {
+            agregarAlCarrito(servicio);
+        } else {
+            console.error('Servicio no encontrado con ID:', servId);
+        }
+    }
+});
 
+function agregarAlCarrito(idServicio) {
+    const servicio = servicios.find(servicio => servicio.id === idServicio);
 
-function agregarAlCarrito(servicio) {
+    if (!servicio) {
+        console.error('Servicio no encontrado con ID:', idServicio);
+        return;
+    }
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
   
     if (carrito.length > 0) {
@@ -57,14 +79,16 @@ function agregarAlCarrito(servicio) {
     mostrarServiciosCarrito();
 }
 
-
-
-/* container.addEventListener('click', (event) => {
+container.addEventListener('click', (event) => {
     if (event.target.classList.contains('botonCarrito')) {
         const servId = event.target.dataset.id;
-        const servicio = servicios.find((servicio) => servicio.id === (servId));
-        agregarAlCarrito(servicio);
+        const servicio = servicios.find(serv => serv.id === servId);
+        if (servicio) {
+            agregarAlCarrito(servicio);
+        } else {
+            console.error('Servicio no encontrado con ID:', servId);
+        }
     }
-}); */
+});
 
 
