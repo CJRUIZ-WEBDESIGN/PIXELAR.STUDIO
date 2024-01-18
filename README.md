@@ -33,5 +33,5 @@ Abrir el Proyecto
   code .
 ```
 
-## 🔗 Repositorio de la Cursada
+## 🔗 Repositorio del Proyecto.
 - [Cursada ReactJS por CJRUIZ-WEBDESIGN](https://github.com/CJRUIZ-WEBDESIGN/CR-WEB-DESIGN.)
