@@ -1,4 +1,4 @@
-![Logo](https://ibb.co/4sTcbKN)
+![Logo]([https://ibb.co/4sTcbKN](https://imgur.com/a/Zr2BDNU))
 
 # Proyecto Pixelar Studio - Servicios de Desarrollo WEb 
 
