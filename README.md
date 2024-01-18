@@ -1,4 +1,4 @@
-![Logo]([[https://raw.githubusercontent.com/CJRUIZ-WEBDESIGN/Cursada-ReactJS-CRUIZ/main/public/img/Logo.webp](https://github.com/CJRUIZ-WEBDESIGN/CR-WEB-DESIGN/blob/main/images/artudio.png](https://raw.githubusercontent.com/CJRUIZ-WEBDESIGN/CR-WEB-DESIGN/main/images/artudio.png)))
+![Logo](https://ibb.co/4sTcbKN)
 
 # Proyecto Pixelar Studio - Servicios de Desarrollo WEb 
 
