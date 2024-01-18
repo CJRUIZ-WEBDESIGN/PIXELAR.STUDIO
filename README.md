@@ -34,4 +34,4 @@ Abrir el Proyecto
 ```
 
 ## 🔗 Repositorio del Proyecto.
-- [Cursada ReactJS por CJRUIZ-WEBDESIGN](https://github.com/CJRUIZ-WEBDESIGN/CR-WEB-DESIGN.)
+- [Cursada ReactJS por CJRUIZ-WEBDESIGN](https://github.com/CJRUIZ-WEBDESIGN/PIXELAR.STUDIO)
