@@ -12,7 +12,7 @@ Pixelar Studio es una plataforma de servicios especializada en el Diseño & Desa
 - CSS3
 - JAVASCRIPT
 - SASS
-- 
+- SWEET ALERT 2
 
 ## 🖥 Instalacion
 
