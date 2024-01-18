@@ -1,6 +1,6 @@
 ![PixelarStudio](https://raw.githubusercontent.com/CJRUIZ-WEBDESIGN/CR-WEB-DESIGN/e2da5addd4a485e4719053787ffd0e9425af60fa/images/StudioPix.png)
 
-# Proyecto Pixelar Studio - Servicios de Desarrollo WEb 
+# Proyecto Pixelar Studio - Servicios de Desarrollo Web 
 
 ## 🌐 Detalles del Proyecto
 
