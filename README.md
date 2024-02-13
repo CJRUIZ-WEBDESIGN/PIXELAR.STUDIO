@@ -4,7 +4,9 @@
 
 ## 🌐 Detalles del Proyecto
 
-Pixelar Studio es una plataforma de servicios especializada en el Diseño & Desarrollo Web personalizado, Ofrece una amplia variedad de servicios, orientada tanto a empresas, como tambien a emprendiminetos y profesionales de los oficios.
+Pixelar Studio es una plataforma de Desarrollo & Diseño Web, especializada en ofrecer servicios a pequeñas y grandes empresas, como asi tambien a particulares, emprendedores y profesionales de oficios.
+
+Ofrece una experiencia de navegación fluida y eficiente, permitiendo a los usuarios explorar una lista de servicios y opciones para cada necesidad, a través de distintas categorías.
 
 ## 🛠 Tecnologías Utilizadas
 
@@ -19,13 +21,13 @@ Pixelar Studio es una plataforma de servicios especializada en el Diseño & Desa
 Clonar el Repositorio: 
 
 ```bash
-  git clone https://github.com/CJRUIZ-WEBDESIGN/CR-WEB-DESIGN.git
+  git clone https://github.com/PixelarStudio/PIXELAR.STUDIO.git
 ```
 
 Ingresar al Proyecto:
 
 ```bash
-  cd Cursada-CR-WEB-DESIGN
+  cd PIXELAR.STUDIO
 ```
 
 Abrir el Proyecto 
@@ -34,4 +36,4 @@ Abrir el Proyecto
 ```
 
 ## 🔗 Repositorio del Proyecto.
-- [Proyecto Pixelar Studio](https://github.com/CJRUIZ-WEBDESIGN/PIXELAR.STUDIO)
+- [Proyecto Pixelar Studio](https://github.com/PIXELARSTUDIO/PIXELAR.STUDIO)
